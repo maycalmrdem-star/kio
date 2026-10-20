@@ -89,10 +89,19 @@
     '</footer>';
 
   document.body.insertAdjacentHTML('afterbegin', header);
+
+  // shrink long titles so they stay clear of the banner stars
+  var h1 = document.querySelector('.banner h1');
+  document.fonts.ready.then(function(){
+    [].forEach.call(h1.children, function(line){
+      var size = 56;
+      while (line.getBoundingClientRect().width > 640 && size > 36){ size -= 2; line.style.fontSize = size + 'px'; }
+    });
+  });
   document.body.insertAdjacentHTML('beforeend', footer);
 
   // gold star dots inside tabs and keyword pills
-  document.querySelectorAll('.tab, .pill span').forEach(function(el){
+  document.querySelectorAll('.tab, .pill span, .task span').forEach(function(el){
     el.insertAdjacentHTML('afterbegin', star(GOLD, el.classList.contains('tab') ? NAVY : '#fdf2d3'));
   });
 })();
