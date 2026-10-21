@@ -1,0 +1,1094 @@
+{
+ "height": 2000,
+ "blocks": [
+  {
+   "x": 619.1875,
+   "y": 6,
+   "x2": 880.796875,
+   "y2": 65,
+   "cx1": 0,
+   "cx2": 1500,
+   "lh": 48,
+   "hasBefore": false,
+   "firstRight": 880.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بسم الله الرحمن الرحيم",
+     "color": "a8780f",
+     "size": 40,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 129.75,
+   "y": 76.5,
+   "x2": 230.25,
+   "y2": 106.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 230.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ",
+     "color": "e0a82e",
+     "size": 30,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 89.140625,
+   "y": 113.5,
+   "x2": 270.875,
+   "y2": 169.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 70,
+   "hasBefore": false,
+   "firstRight": 270.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "إبراهيم",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 527.515625,
+   "y": 254.6875,
+   "x2": 972.5,
+   "y2": 310.6875,
+   "cx1": 527.515625,
+   "cx2": 972.5,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 972.5,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الرسالات المحرّفة",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 637.359375,
+   "y": 323,
+   "x2": 862.65625,
+   "y2": 379,
+   "cx1": 637.359375,
+   "cx2": 862.65625,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 862.65625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "والإسلام",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1068.9375,
+   "y": 443,
+   "x2": 1354,
+   "y2": 467,
+   "cx1": 1068.9375,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الرسالات المحرّفة والإسلام",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 868.28125,
+   "y": 526,
+   "x2": 969.703125,
+   "y2": 553,
+   "cx1": 766,
+   "cx2": 1072,
+   "lh": 43.2,
+   "hasBefore": false,
+   "firstRight": 969.703125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "اليهودية",
+     "color": "ffffff",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 520.3125,
+   "y": 526,
+   "x2": 641.6875,
+   "y2": 553,
+   "cx1": 428,
+   "cx2": 734,
+   "lh": 43.2,
+   "hasBefore": false,
+   "firstRight": 641.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "المسيحية",
+     "color": "ffffff",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 195.859375,
+   "y": 526,
+   "x2": 290.125,
+   "y2": 553,
+   "cx1": 90,
+   "cx2": 396,
+   "lh": 43.2,
+   "hasBefore": false,
+   "firstRight": 290.125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الإسلام",
+     "color": "ffffff",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1121.828125,
+   "y": 635.578125,
+   "x2": 1392.171875,
+   "y2": 692.765625,
+   "cx1": 1104,
+   "cx2": 1410,
+   "lh": 35.2,
+   "hasBefore": false,
+   "firstRight": 1392.171875,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الانحرافات العقائدية لليهود والنصارى",
+     "color": "ffffff",
+     "size": 22,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 836.34375,
+   "y": 601.1875,
+   "x2": 1001.65625,
+   "y2": 625.1875,
+   "cx1": 767,
+   "cx2": 1071,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 1001.65625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الإله ",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "(عُزير ابن الله)",
+     "color": "a8780f",
+     "size": 20,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 882.96875,
+   "y": 652.578125,
+   "x2": 955.03125,
+   "y2": 676.578125,
+   "cx1": 767,
+   "cx2": 1071,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 955.03125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأنبياء",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 774.625,
+   "y": 703.96875,
+   "x2": 1063.375,
+   "y2": 727.96875,
+   "cx1": 767,
+   "cx2": 1071,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 1063.375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "النسب العنصرية والتجسيم",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 488.96875,
+   "y": 601.1875,
+   "x2": 673.015625,
+   "y2": 625.1875,
+   "cx1": 429,
+   "cx2": 733,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 673.015625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الإله ",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "(عيسى ابن الله)",
+     "color": "a8780f",
+     "size": 20,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 488.75,
+   "y": 652.578125,
+   "x2": 673.25,
+   "y2": 676.578125,
+   "cx1": 429,
+   "cx2": 733,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 673.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الخطيئة والخلاص",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 442.84375,
+   "y": 703.96875,
+   "x2": 719.15625,
+   "y2": 727.96875,
+   "cx1": 429,
+   "cx2": 733,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 719.15625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التوسّط والتحليل والتحريم",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 148.15625,
+   "y": 626.875,
+   "x2": 337.828125,
+   "y2": 650.875,
+   "cx1": 91,
+   "cx2": 395,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 337.828125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "العقيدة الإسلامية",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 206.203125,
+   "y": 678.265625,
+   "x2": 279.796875,
+   "y2": 702.265625,
+   "cx1": 91,
+   "cx2": 395,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 279.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التوحيد",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1133.515625,
+   "y": 800.25,
+   "x2": 1380.46875,
+   "y2": 857.4375,
+   "cx1": 1104,
+   "cx2": 1410,
+   "lh": 35.2,
+   "hasBefore": false,
+   "firstRight": 1380.46875,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الكتب - المصادر والمراجع للعقائد",
+     "color": "ffffff",
+     "size": 22,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 836.75,
+   "y": 791.546875,
+   "x2": 1001.234375,
+   "y2": 815.546875,
+   "cx1": 767,
+   "cx2": 1071,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 1001.234375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الكتاب المقدّس",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 882.078125,
+   "y": 842.9375,
+   "x2": 955.90625,
+   "y2": 866.9375,
+   "cx1": 767,
+   "cx2": 1071,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 955.90625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التلمود",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 431.296875,
+   "y": 772.359375,
+   "x2": 730.703125,
+   "y2": 832.75,
+   "cx1": 429,
+   "cx2": 733,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 730.703125,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الكتاب المقدّس ",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "(العهد القديم - العهد الجديد)",
+     "color": "a8780f",
+     "size": 20,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 503.15625,
+   "y": 862.140625,
+   "x2": 658.828125,
+   "y2": 886.140625,
+   "cx1": 429,
+   "cx2": 733,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 658.828125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التقليد الكنسي",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 175.703125,
+   "y": 791.546875,
+   "x2": 310.296875,
+   "y2": 815.546875,
+   "cx1": 91,
+   "cx2": 395,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 310.296875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "القرآن الكريم",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 174.203125,
+   "y": 842.9375,
+   "x2": 311.78125,
+   "y2": 866.9375,
+   "cx1": 91,
+   "cx2": 395,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 311.78125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "السنة النبوية",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 594.71875,
+   "y": 970.53125,
+   "x2": 875.28125,
+   "y2": 997.53125,
+   "cx1": 594.71875,
+   "cx2": 905.28125,
+   "lh": 32.4,
+   "hasBefore": false,
+   "firstRight": 875.28125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "لماذا لم يُحرَّف الإسلام؟",
+     "color": "a8780f",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 942,
+   "y": 1051.53125,
+   "x2": 1276,
+   "y2": 1119.671875,
+   "cx1": 783,
+   "cx2": 1435,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 1224.640625,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "مميزات وخصائص",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "الرسالة الخاتمة (الإسلام)",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1052.703125,
+   "y": 1300.90625,
+   "x2": 1165.3125,
+   "y2": 1340.90625,
+   "cx1": 790,
+   "cx2": 1428,
+   "lh": 48,
+   "hasBefore": true,
+   "firstRight": 1165.3125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "✦ ",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "جامعة",
+     "color": "ffffff",
+     "size": 40,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "pseudo": true,
+     "text": " ✦",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1061.015625,
+   "y": 1404.90625,
+   "x2": 1156.984375,
+   "y2": 1444.90625,
+   "cx1": 790,
+   "cx2": 1428,
+   "lh": 48,
+   "hasBefore": true,
+   "firstRight": 1156.984375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "✦ ",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "خالدة",
+     "color": "ffffff",
+     "size": 40,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "pseudo": true,
+     "text": " ✦",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1067.15625,
+   "y": 1508.90625,
+   "x2": 1150.84375,
+   "y2": 1548.90625,
+   "cx1": 790,
+   "cx2": 1428,
+   "lh": 48,
+   "hasBefore": true,
+   "firstRight": 1150.84375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "✦ ",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "عامة",
+     "color": "ffffff",
+     "size": 40,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "pseudo": true,
+     "text": " ✦",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1033.28125,
+   "y": 1612.90625,
+   "x2": 1184.734375,
+   "y2": 1652.90625,
+   "cx1": 790,
+   "cx2": 1428,
+   "lh": 48,
+   "hasBefore": true,
+   "firstRight": 1184.734375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "✦ ",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "محفوظة",
+     "color": "ffffff",
+     "size": 40,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "pseudo": true,
+     "text": " ✦",
+     "color": "e0a82e",
+     "size": 26,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 201.640625,
+   "y": 1051.53125,
+   "x2": 580.359375,
+   "y2": 1119.671875,
+   "cx1": 65,
+   "cx2": 717,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 568.390625,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "العلاقة بين الرسالة الخاتمة",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "والرسالات السماوية السابقة",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 580.5,
+   "y": 1192.046875,
+   "x2": 679,
+   "y2": 1219.046875,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 45.9,
+   "hasBefore": false,
+   "firstRight": 679,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مصدِّقة:",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 900,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 316.84375,
+   "y": 1255.9375,
+   "x2": 669.125,
+   "y2": 1279.9375,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 669.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "التوحيد (لا إله إلا الله - فاعبدوني...)",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 294.40625,
+   "y": 1299.125,
+   "x2": 669.125,
+   "y2": 1323.125,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 669.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "العبادات (الصلاة - الزكاة - الصيام...)",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 311.1875,
+   "y": 1342.3125,
+   "x2": 669.125,
+   "y2": 1366.3125,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 669.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الأخلاق (الصدق - الأمانة - الحياء...)",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 239.8125,
+   "y": 1385.5,
+   "x2": 669.125,
+   "y2": 1409.5,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 669.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "تحريم الفواحش (الخمر - الزنى - السرقة...)",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 332.53125,
+   "y": 1501.171875,
+   "x2": 679,
+   "y2": 1528.171875,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 45.9,
+   "hasBefore": false,
+   "firstRight": 679,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مصحِّحة:",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 900,
+     "font": "Tajawal"
+    },
+    {
+     "text": " ",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "مناقشة الانحرافات.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 97.546875,
+   "y": 1593.546875,
+   "x2": 713,
+   "y2": 1666.4375,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 45.9,
+   "hasBefore": false,
+   "firstRight": 679,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مبشِّرة:",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 900,
+     "font": "Tajawal"
+    },
+    {
+     "text": " ",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "بشّرت الرسالات السابقة بنبيّ اسمه أحمد صلى الله عليه وسلم.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 588.03125,
+   "y": 1731.8125,
+   "x2": 679,
+   "y2": 1758.8125,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 45.9,
+   "hasBefore": false,
+   "firstRight": 679,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ناسخة.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 900,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1216.40625,
+   "y": 1907.5,
+   "x2": 1440,
+   "y2": 1962.5,
+   "cx1": 1216.40625,
+   "cx2": 1440,
+   "lh": 45.6,
+   "hasBefore": false,
+   "firstRight": 1440,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بالتوفيق إن شاء الله",
+     "color": "e0a82e",
+     "size": 38,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 606.3125,
+   "y": 1912,
+   "x2": 893.6875,
+   "y2": 1954,
+   "cx1": 562.3125,
+   "cx2": 937.6875,
+   "lh": 50.4,
+   "hasBefore": false,
+   "firstRight": 893.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ إبراهيم",
+     "color": "ffffff",
+     "size": 42,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  }
+ ]
+}
