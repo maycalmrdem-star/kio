@@ -111,3 +111,13 @@ body{
 .def.cmp td small{color:var(--gold-d);font-weight:700}
 .chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:6px 0 16px}
 .chips span{background:var(--navy);color:#fff;border:2px solid var(--gold);border-radius:30px;padding:2px 22px 5px;font-size:25px;font-weight:800}
+
+/* ---------- big feature tiles + square bullets ---------- */
+.tiles{display:flex;flex-direction:column;gap:18px}
+.tiles span{display:flex;align-items:center;justify-content:center;gap:14px;background:var(--navy);color:#fff;border:3px solid var(--gold);border-radius:18px;padding:14px 0 18px;font-size:40px;font-weight:800}
+.tiles span::before,.tiles span::after{content:"✦";color:var(--gold);font-size:26px}
+.sq{font-size:27px;font-weight:800;margin:0 0 6px;line-height:1.7}
+.sq::before{content:"";display:inline-block;width:16px;height:16px;border:3px solid #b3261e;border-radius:3px;margin-inline-end:12px;vertical-align:middle}
+.sq b{color:var(--green)}
+.sq span{font-weight:600;color:#1d2333}
+.col > h2.long{height:auto;min-height:86px;padding:10px 18px 12px;font-size:29px;line-height:1.35;text-align:center}
