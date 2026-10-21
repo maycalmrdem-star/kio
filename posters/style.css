@@ -93,3 +93,21 @@ body{
 .cols.fill{flex:1 0 auto}
 .cols.fill .col{display:flex;flex-direction:column}
 .cols.fill .in{flex:1;display:flex;flex-direction:column;justify-content:space-around}
+
+/* ---------- comparison table inside the top box ---------- */
+.def.cmp{padding:44px 22px 22px;font-size:24px;line-height:1.6}
+.def.cmp table{width:100%;border-collapse:separate;border-spacing:8px;table-layout:fixed}
+.def.cmp th,.def.cmp td{border-radius:12px;padding:10px 12px;text-align:center;vertical-align:middle}
+.def.cmp thead th{color:#fff;font-size:27px;font-weight:800;border-bottom:4px solid var(--gold)}
+.def.cmp thead th.rowh{background:none;border:0}
+.def.cmp th.y{background:linear-gradient(180deg,#b9473d,#8f2f27)}
+.def.cmp th.m{background:linear-gradient(180deg,var(--blue-a),#1a4189)}
+.def.cmp th.i{background:linear-gradient(180deg,var(--green-a),#1c6a3f)}
+.def.cmp tbody th{background:var(--navy);color:#fff;font-size:22px;font-weight:800;width:170px}
+.def.cmp td{background:#f6f7fb;border:1.5px solid var(--line);font-weight:700;color:#1d2333}
+.def.cmp td.i{background:var(--green-bg);color:var(--green)}
+.def.cmp td span{display:block}
+.def.cmp td span + span{border-top:1.5px dashed var(--line);margin-top:6px;padding-top:6px}
+.def.cmp td small{color:var(--gold-d);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:6px 0 16px}
+.chips span{background:var(--navy);color:#fff;border:2px solid var(--gold);border-radius:30px;padding:2px 22px 5px;font-size:25px;font-weight:800}
