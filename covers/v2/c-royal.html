@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>غلاف ج: الجلد الكحلي والذهب</title>
+<link rel="stylesheet" href="v2.css">
+<style>
+.navy{background:#142553;color:#f3e6c4}
+.bism{top:210px;font-size:42px}
+.t1{top:560px;font-size:290px;line-height:1.2}
+.t2{top:900px;font-size:76px;line-height:1.3}
+.sub{top:1070px;font-size:31px;font-weight:500;color:#cfd6ea}
+.lvl{top:1128px;font-size:27px;font-weight:700;color:#e6c26a}
+.cart{position:absolute;left:50%;transform:translateX(-50%);top:1415px;width:560px;height:150px;border-radius:75px;background:#142553;border:3px solid #d9aa45;box-shadow:0 0 0 7px #142553,0 0 0 9px #b8862a,0 10px 30px rgba(0,0,0,.45);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.cart small{font-size:24px;color:#cfd6ea}
+.cart b{font-size:54px;font-weight:800;line-height:1.2}
+/* back */
+.verse{top:200px;font-size:56px}
+.verse small{display:block;font-family:'Tajawal';font-size:22px;color:#cfd6ea;-webkit-text-fill-color:#cfd6ea}
+.blurb{top:420px;left:170px;right:170px;font-size:30px;line-height:1.95;color:#e3e7f2;font-weight:500;text-align:right}
+.blurb h3{margin:0 0 6px;font-size:42px;font-weight:800;color:#f2cf72}
+.blurb .list{margin-top:22px;font-weight:700;color:#f3e6c4}
+</style>
+</head>
+<body>
+
+<div class="page navy" id="front"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="abs c ruqaa foil bism">بسم الله الرحمن الرحيم</div>
+  <div class="abs c ruqaa foil t1">المرشد</div>
+  <div class="abs c amiri foil t2">في العلوم الإسلامية</div>
+  <div class="abs c sub">دروس ملخّصة · خرائط ذهنية · تمارين وحلول</div>
+  <div class="abs c lvl">السنة الثالثة ثانوي - جميع الشعب</div>
+  <div class="cart"><small>تأليف</small><b class="foil">الأستاذ إبراهيم</b></div>
+</div>
+
+<div class="spine navy" id="spine"><svg class="bg" viewBox="0 0 84 1754"></svg>
+  <div class="vt"><span class="ruqaa foil" style="font-size:48px">المرشد</span>
+    <span class="amiri foil" style="font-size:30px">في العلوم الإسلامية</span>
+    <svg width="20" height="20" viewBox="0 0 20 20"><g fill="#d9aa45"><rect x="4" y="4" width="12" height="12"/><rect x="4" y="4" width="12" height="12" transform="rotate(45 10 10)"/></g></svg>
+    <span style="font-size:26px;font-weight:700;color:#e6c26a">الأستاذ إبراهيم</span></div>
+</div>
+
+<div class="page navy" id="back"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="abs c amiri foil verse">﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾<small>[طه: 114]</small></div>
+  <div class="abs blurb">
+    <h3>عن الكتاب</h3>
+    كتاب يجمع دروس العلوم الإسلامية في ملخّصات واضحة وخرائط ذهنية منظّمة، مع أسئلة السندات وطريقة الإجابة عنها، ليكون رفيق التلميذ في المراجعة والتحضير للامتحان.
+    <ul class="list">
+      <li>ملخّصات الدروس بخرائط ذهنية ملوّنة</li>
+      <li>طريقة استخراج محل الشاهد والإجابة عن السند</li>
+      <li>تمارين تطبيقية مع حلولها</li>
+      <li>جداول ومقارنات للمراجعة السريعة</li>
+    </ul>
+  </div>
+  <div class="barcode" style="left:480px;bottom:200px"><i></i>مكان الباركود / ISBN</div>
+</div>
+
+<script src="v2.js"></script>
+<script>
+var D = V2.defs({ gr:.6, gg:.65, gb:.8, ga:.08, mr:0, mg:0, mb:.05, ma:.35, mot:.004,
+  extra: V2.lattice('lt', 180, 'rgba(255,255,255,.045)', 2) +
+    '<radialGradient id="glow" cx=".5" cy=".38" r=".55"><stop offset="0" stop-color="#2a4a92" stop-opacity=".75"/><stop offset="1" stop-color="#142553" stop-opacity="0"/></radialGradient>' });
+function leather(w){
+  return '<rect width="'+w+'" height="1754" fill="url(#glow)"/>' + V2.texture(w, 1754, 'leather') + '<rect width="'+w+'" height="1754" fill="url(#lt)" filter="url(#deboss)"/>';
+}
+// blind-embossed giant shamsa behind the title (tone on tone)
+function blind(cx, cy, R){
+  var s = '<g fill="none" stroke="rgba(255,255,255,.07)" stroke-width="3" filter="url(#deboss)">';
+  s += '<polygon points="'+V2.star(cx,cy,R,R*.9,32)+'"/><circle cx="'+cx+'" cy="'+cy+'" r="'+R*.84+'"/>';
+  for (var k=0;k<3;k++) s += '<polygon points="'+V2.star(cx,cy,R*.78,R*.56,8,-90+k*15)+'"/>';
+  s += '<circle cx="'+cx+'" cy="'+cy+'" r="'+R*.45+'"/></g>';
+  return s;
+}
+function frame(){
+  return '<rect x="50" y="50" width="1140" height="1654" fill="none" stroke="url(#gold)" stroke-width="3" filter="url(#emboss)"/>'+
+    '<rect x="64" y="64" width="1112" height="1626" fill="none" stroke="url(#gold)" stroke-width="1.2" opacity=".8"/>';
+}
+var f = D + leather(1240) + blind(620, 720, 470) + frame();
+f += V2.bandH(64, 1330, 1112, 320);
+f += V2.divider(620, 1035, 520);
+f += '<g fill="url(#gold)" filter="url(#emboss)">'+V2.oct8(620, 150, 30)+'</g>';
+f += V2.vignette(1240, 1754, .35);
+document.querySelector('#front svg').innerHTML = f;
+
+var s = D + leather(84);
+s += '<g fill="url(#gold)" filter="url(#emboss)">';
+[150, 175, 1580, 1605].forEach(function(y){ s += '<rect y="'+y+'" width="84" height="5"/>'; });
+s += V2.oct8(42, 90, 26) + V2.oct8(42, 1665, 26) + '</g>';
+s += '<rect width="84" height="1754" fill="url(#sp)"/><linearGradient id="sp" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".35"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></linearGradient>';
+document.querySelector('#spine svg').innerHTML = s;
+
+var b = D + leather(1240) + blind(620, 900, 520) + frame();
+b += V2.bandH(64, 1330, 1112, 320);
+b += '<rect x="450" y="1350" width="340" height="280" rx="16" fill="#142553" stroke="url(#gold)" stroke-width="3"/>';
+b += V2.divider(620, 345, 420);
+b += V2.vignette(1240, 1754, .35);
+document.querySelector('#back svg').innerHTML = b;
+</script>
+</body>
+</html>

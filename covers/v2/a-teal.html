@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>غلاف أ: الفيروزي والعاجي</title>
+<link rel="stylesheet" href="v2.css">
+<style>
+.cream{background:#f3ecdc}
+.teal{background:linear-gradient(160deg,#17666b 0%,#0f5257 45%,#0a3e42 100%)}
+.panel{position:absolute;top:0;bottom:0;color:#f3ecdc;text-align:center}
+.bism{top:120px;font-size:40px}
+.t1{top:590px;font-size:180px;line-height:1.15;font-weight:700}
+.t2{top:815px;font-size:64px;line-height:1.3;color:#f3ecdc}
+.sub{top:990px;font-size:30px;font-weight:500;color:#d8e6e3}
+.chip{top:1060px}
+.chip span{display:inline-block;border:2px solid #d9aa45;border-radius:40px;padding:4px 30px 8px;font-size:27px;font-weight:700;color:#f2cf72}
+.who{top:1470px}
+.who small{display:block;font-size:26px;color:#bcd6d2;margin-bottom:4px}
+.who b{font-size:56px;font-weight:800}
+.verse{top:140px;font-size:54px}
+.verse small{display:block;font-family:'Tajawal';font-size:22px;color:#bcd6d2;-webkit-text-fill-color:#bcd6d2}
+.blurb{top:400px;left:70px;right:70px;text-align:right;font-size:28px;line-height:1.95;color:#e9f1ef}
+.blurb h3{margin:0 0 6px;font-size:40px;font-weight:800;color:#f2cf72}
+.blurb .list{margin-top:22px;font-weight:700;color:#f3ecdc}
+</style>
+</head>
+<body>
+
+<div class="page cream" id="front"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="panel" style="left:540px;right:0">
+    <div class="abs c ruqaa foil bism">بسم الله الرحمن الرحيم</div>
+    <div class="abs c amiri foil t1">المُرشِد</div>
+    <div class="abs c amiri t2">في العلوم الإسلامية</div>
+    <div class="abs c sub">دروس ملخّصة · خرائط ذهنية · تمارين وحلول</div>
+    <div class="abs c chip"><span>السنة الثالثة ثانوي - جميع الشعب</span></div>
+    <div class="abs c who"><small>تأليف</small><b class="foil">الأستاذ إبراهيم</b></div>
+  </div>
+</div>
+
+<div class="spine" id="spine"><svg class="bg" viewBox="0 0 84 1754"></svg>
+  <div class="vt"><span class="amiri foil" style="font-size:44px;font-weight:700">المُرشِد في العلوم الإسلامية</span>
+    <svg width="22" height="22" viewBox="0 0 22 22"><g fill="#d9aa45"><rect x="5" y="5" width="12" height="12"/><rect x="5" y="5" width="12" height="12" transform="rotate(45 11 11)"/></g></svg>
+    <span style="font-size:28px;font-weight:700;color:#f3ecdc">الأستاذ إبراهيم</span></div>
+</div>
+
+<div class="page cream" id="back"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="panel" style="left:0;width:700px">
+    <div class="abs c amiri foil verse">﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾<small>[طه: 114]</small></div>
+    <div class="abs blurb">
+      <h3>عن الكتاب</h3>
+      كتاب يجمع دروس العلوم الإسلامية في ملخّصات واضحة وخرائط ذهنية منظّمة، مع أسئلة السندات وطريقة الإجابة عنها، ليكون رفيق التلميذ في المراجعة والتحضير للامتحان.
+      <ul class="list">
+        <li>ملخّصات الدروس بخرائط ذهنية ملوّنة</li>
+        <li>طريقة استخراج محل الشاهد والإجابة عن السند</li>
+        <li>تمارين تطبيقية مع حلولها</li>
+        <li>جداول ومقارنات للمراجعة السريعة</li>
+      </ul>
+    </div>
+  </div>
+  <div class="barcode" style="left:850px;bottom:120px"><i></i>مكان الباركود / ISBN</div>
+</div>
+
+<script src="v2.js"></script>
+<script>
+var TEAL = '<linearGradient id="tl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17666b"/><stop offset=".5" stop-color="#0f5257"/><stop offset="1" stop-color="#093a3e"/></linearGradient>';
+var D = V2.defs({ extra: TEAL + V2.lattice('lt', 140, 'rgba(255,255,255,.05)', 1.3) + V2.lattice('lc', 140, 'rgba(122,84,20,.07)', 1.3) });
+
+// front: cream left, band, teal panel against the spine (right)
+var f = D + V2.texture(1240, 1754);
+f += '<rect width="540" height="1754" fill="url(#lc)"/>';
+f += V2.rosette(250, 877, 360, 'url(#gold)', 2, .55);
+f += '<g fill="url(#gold)" filter="url(#emboss)">'+V2.oct8(250, 877, 60)+'</g><circle cx="250" cy="877" r="14" fill="#f3ecdc"/>';
+f += '<rect x="540" width="700" height="1754" fill="url(#tl)"/><rect x="540" width="700" height="1754" fill="url(#lt)"/>';
+f += '<g transform="translate(540 0)">' + '<rect width="700" height="1754" filter="url(#grain)" opacity=".7"/>' + '</g>';
+f += V2.bandV(470, 0, 70, 1754);
+f += V2.shamsa(890, 380, 150, '#0f5257');
+f += V2.divider(890, 960, 440);
+f += '<g fill="url(#gold)" filter="url(#emboss)">'+V2.oct8(890, 1400, 22)+'</g>';
+f += V2.vignette(1240, 1754, .18);
+document.querySelector('#front svg').innerHTML = f;
+
+// spine: teal, gold rules
+var s = D + '<rect width="84" height="1754" fill="url(#tl)"/><rect width="84" height="1754" filter="url(#grain)" opacity=".7"/>';
+s += '<g fill="url(#goldV)"><rect x="6" width="2" height="1754"/><rect x="76" width="2" height="1754"/></g>';
+s += '<g fill="url(#gold)" filter="url(#emboss)">'+V2.oct8(42, 120, 26)+V2.oct8(42, 1634, 26)+'</g>';
+s += '<rect width="84" height="1754" fill="url(#sp)"/><linearGradient id="sp" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".25"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></linearGradient>';
+document.querySelector('#spine svg').innerHTML = s;
+
+// back: teal panel against the spine (left), band, cream right
+var b = D + V2.texture(1240, 1754);
+b += '<rect x="770" width="470" height="1754" fill="url(#lc)"/>';
+b += V2.rosette(1005, 760, 300, 'url(#gold)', 2, .5);
+b += '<g fill="url(#gold)" filter="url(#emboss)">'+V2.oct8(1005, 760, 50)+'</g><circle cx="1005" cy="760" r="12" fill="#f3ecdc"/>';
+b += '<rect width="700" height="1754" fill="url(#tl)"/><rect width="700" height="1754" fill="url(#lt)"/><rect width="700" height="1754" filter="url(#grain)" opacity=".7"/>';
+b += V2.bandV(700, 0, 70, 1754);
+b += V2.divider(350, 330, 380);
+b += V2.vignette(1240, 1754, .18);
+document.querySelector('#back svg').innerHTML = b;
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@import url(../../posters/fonts.css);
+*{box-sizing:border-box}
+html,body{margin:0}
+body{direction:rtl;font-family:'Tajawal',sans-serif;background:#777;display:flex;gap:40px;padding:40px;width:max-content;align-items:flex-start}
+.page{position:relative;width:1240px;height:1754px;overflow:hidden;flex:none}
+.spine{position:relative;width:84px;height:1754px;overflow:hidden;flex:none}
+.page > svg.bg,.spine > svg.bg{position:absolute;inset:0;width:100%;height:100%}
+.abs{position:absolute}
+.c{left:0;right:0;text-align:center}
+.amiri{font-family:'Amiri',serif}
+.ruqaa{font-family:'Aref Ruqaa',serif;font-weight:700}
+/* metallic gold foil text */
+.foil{background:linear-gradient(172deg,#7a5414 0%,#c8962e 18%,#f7dd8c 38%,#fff3c4 46%,#d9aa45 58%,#f2cf72 72%,#8a6018 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 2px 1px rgba(0,0,0,.45)) drop-shadow(0 0 1px rgba(80,50,0,.5))}
+.foil-flat{background:linear-gradient(172deg,#8a6018,#e0b24e 40%,#f7dd8c 50%,#b8862a 70%,#7a5414);-webkit-background-clip:text;background-clip:text;color:transparent}
+.spine .vt{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(90deg);white-space:nowrap;display:flex;align-items:center;gap:34px}
+.barcode{position:absolute;width:280px;height:160px;background:#fff;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#777;font-size:18px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.barcode i{display:block;width:220px;height:84px;background:repeating-linear-gradient(90deg,#222 0 3px,#fff 3px 5px,#222 5px 6px,#fff 6px 10px,#222 10px 14px,#fff 14px 16px)}
+.list{list-style:none;margin:0;padding:0}
+.list li{position:relative;padding-inline-start:40px;margin:10px 0}
+.list li::before{content:"";position:absolute;inset-inline-start:6px;top:.62em;width:14px;height:14px;transform:rotate(45deg);background:var(--li,#d9aa45)}
+/* room for diacritics above/below inside the clipped gradient */
+.foil,.foil-flat{padding:.22em .12em;margin:-.22em -.12em}

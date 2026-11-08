@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>عرض ثلاثي الأبعاد للغلاف</title>
+<style>
+html,body{margin:0}
+.scene{position:relative;width:2400px;height:1500px;overflow:hidden;
+  background:radial-gradient(ellipse at 60% 35%,#f7f5f0 0%,#e7e3da 55%,#cfc9bc 100%)}
+.floor{position:absolute;left:0;right:0;bottom:0;height:330px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.06))}
+/* back cover lying slightly rotated behind */
+.flat{position:absolute;left:300px;top:250px;width:640px;transform:rotate(-7deg);box-shadow:0 30px 60px rgba(0,0,0,.28),0 8px 18px rgba(0,0,0,.2);border-radius:3px 6px 6px 3px}
+.flat img{display:block;width:100%;border-radius:3px 6px 6px 3px}
+/* 3D book */
+.stage{position:absolute;left:1180px;top:180px;width:700px;height:990px;perspective:2600px}
+.book{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateX(-6deg) rotateY(-30deg)}
+.face{position:absolute;top:0;left:0;backface-visibility:hidden}
+.front{width:700px;height:990px;transform:translateZ(24px)}
+.front img,.spinef img,.backf img{display:block;width:100%;height:100%}
+.front::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,rgba(255,255,255,.18) 0%,rgba(255,255,255,0) 35%,rgba(0,0,0,0) 70%,rgba(0,0,0,.12) 100%)}
+.front::before{content:"";position:absolute;top:0;bottom:0;right:14px;width:5px;background:linear-gradient(90deg,rgba(0,0,0,.18),rgba(255,255,255,.15));z-index:1}
+.spinef{width:48px;height:990px;left:326px;transform:rotateY(90deg) translateZ(350px)}
+.spinef::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.28),rgba(0,0,0,.12))}
+.backf{width:700px;height:990px;transform:rotateY(180deg) translateZ(24px)}
+.pages{width:700px;height:44px;top:473px;left:-6px;transform:rotateX(90deg) translateZ(493px);
+  background:repeating-linear-gradient(0deg,#f5f0e4 0 2px,#e2dccd 2px 3px);border-radius:2px}
+.edge{width:44px;height:976px;top:7px;left:327px;transform:rotateY(-90deg) translateZ(344px);
+  background:repeating-linear-gradient(90deg,#f5f0e4 0 2px,#ddd6c6 2px 3px)}
+.shadow{position:absolute;left:1150px;top:1085px;width:820px;height:110px;border-radius:50%;background:rgba(0,0,0,.35);filter:blur(28px);transform:skewX(-20deg)}
+</style>
+</head>
+<body>
+<div class="scene" id="scene">
+  <div class="floor"></div>
+  <div class="flat"><img id="back"></div>
+  <div class="shadow"></div>
+  <div class="stage"><div class="book">
+    <div class="face backf"><img id="back2"></div>
+    <div class="face edge"></div>
+    <div class="face pages"></div>
+    <div class="face spinef"><img id="spine"></div>
+    <div class="face front"><img id="front"></div>
+  </div></div>
+</div>
+<script>
+var c = new URLSearchParams(location.search).get('c');
+['front','spine','back'].forEach(function(k){ document.getElementById(k).src = 'out/' + c + '-' + k + '.png'; });
+document.getElementById('back2').src = 'out/' + c + '-back.png';
+</script>
+</body>
+</html>

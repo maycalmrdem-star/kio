@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>غلاف ب: الخط العربي البارز</title>
+<link rel="stylesheet" href="v2.css">
+<style>
+.linen{background:#ece4d2;color:#1b2f5e}
+.hero{position:absolute;left:0;right:0;top:40px;text-align:center;font-size:600px;line-height:1.25;
+  background:linear-gradient(105deg,#1b2f5e 0 41%,#12595e 41% 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 6px 10px rgba(27,47,94,.18));padding:.1em 0}
+.bism{top:90px;font-size:38px}
+.blk{position:absolute;right:120px;left:120px;text-align:right}
+.t1{top:1060px;font-size:150px;font-weight:800;line-height:1.1}
+.t2{top:1240px;font-size:58px;font-weight:700;color:#12595e}
+.sub{top:1340px;font-size:30px;font-weight:500;color:#4a5570}
+.lvl{top:1395px;font-size:26px;font-weight:700;color:#a8780f}
+.who{bottom:120px;font-size:44px;font-weight:800}
+.who small{font-size:24px;font-weight:500;color:#6b7590;margin-inline-end:14px}
+/* back */
+.verse{top:130px;font-size:56px;color:#12595e}
+.verse small{display:block;font-family:'Tajawal';font-size:22px;color:#a8780f}
+.blurb{top:380px;font-size:31px;line-height:1.95;color:#2b3550;font-weight:500}
+.blurb h3{margin:0 0 6px;font-size:42px;font-weight:800;color:#1b2f5e}
+.blurb .list{margin-top:22px;font-weight:700;color:#1b2f5e;--li:#12595e}
+.wm{position:absolute;left:-40px;bottom:-160px;font-size:520px;color:rgba(18,89,94,.07);line-height:1}
+</style>
+</head>
+<body>
+
+<div class="page linen" id="front"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="ruqaa hero">اقْرَأْ</div>
+  <div class="blk t1">المُرشِد</div>
+  <div class="blk t2">في العلوم الإسلامية</div>
+  <div class="blk sub">دروس ملخّصة · خرائط ذهنية · تمارين وحلول</div>
+  <div class="blk lvl">السنة الثالثة ثانوي - جميع الشعب</div>
+  <div class="blk who"><small>تأليف</small>الأستاذ إبراهيم</div>
+</div>
+
+<div class="spine linen" id="spine"><svg class="bg" viewBox="0 0 84 1754"></svg>
+  <div class="vt"><span style="font-size:40px;font-weight:800;color:#1b2f5e">المُرشِد</span>
+    <span style="font-size:26px;font-weight:700;color:#12595e">في العلوم الإسلامية</span>
+    <svg width="18" height="18" viewBox="0 0 18 18"><g fill="#c8962e"><rect x="4" y="4" width="10" height="10"/><rect x="4" y="4" width="10" height="10" transform="rotate(45 9 9)"/></g></svg>
+    <span style="font-size:24px;font-weight:700;color:#4a5570">الأستاذ إبراهيم</span></div>
+</div>
+
+<div class="page linen" id="back"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="ruqaa wm">اقْرَأْ</div>
+  <div class="blk amiri verse">﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾<small>[طه: 114]</small></div>
+  <div class="blk blurb">
+    <h3>عن الكتاب</h3>
+    كتاب يجمع دروس العلوم الإسلامية في ملخّصات واضحة وخرائط ذهنية منظّمة، مع أسئلة السندات وطريقة الإجابة عنها، ليكون رفيق التلميذ في المراجعة والتحضير للامتحان.
+    <ul class="list">
+      <li>ملخّصات الدروس بخرائط ذهنية ملوّنة</li>
+      <li>طريقة استخراج محل الشاهد والإجابة عن السند</li>
+      <li>تمارين تطبيقية مع حلولها</li>
+      <li>جداول ومقارنات للمراجعة السريعة</li>
+    </ul>
+  </div>
+  <div class="blk who" style="bottom:150px"><small>تأليف</small>الأستاذ إبراهيم</div>
+  <div class="barcode" style="left:120px;bottom:110px"><i></i>مكان الباركود / ISBN</div>
+</div>
+
+<script src="v2.js"></script>
+<script>
+var LINEN = '<filter id="linen" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9 0.012" numOctaves="2" seed="5" result="a"/>'+
+  '<feTurbulence type="fractalNoise" baseFrequency="0.012 0.9" numOctaves="2" seed="9" result="b"/><feBlend in="a" in2="b" mode="multiply"/>'+
+  '<feColorMatrix values="0 0 0 0 .35  0 0 0 0 .3  0 0 0 0 .2  0 0 0 .12 0"/></filter>';
+var D = V2.defs({ extra: LINEN, ga: .1, ma: .16 });
+function linen(w){ return '<rect width="'+w+'" height="1754" filter="url(#linen)"/>' + '<rect width="'+w+'" height="1754" filter="url(#mottle)"/><rect width="'+w+'" height="1754" filter="url(#grain)"/>'; }
+
+var f = D + linen(1240);
+f += '<g fill="url(#gold)" filter="url(#emboss)">'+V2.oct8(380, 300, 34)+V2.oct8(300, 420, 16)+'</g>';
+f += '<rect x="1060" y="1020" width="60" height="7" rx="3" fill="url(#gold)"/>';
+f += '<rect x="120" y="1470" width="1000" height="2" fill="#1b2f5e" opacity=".2"/>';
+f += '<g fill="url(#gold)" filter="url(#emboss)">'+V2.oct8(150, 1640, 22)+'</g>';
+document.querySelector('#front svg').innerHTML = f;
+
+var s = D + linen(84) + '<rect x="0" y="0" width="84" height="1754" fill="url(#sp)"/><linearGradient id="sp" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".12"/><stop offset=".5" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient>';
+s += '<rect x="0" y="0" width="84" height="150" fill="#12595e"/><rect x="0" y="1604" width="84" height="150" fill="#12595e"/>';
+s += '<g fill="url(#gold)"><rect y="150" width="84" height="4"/><rect y="1600" width="84" height="4"/></g>';
+document.querySelector('#spine svg').innerHTML = s;
+
+var b = D + linen(1240);
+b += '<rect x="1060" y="460" width="60" height="7" rx="3" fill="url(#gold)"/>';
+b += V2.divider(620, 1220, 600);
+document.querySelector('#back svg').innerHTML = b;
+</script>
+</body>
+</html>
