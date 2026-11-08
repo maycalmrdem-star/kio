@@ -9,7 +9,7 @@ const BLOCKS = [
   '.def.cmp thead th', '.def.cmp tbody th', '.def.cmp td > span', '.task span', '.col > h2',
   '.item', '.sub', '.pill span', '.kw:not(.multi)', '.kw .ln', '.ex .lbl', '.ex p', '.ex > .ref',
   '.chips span', '.tiles span', '.sq', '.qr > div', '.qn', '.qr li', '.chain span', '.chain em',
-  '.ft .who', '.ft .wish'
+  '.arrows span', '.ft .who', '.ft .wish'
 ].join(',');
 
 (async () => {
@@ -71,7 +71,7 @@ const BLOCKS = [
       const lh = bs.lineHeight === 'normal' ? parseFloat(bs.fontSize) * 1.2 : parseFloat(bs.lineHeight);
       const lines = Math.max(1, Math.round((y2 - y1) / lh));
       const ta = bs.textAlign;
-      const centered = ta === 'center' || bs.justifyContent === 'center' || getComputedStyle(b.parentElement).justifyContent === 'center'
+      const centered = ta === 'center' || bs.justifyItems === 'center' || bs.justifyContent === 'center' || getComputedStyle(b.parentElement).justifyContent === 'center'
         || getComputedStyle(b.parentElement).alignItems === 'center' && getComputedStyle(b.parentElement).flexDirection === 'column';
       // trim leading/trailing spaces
       while (runs.length && !runs[0].text.trim() && runs[0].text !== '\n') runs.shift();

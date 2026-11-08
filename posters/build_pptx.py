@@ -40,7 +40,7 @@ for b in data['blocks']:
         pad = 0.18 * (x2 - x1) + 30
         x1, x2 = x1 - pad, x2 + pad
     else:
-        x1 = b['cx1']                          # room to grow leftwards without re-wrapping
+        x1 = min(b['cx1'], x1 - 0.3 * (x2 - x1) - 20)  # room to grow leftwards without re-wrapping
         x2 = b['cx2'] if b['hasBefore'] else x2 + 4
     lh = b['lh']
     size = max(r.get('size', 0) for r in b['runs'])

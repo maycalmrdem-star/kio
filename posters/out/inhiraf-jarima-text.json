@@ -1,0 +1,1098 @@
+{
+ "height": 2000,
+ "blocks": [
+  {
+   "x": 619.1875,
+   "y": 6,
+   "x2": 880.796875,
+   "y2": 65,
+   "cx1": 0,
+   "cx2": 1500,
+   "lh": 48,
+   "hasBefore": false,
+   "firstRight": 880.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بسم الله الرحمن الرحيم",
+     "color": "a8780f",
+     "size": 40,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 129.75,
+   "y": 76.5,
+   "x2": 230.25,
+   "y2": 106.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 230.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ",
+     "color": "e0a82e",
+     "size": 30,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 89.140625,
+   "y": 113.5,
+   "x2": 270.875,
+   "y2": 169.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 70,
+   "hasBefore": false,
+   "firstRight": 270.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "إبراهيم",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 443.34375,
+   "y": 254.6875,
+   "x2": 1056.65625,
+   "y2": 310.6875,
+   "cx1": 443.34375,
+   "cx2": 1056.65625,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 1056.65625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "منهج الإسلام في محاربة",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 523.25,
+   "y": 323,
+   "x2": 976.75,
+   "y2": 379,
+   "cx1": 523.25,
+   "cx2": 976.75,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 976.75,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الانحراف والجريمة",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1268.9375,
+   "y": 443,
+   "x2": 1354,
+   "y2": 467,
+   "cx1": 1268.9375,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التعريف",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 503.859375,
+   "y": 508,
+   "x2": 996.140625,
+   "y2": 537,
+   "cx1": 94,
+   "cx2": 1406,
+   "lh": 53.65,
+   "hasBefore": false,
+   "firstRight": 996.140625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الانحراف: انتهاك قيم ومعايير المجتمع.",
+     "color": "0f1f3d",
+     "size": 29,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 338.34375,
+   "y": 561.640625,
+   "x2": 1161.65625,
+   "y2": 590.640625,
+   "cx1": 94,
+   "cx2": 1406,
+   "lh": 53.65,
+   "hasBefore": false,
+   "firstRight": 1161.65625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الجريمة (ممنوعات): محظورات زجر الله عنها بحدّ وقصاص أو تعزير.",
+     "color": "0f1f3d",
+     "size": 29,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 581.125,
+   "y": 673.28125,
+   "x2": 888.875,
+   "y2": 700.28125,
+   "cx1": 581.125,
+   "cx2": 918.875,
+   "lh": 32.4,
+   "hasBefore": false,
+   "firstRight": 888.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "أسباب الانحراف والجريمة",
+     "color": "a8780f",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 951.859375,
+   "y": 730.28125,
+   "x2": 1163.125,
+   "y2": 755.28125,
+   "cx1": 951.859375,
+   "cx2": 1163.125,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 1163.125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "ضعف الوازع الديني",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 787.578125,
+   "y": 730.28125,
+   "x2": 893.859375,
+   "y2": 755.28125,
+   "cx1": 787.578125,
+   "cx2": 893.859375,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 893.859375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "المخدرات",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 561.1875,
+   "y": 730.28125,
+   "x2": 729.578125,
+   "y2": 755.28125,
+   "cx1": 561.1875,
+   "cx2": 729.578125,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 729.578125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الابتعاد عن الله",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 336.875,
+   "y": 730.28125,
+   "x2": 503.1875,
+   "y2": 755.28125,
+   "cx1": 336.875,
+   "cx2": 503.1875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 503.1875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "البيئة المنحرفة",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 989.125,
+   "y": 815.28125,
+   "x2": 1228.875,
+   "y2": 883.421875,
+   "cx1": 783,
+   "cx2": 1435,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 1228.875,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "قبل حدوث الجريمة",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "(الجانب الوقائي)",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1036.015625,
+   "y": 936.5625,
+   "x2": 1431,
+   "y2": 961.5625,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "1- تقوية الوازع الديني:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " (أركان الإيمان).",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1300.6875,
+   "y": 987.5625,
+   "x2": 1431,
+   "y2": 1012.5625,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "2- العبادات:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1155.328125,
+   "y": 1049.5625,
+   "x2": 1387.125,
+   "y2": 1073.5625,
+   "cx1": 805,
+   "cx2": 1413,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 1387.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الصلاة، الزكاة، الصوم.",
+     "color": "1d4a9a",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1317.34375,
+   "y": 1125.75,
+   "x2": 1431,
+   "y2": 1150.75,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "3- الأخلاق:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1159.734375,
+   "y": 1187.75,
+   "x2": 1387.125,
+   "y2": 1211.75,
+   "cx1": 805,
+   "cx2": 1413,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 1387.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الحياء، الصدق، العفة.",
+     "color": "1d4a9a",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 221.734375,
+   "y": 815.28125,
+   "x2": 560.265625,
+   "y2": 883.421875,
+   "cx1": 65,
+   "cx2": 717,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 508.71875,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بعد حدوث الجريمة",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "(الجانب العلاجي - العقابي)",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 418.03125,
+   "y": 940.5625,
+   "x2": 491.40625,
+   "y2": 962.5625,
+   "cx1": 418.03125,
+   "cx2": 491.40625,
+   "lh": 37.4,
+   "hasBefore": false,
+   "firstRight": 491.40625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الجريمة",
+     "color": "1d2333",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 385.234375,
+   "y": 939.75,
+   "x2": 397.03125,
+   "y2": 963.75,
+   "cx1": 385.234375,
+   "cx2": 397.03125,
+   "lh": 28.799999999999997,
+   "hasBefore": false,
+   "firstRight": 397.03125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "+",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 290.609375,
+   "y": 940.5625,
+   "x2": 364.234375,
+   "y2": 962.5625,
+   "cx1": 290.609375,
+   "cx2": 364.234375,
+   "lh": 37.4,
+   "hasBefore": false,
+   "firstRight": 364.234375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "العقوبة",
+     "color": "1d2333",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 635.890625,
+   "y": 993.953125,
+   "x2": 713,
+   "y2": 1018.953125,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 713,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "أ- الحد:",
+     "color": "1e7a45",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 296.25,
+   "y": 1055.953125,
+   "x2": 669.125,
+   "y2": 1079.953125,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 669.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الزنا، القذف، الحرابة، الخمر، السرقة.",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 567.734375,
+   "y": 1132.140625,
+   "x2": 713,
+   "y2": 1157.140625,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 713,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ب- القصاص:",
+     "color": "1e7a45",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 442.40625,
+   "y": 1194.140625,
+   "x2": 669.125,
+   "y2": 1218.140625,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 669.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "القتل العمد، العدوان.",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 464.578125,
+   "y": 1270.328125,
+   "x2": 713,
+   "y2": 1295.328125,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 713,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ج- التعزير:",
+     "color": "1e7a45",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " بقية الجرائم.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1027.6875,
+   "y": 1369.328125,
+   "x2": 1354,
+   "y2": 1393.328125,
+   "cx1": 1027.6875,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الأسئلة المقترحة وكيفية الإجابة",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1394.3125,
+   "y": 1445.328125,
+   "x2": 1403.703125,
+   "y2": 1468.328125,
+   "cx1": 1379,
+   "cx2": 1419,
+   "lh": 40.25,
+   "hasBefore": false,
+   "firstRight": 1403.703125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "1",
+     "color": "ffffff",
+     "size": 23,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1084.734375,
+   "y": 1445.328125,
+   "x2": 1360,
+   "y2": 1469.328125,
+   "cx1": 1084.734375,
+   "cx2": 1360,
+   "lh": 42,
+   "hasBefore": false,
+   "firstRight": 1360,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مفهوم الانحراف والجريمة.",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1393.40625,
+   "y": 1518.328125,
+   "x2": 1404.59375,
+   "y2": 1541.328125,
+   "cx1": 1379,
+   "cx2": 1419,
+   "lh": 40.25,
+   "hasBefore": false,
+   "firstRight": 1404.59375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "2",
+     "color": "ffffff",
+     "size": 23,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1278.109375,
+   "y": 1518.328125,
+   "x2": 1360,
+   "y2": 1542.328125,
+   "cx1": 1021.453125,
+   "cx2": 1360,
+   "lh": 42,
+   "hasBefore": false,
+   "firstRight": 1360,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "المنهج:",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1021.453125,
+   "y": 1564.328125,
+   "x2": 1334.125,
+   "y2": 1588.328125,
+   "cx1": 1021.453125,
+   "cx2": 1360,
+   "lh": 42,
+   "hasBefore": true,
+   "firstRight": 1334.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "علاجي (عقابي) [جريمة + عقوبة]",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1275.4375,
+   "y": 1610.328125,
+   "x2": 1334.125,
+   "y2": 1634.328125,
+   "cx1": 1021.453125,
+   "cx2": 1360,
+   "lh": 42,
+   "hasBefore": true,
+   "firstRight": 1334.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "وقائي",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1393.15625,
+   "y": 1681.328125,
+   "x2": 1404.84375,
+   "y2": 1704.328125,
+   "cx1": 1379,
+   "cx2": 1419,
+   "lh": 40.25,
+   "hasBefore": false,
+   "firstRight": 1404.84375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "3",
+     "color": "ffffff",
+     "size": 23,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 909.578125,
+   "y": 1681.328125,
+   "x2": 1360,
+   "y2": 1705.328125,
+   "cx1": 909.578125,
+   "cx2": 1360,
+   "lh": 42,
+   "hasBefore": false,
+   "firstRight": 1360,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "نوع العقوبة: إمّا الحد أو القصاص أو التعزير.",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1392.65625,
+   "y": 1754.328125,
+   "x2": 1405.34375,
+   "y2": 1777.328125,
+   "cx1": 1379,
+   "cx2": 1419,
+   "lh": 40.25,
+   "hasBefore": false,
+   "firstRight": 1405.34375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "4",
+     "color": "ffffff",
+     "size": 23,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1036.734375,
+   "y": 1754.328125,
+   "x2": 1360,
+   "y2": 1778.328125,
+   "cx1": 1036.734375,
+   "cx2": 1360,
+   "lh": 42,
+   "hasBefore": false,
+   "firstRight": 1360,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مقدار العقوبة حسب كل جريمة.",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 286.7265625,
+   "y": 1517.234375,
+   "x2": 455.0546875,
+   "y2": 1538.234375,
+   "cx1": 286.7265625,
+   "cx2": 455.0546875,
+   "lh": 33.6,
+   "hasBefore": false,
+   "firstRight": 455.0546875,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مثال: جريمة الخمر",
+     "color": "ffffff",
+     "size": 21,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 449.6875,
+   "y": 1575.234375,
+   "x2": 639.78125,
+   "y2": 1599.234375,
+   "cx1": 102,
+   "cx2": 639.78125,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 639.78125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "نوع العقوبة:",
+     "color": "a8780f",
+     "size": 24,
+     "weight": 900,
+     "font": "Tajawal"
+    },
+    {
+     "text": " الحدّ.",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 436.265625,
+   "y": 1617.625,
+   "x2": 639.78125,
+   "y2": 1641.625,
+   "cx1": 102,
+   "cx2": 639.78125,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 639.78125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مقدار العقوبة:",
+     "color": "a8780f",
+     "size": 24,
+     "weight": 900,
+     "font": "Tajawal"
+    },
+    {
+     "text": " جلد.",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 487.234375,
+   "y": 1660.015625,
+   "x2": 639.78125,
+   "y2": 1684.015625,
+   "cx1": 102,
+   "cx2": 639.78125,
+   "lh": 38.4,
+   "hasBefore": false,
+   "firstRight": 639.78125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "منهجه:",
+     "color": "a8780f",
+     "size": 24,
+     "weight": 900,
+     "font": "Tajawal"
+    },
+    {
+     "text": " عقابي.",
+     "color": "1d2333",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1216.40625,
+   "y": 1907.5,
+   "x2": 1440,
+   "y2": 1962.5,
+   "cx1": 1216.40625,
+   "cx2": 1440,
+   "lh": 45.6,
+   "hasBefore": false,
+   "firstRight": 1440,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بالتوفيق إن شاء الله",
+     "color": "e0a82e",
+     "size": 38,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 606.3125,
+   "y": 1912,
+   "x2": 893.6875,
+   "y2": 1954,
+   "cx1": 562.3125,
+   "cx2": 937.6875,
+   "lh": 50.4,
+   "hasBefore": false,
+   "firstRight": 893.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ إبراهيم",
+     "color": "ffffff",
+     "size": 42,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  }
+ ]
+}
