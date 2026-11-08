@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>غلاف 3: العصري العاجي</title>
+<link rel="stylesheet" href="cover.css">
+<style>
+.page{background:#f6f1e4;color:#14295e}
+.r{position:absolute;right:120px;left:120px;text-align:right}
+.bism{top:110px;font-size:40px;color:#a8780f}
+.t1{top:700px;font-size:230px;line-height:1;font-weight:800;color:#14295e}
+.t2{top:960px;font-size:76px;font-weight:800;color:#a8780f}
+.sub{top:1090px;font-size:34px;font-weight:500;color:#3b4560}
+.chip{top:1170px}
+.chip span{display:inline-block;background:#14295e;color:#fff;border-radius:40px;padding:6px 30px 10px;font-size:28px;font-weight:700}
+.band{position:absolute;left:0;right:0;bottom:0;height:300px;background:#14295e;border-top:8px solid #e0a82e}
+.band .who{position:absolute;right:120px;top:70px;color:#fff;font-size:56px;font-weight:800}
+.band .who small{display:block;color:#e0a82e;font-size:28px;font-weight:700}
+/* back */
+.verse{top:150px;font-size:56px;color:#14295e}
+.verse small{display:block;font-family:'Tajawal';font-size:24px;color:#a8780f}
+.blurb{top:400px;font-size:33px;line-height:1.9;color:#2a3350;font-weight:500}
+.blurb h3{font-size:44px;font-weight:800;color:#14295e;margin:0 0 14px}
+.blurb h3::after{content:"";display:block;width:120px;height:6px;background:#e0a82e;border-radius:3px;margin-top:10px}
+.blurb .list{margin-top:24px;font-weight:700;color:#14295e}
+</style>
+</head>
+<body>
+
+<div class="page" id="front"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="r ruqaa bism">بسم الله الرحمن الرحيم</div>
+  <div class="r t1">المُرشِد</div>
+  <div class="r t2">في العلوم الإسلامية</div>
+  <div class="r sub">دروس ملخّصة · خرائط ذهنية · تمارين وحلول</div>
+  <div class="r chip"><span>السنة الثالثة ثانوي - جميع الشعب</span></div>
+  <div class="band"><div class="who"><small>تأليف</small>الأستاذ إبراهيم</div></div>
+</div>
+
+<div class="page" id="back"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="r amiri verse">﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾<small>[طه: 114]</small></div>
+  <div class="r blurb">
+    <h3>عن الكتاب</h3>
+    كتاب يجمع دروس العلوم الإسلامية في ملخّصات واضحة وخرائط ذهنية منظّمة، مع أسئلة السندات وطريقة الإجابة عنها، ليكون رفيق التلميذ في المراجعة والتحضير للامتحان.
+    <ul class="list">
+      <li>ملخّصات الدروس بخرائط ذهنية ملوّنة</li>
+      <li>طريقة استخراج محل الشاهد والإجابة عن السند</li>
+      <li>تمارين تطبيقية مع حلولها</li>
+      <li>جداول ومقارنات للمراجعة السريعة</li>
+    </ul>
+  </div>
+  <div class="band"><div class="who"><small>تأليف</small>الأستاذ إبراهيم</div></div>
+  <div class="barcode" style="left:110px;bottom:65px"><i></i>مكان الباركود / ISBN</div>
+</div>
+
+<script src="orn.js"></script>
+<script>
+var G='#c99a33', N='#14295e';
+function base(){
+  return '<defs>'+ORN.pattern('p',120,'rgba(20,41,94,.05)',1.3)+'</defs><rect width="1240" height="1754" fill="url(#p)"/>';
+}
+var f = base();
+f += '<circle cx="220" cy="300" r="380" fill="#efe6cf"/>';
+f += ORN.rosette(220, 300, 360, G, 2.4);
+f += ORN.oct(220, 300, 72, N) + '<circle cx="220" cy="300" r="16" fill="#efe6cf"/>';
+f += '<rect x="1060" y="660" width="60" height="8" rx="4" fill="'+G+'"/>';
+f += ORN.rosette(1110, 1330, 110, 'rgba(201,154,51,.55)', 1.6);
+document.querySelector('#front svg').innerHTML = f;
+var b = base();
+b += ORN.rosette(1240, 1290, 330, 'rgba(201,154,51,.35)', 2);
+b += ORN.oct(180, 200, 44, G) + ORN.oct(180, 200, 20, '#f6f1e4');
+document.querySelector('#back svg').innerHTML = b;
+</script>
+</body>
+</html>

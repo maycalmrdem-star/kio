@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>غلاف 2: المحراب الأخضر</title>
+<link rel="stylesheet" href="cover.css">
+<style>
+.page{background:linear-gradient(180deg,#126543 0%,#0c4a31 55%,#083522 100%);color:#fff}
+.in{color:#0c4a31}
+.t1{top:640px;font-size:176px;line-height:1.1;font-weight:700;color:#0c4a31}
+.t2{top:850px;font-size:74px;line-height:1.3;color:#9a6b12}
+.sub{top:1010px;font-size:33px;color:#2c3a33;font-weight:700}
+.lvl{top:1072px;font-size:29px;color:#5b6b62}
+.who{top:1500px;font-size:50px;font-weight:800;color:#f1d48a}
+.who small{display:block;font-size:26px;font-weight:500;color:#cfe3d7}
+.bism{top:330px;font-size:44px;color:#9a6b12}
+.verse{top:110px;font-size:52px;color:#f1d48a}
+.verse small{display:block;font-family:'Tajawal';font-size:23px;color:#cfe3d7}
+.panel{position:absolute;left:260px;right:260px;top:640px;color:#1f2d26;font-size:31px;line-height:1.85;text-align:center}
+.panel h3{margin:0 0 8px;font-size:40px;color:#0c4a31}
+.panel p{margin:0 0 16px;font-weight:500}
+.panel .list{text-align:start;font-weight:700;color:#0c4a31;--li:#c99a33;display:inline-block}
+.wb{bottom:150px;font-size:44px;font-weight:800;color:#f1d48a}
+</style>
+</head>
+<body>
+
+<div class="page" id="front"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="abs ruqaa bism">بسم الله الرحمن الرحيم</div>
+  <div class="abs amiri t1">المُرشِد</div>
+  <div class="abs amiri t2">في العلوم الإسلامية</div>
+  <div class="abs sub">دروس ملخّصة · خرائط ذهنية · تمارين وحلول</div>
+  <div class="abs lvl">السنة الثالثة ثانوي - جميع الشعب</div>
+  <div class="abs who"><small>تأليف</small>الأستاذ إبراهيم</div>
+</div>
+
+<div class="page" id="back"><svg class="bg" viewBox="0 0 1240 1754"></svg>
+  <div class="abs amiri verse">﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾<small>[طه: 114]</small></div>
+  <div class="panel">
+    <h3>عن الكتاب</h3>
+    <p>كتاب يجمع دروس العلوم الإسلامية في ملخّصات واضحة وخرائط ذهنية منظّمة، مع أسئلة السندات وطريقة الإجابة عنها، ليكون رفيق التلميذ في المراجعة والتحضير للامتحان.</p>
+    <ul class="list">
+      <li>ملخّصات الدروس بخرائط ذهنية ملوّنة</li>
+      <li>طريقة استخراج محل الشاهد والإجابة عن السند</li>
+      <li>تمارين تطبيقية مع حلولها</li>
+      <li>جداول ومقارنات للمراجعة السريعة</li>
+    </ul>
+  </div>
+  <div class="abs wb">الأستاذ إبراهيم</div>
+  <div class="barcode" style="left:110px;bottom:110px;width:260px;height:150px"><i style="width:210px;height:80px"></i>مكان الباركود / ISBN</div>
+</div>
+
+<script src="orn.js"></script>
+<script>
+var G='#d9ac4a', C='#fbf6e8';
+function base(){
+  var s = '<defs>'+ORN.pattern('p',110,'rgba(241,212,138,.10)',1.4)+ORN.pattern('pi',70,'rgba(12,74,49,.06)',1.2)+'</defs>';
+  s += '<rect width="1240" height="1754" fill="url(#p)"/>';
+  s += '<rect x="40" y="40" width="1160" height="1674" rx="6" fill="none" stroke="'+G+'" stroke-width="3"/>';
+  s += '<rect x="56" y="56" width="1128" height="1642" rx="4" fill="none" stroke="'+G+'" stroke-width="1.2" opacity=".7"/>';
+  return s;
+}
+function mihrab(x, y, w, h, peak){
+  var s = '<path d="'+ORN.arch(x-26,y-26,w+52,h+26,peak+20)+'" fill="none" stroke="'+G+'" stroke-width="3"/>';
+  s += '<path d="'+ORN.arch(x-12,y-12,w+24,h+12,peak+8)+'" fill="'+G+'" opacity=".25"/>';
+  s += '<path d="'+ORN.arch(x,y,w,h,peak)+'" fill="'+C+'" stroke="'+G+'" stroke-width="4"/>';
+  s += '<path d="'+ORN.arch(x,y,w,h,peak)+'" fill="url(#pi)"/>';
+  s += '<path d="'+ORN.arch(x+18,y+26,w-36,h-26,peak-14)+'" fill="none" stroke="'+G+'" stroke-width="1.6" opacity=".8"/>';
+  // columns
+  s += '<rect x="'+(x-40)+'" y="'+(y+peak)+'" width="18" height="'+(h-peak)+'" fill="'+G+'" opacity=".85"/>';
+  s += '<rect x="'+(x+w+22)+'" y="'+(y+peak)+'" width="18" height="'+(h-peak)+'" fill="'+G+'" opacity=".85"/>';
+  return s;
+}
+function lamp(cx, y){
+  return '<line x1="'+cx+'" y1="'+(y-90)+'" x2="'+cx+'" y2="'+y+'" stroke="'+G+'" stroke-width="2.5"/>'+
+    '<path d="M'+(cx-34)+' '+y+' H'+(cx+34)+' L'+(cx+22)+' '+(y+44)+' Q'+cx+' '+(y+70)+' '+(cx-22)+' '+(y+44)+' Z" fill="'+G+'"/>'+
+    '<circle cx="'+cx+'" cy="'+(y+28)+'" r="9" fill="#fff6d6"/>';
+}
+function mosque(cx, by, k, col){
+  var g = '<g transform="translate('+(cx-200*k)+' '+(by-150*k)+') scale('+k+')" fill="'+col+'">'+
+    '<rect x="20" y="40" width="16" height="110"/><path d="M20 40 L28 10 L36 40Z"/><rect x="364" y="40" width="16" height="110"/><path d="M364 40 L372 10 L380 40Z"/>'+
+    '<path d="M60 150 V110 Q60 80 95 74 Q130 80 130 110 V150Z"/><path d="M270 150 V110 Q270 80 305 74 Q340 80 340 110 V150Z"/>'+
+    '<path d="M120 150 V96 Q120 30 200 18 Q280 30 280 96 V150Z"/><rect x="40" y="128" width="320" height="22"/></g>';
+  return g;
+}
+var f = base() + mihrab(190, 250, 860, 1080, 300) + lamp(620, 260);
+f += ORN.divider(620, 975, 520, '#c99a33');
+f += mosque(620, 1310, 1.25, 'rgba(12,74,49,.12)');
+f += ORN.oct(620, 1430, 26, G);
+document.querySelector('#front svg').innerHTML = f;
+var b = base() + mihrab(220, 470, 800, 860, 240);
+b += mosque(620, 1720, 1.6, 'rgba(241,212,138,.14)');
+document.querySelector('#back svg').innerHTML = b;
+</script>
+</body>
+</html>
