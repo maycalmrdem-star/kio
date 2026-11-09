@@ -24,3 +24,11 @@ The rules are in `instagram/STYLE.md`. The master reference is `instagram/email-
 7. **Render:** `node render-post.js "$PWD/instagram/<topic>-post" "$PWD/instagram/<topic>-post"`. Then copy `hooks/hook-<chosen>.png` to `slides/slide-1.png`.
 8. **Contact sheets:** `python3 sheet.py hooks-sheet.png hooks/hook-{1..5}.png` and the same for the slides.
 9. **Check every slide visually** (overlaps, wrapping, empty space), then send the PNGs to the owner. Ask which hook they want, and commit.
+
+## Daily automated run
+A scheduled task runs this workflow once a day:
+1. Take the first unchecked topic in `instagram/topics.md` and alternate the language.
+2. Build 5 hooks plus the carousel, and pick the strongest hook yourself (the "most people make this mistake…" type is the favourite).
+3. Write `caption.md` (title, caption, 10–15 researched hashtags).
+4. Publish with Buzzfy if its tools are available and authorized (see the `buzzfy:publish-and-schedule` skill). If they are not, do not publish: leave the files ready and tell the owner.
+5. Tick the topic in `topics.md`, then commit and push to branch `ccr-87ef023e-4fkug6`.
