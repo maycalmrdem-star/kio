@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Money Scams Post</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* riyad__31mh house style — version 1 "Keynote white". Arabic edition: fonts vary per slide; blur alternates. */
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --hair:#e5e5ea; --mist:#f5f5f7; --blue:#0071e3; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:#fff}
+  .strip{display:flex;direction:ltr;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:#fff;color:var(--ink);direction:rtl;
+     font-family:"IBM Plex Sans Arabic",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  .lat{font-family:"Inter",sans-serif;direction:ltr;unicode-bidi:isolate}
+  img.e{display:block;object-fit:contain;margin:0 auto;filter:drop-shadow(0 26px 34px rgba(0,0,0,.12))}
+  img.i{display:inline-block;object-fit:contain;vertical-align:-.12em;filter:none}
+  .col{position:absolute;top:0;bottom:150px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2}
+  .eyebrow{font-size:26px;font-weight:600;color:var(--ink3);margin-bottom:30px}
+  h1{font-size:98px;line-height:1.22}
+  h2{font-size:82px;line-height:1.25}
+  .sub{font-size:32px;line-height:1.6;color:var(--ink2);max-width:840px;margin-top:28px}
+  .sub b{color:var(--ink);font-weight:600}
+  .gap-e{margin-bottom:40px}
+  .foot{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px;align-items:center;color:var(--ink3);font-size:20px;z-index:3}
+  .foot .h{font-family:"Inter";font-weight:600;color:var(--ink);direction:ltr}
+  .dots{position:absolute;bottom:126px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:3;direction:ltr}
+  .dots i{width:7px;height:7px;border-radius:99px;background:#d2d2d7;display:block}
+  .dots i.on{background:var(--ink);width:22px}
+
+  /* ---- per-slide Arabic typefaces ---- */
+  .f-alex h1,.f-alex h2{font-family:"Alexandria";font-weight:800;letter-spacing:-.01em}
+  .f-naskh h1,.f-naskh h2{font-family:"Noto Naskh Arabic";font-weight:700;line-height:1.4}
+  .f-kufi h1,.f-kufi h2{font-family:"Reem Kufi";font-weight:700;line-height:1.3}
+  .f-readex h1,.f-readex h2{font-family:"Readex Pro";font-weight:700}
+  .f-messiri h1,.f-messiri h2{font-family:"El Messiri";font-weight:700;line-height:1.35}
+  .f-cairo h1,.f-cairo h2{font-family:"Cairo";font-weight:900;line-height:1.3}
+  .f-tajawal h1,.f-tajawal h2{font-family:"Tajawal";font-weight:800;line-height:1.3}
+
+  /* ---- blur treatment ---- */
+  .blur .halo{position:absolute;z-index:0;width:820px;height:820px;object-fit:contain;filter:blur(90px) saturate(1.3);opacity:.42}
+  .blur .glass{background:rgba(255,255,255,.62)!important;backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 60px rgba(0,0,0,.07)}
+
+  /* ---- components ---- */
+  .list{width:840px;margin-top:44px;background:var(--mist);border-radius:28px;padding:8px 0;text-align:right}
+  .list .r{display:flex;align-items:center;gap:20px;padding:22px 32px;position:relative;font-size:29px;font-weight:500}
+  .list .r + .r::before{content:"";position:absolute;top:0;right:92px;left:32px;height:1px;background:rgba(0,0,0,.07)}
+  .list .r img{width:42px;height:42px;flex:none}
+  .sms{width:720px;margin-top:46px;border-radius:30px;background:var(--mist);padding:24px 28px;text-align:right}
+  .sms .top{display:flex;align-items:center;gap:14px;font-size:22px;color:var(--ink3);font-weight:600}
+  .sms .top .ic{width:44px;height:44px;border-radius:12px;background:#fff;display:grid;place-items:center}
+  .sms .top .ic img{width:30px;height:30px}
+  .sms .top .t{margin-inline-start:auto;font-family:"Inter";font-weight:500;direction:ltr}
+  .sms .body{font-size:28px;line-height:1.55;margin-top:14px}
+  .sms .code{font-family:"Inter";font-weight:700;letter-spacing:.14em;direction:ltr;unicode-bidi:isolate;font-size:34px}
+  .bubble{width:720px;margin-top:16px;display:flex;justify-content:flex-start}
+  .bubble div{background:var(--ink);color:#fff;border-radius:26px 26px 26px 8px;padding:18px 26px;font-size:27px;text-align:right;max-width:600px;margin-inline-start:auto}
+  .bubble small{display:block;font-size:20px;color:#a1a1a6;margin-top:4px}
+  .fake{width:760px;margin-top:44px;border-radius:30px;background:var(--mist);padding:30px 34px;text-align:right;position:relative}
+  .fake .k{font-size:22px;color:var(--ink3);font-weight:600}
+  .fake .big{font-family:"Inter";font-weight:700;font-size:96px;letter-spacing:-.04em;direction:ltr;text-align:left;line-height:1.1;margin-top:6px}
+  .fake svg{display:block;width:100%;height:110px;margin-top:6px}
+  .fake .stamp{position:absolute;top:28px;left:30px;background:var(--ink);color:#fff;font-weight:700;font-size:24px;padding:8px 18px;border-radius:99px;transform:rotate(-6deg)}
+  .links{width:780px;margin-top:44px;display:flex;flex-direction:column;gap:16px}
+  .links div{display:flex;align-items:center;justify-content:space-between;background:var(--mist);border-radius:22px;padding:22px 28px}
+  .links .u{font-family:"Inter";font-weight:500;font-size:34px;direction:ltr}
+  .links .u em{font-style:normal;background:var(--ink);color:#fff;border-radius:8px;padding:0 6px}
+  .links img{width:44px;height:44px}
+  .links .lb{font-size:22px;color:var(--ink3);font-weight:600}
+  .checks{width:860px;margin-top:38px;display:flex;flex-direction:column;gap:14px}
+  .checks div{display:flex;align-items:center;gap:18px;background:var(--mist);border-radius:22px;padding:18px 26px;font-size:27px;font-weight:600;text-align:right}
+  .checks img{width:42px;height:42px;flex:none}
+  .checks small{display:block;font-weight:500;color:var(--ink3);font-size:21px;margin-top:2px}
+  .cta{display:flex;gap:14px;margin-top:44px}
+  .cta div{display:flex;align-items:center;gap:12px;border:1px solid var(--hair);border-radius:99px;padding:12px 26px 14px;font-size:24px;font-weight:600;background:#fff}
+  .cta div.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta img{width:32px;height:32px}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- ================== HOOK OPTIONS ================== -->
+<section class="s f-alex blur" data-out="hooks/hook-1">
+  <img class="halo" src="img/1f4b8.png" style="left:130px;top:150px">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات · المال</div>
+    <img class="e gap-e" src="img/1f4b8.png" style="width:200px;height:200px">
+    <h1 style="font-size:88px">أغلب الناس<br>يرتكبون هذا الخطأ<br>مع أموالهم أونلاين.</h1>
+    <p class="sub">والمحتالون يعرفون ذلك جيدًا.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<section class="s f-naskh" data-out="hooks/hook-2">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات · المال</div>
+    <img class="e gap-e" src="img/1f4b3.png" style="width:190px;height:190px">
+    <h1>المحتال لا يسرق مالك…<br>أنت من يعطيه إياه.</h1>
+    <p class="sub">وبكامل إرادتك، دون أن تشعر.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<section class="s f-kufi blur" data-out="hooks/hook-3">
+  <img class="halo" src="img/1f4de.png" style="left:130px;top:150px">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات · المال</div>
+    <img class="e gap-e" src="img/1f4de.png" style="width:190px;height:190px">
+    <h1>«أنا موظف البنك…<br>أعطني الرمز فقط.»</h1>
+    <p class="sub">هذه الجملة أفرغت حسابات كثيرة.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<section class="s f-readex" data-out="hooks/hook-4">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات · المال</div>
+    <img class="e gap-e" src="img/1f680.png" style="width:190px;height:190px">
+    <h1>«ضاعف أموالك<br>في أسبوع.»</h1>
+    <p class="sub">إذا قرأت هذه الجملة… فأموالك في خطر.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<section class="s f-cairo blur" data-out="hooks/hook-5">
+  <img class="halo" src="img/1f6a9.png" style="left:130px;top:150px">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات · المال</div>
+    <img class="e gap-e" src="img/1f6a9.png" style="width:190px;height:190px">
+    <h1>4 علامات تقول لك:<br>هذا احتيال.</h1>
+    <p class="sub">الثالثة يقع فيها حتى الأذكياء.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- ================== CAROUSEL SLIDES 2–7 ================== -->
+
+<!-- 2: the mistake (no blur) -->
+<section class="s f-naskh" data-out="slides/slide-2" data-i="2">
+  <div class="col">
+    <div class="eyebrow">الخطأ</div>
+    <h2>المال أونلاين لا يُسرق…<br>بل يُعطى.</h2>
+    <div class="list">
+      <div class="r"><img src="img/274c.png">تعطي رمز التحقق لمن يقول إنه «من البنك»</div>
+      <div class="r"><img src="img/274c.png">تدفع عبر رابط وصلك في رسالة</div>
+      <div class="r"><img src="img/274c.png">تصدّق «أرباح مضمونة وسريعة»</div>
+      <div class="r"><img src="img/274c.png">تحفظ بطاقتك في كل موقع وتطبيق</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- 3: OTP (blur) -->
+<section class="s f-kufi blur" data-out="slides/slide-3" data-i="3">
+  <img class="halo" src="img/1f3e6.png" style="left:130px;top:140px">
+  <div class="col">
+    <div class="eyebrow">العلامة الأولى</div>
+    <h2>البنك لن يطلب<br>رمزك أبدًا.</h2>
+    <div class="sms glass">
+      <div class="top"><span class="ic"><img src="img/1f3e6.png"></span>البنك<span class="t" style="font-family:inherit">الآن</span></div>
+      <div class="body">رمز التحقق: <span class="code">482913</span><br>لا تشارك هذا الرمز مع أي شخص.</div>
+    </div>
+    <div class="bubble"><div>مرحبًا، أنا من البنك. أرسل لي الرمز لنؤكد حسابك <img class="i" src="img/1f64f.png" style="width:30px;height:30px"><small>رسالة احتيال: مثال توضيحي</small></div></div>
+    <p class="sub">من يطلب الرمز <b>محتال</b>، حتى لو عرف اسمك ورقم بطاقتك.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- 4: fake investment (no blur) -->
+<section class="s f-readex" data-out="slides/slide-4" data-i="4">
+  <div class="col">
+    <div class="eyebrow">العلامة الثانية</div>
+    <img class="e gap-e" src="img/1f6a9.png" style="width:150px;height:150px">
+    <h2>«أرباح مضمونة»<br>= خسارة مضمونة.</h2>
+    <div class="fake">
+      <span class="stamp">احتيال</span>
+      <div class="k">«استثمر معنا»</div>
+      <div class="big">+300% <img class="i" src="img/1f680.png" style="width:72px;height:72px"></div>
+      <svg viewBox="0 0 700 110" preserveAspectRatio="none"><polyline points="0,100 90,92 170,95 250,80 330,84 410,60 490,52 570,30 700,6" fill="none" stroke="#1d1d1f" stroke-width="5" stroke-linejoin="round"/></svg>
+    </div>
+    <p class="sub">لا يوجد استثمار حقيقي <b>يضمن</b> ربحًا كبيرًا وسريعًا. وكلمة «مضمون» وحدها علامة احتيال.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- 5: fake links (blur) -->
+<section class="s f-messiri blur" data-out="slides/slide-5" data-i="5">
+  <img class="halo" src="img/1f517.png" style="left:130px;top:140px">
+  <div class="col">
+    <div class="eyebrow">العلامة الثالثة</div>
+    <img class="e gap-e" src="img/1f517.png" style="width:150px;height:150px">
+    <h2>رابط يشبه الحقيقي…<br>بحرف واحد.</h2>
+    <div class="links">
+      <div class="glass"><span class="u">paypa<em>1</em>-secure.com</span><span class="lb">مزيّف</span><img src="img/274c.png"></div>
+      <div class="glass"><span class="u">paypal.com</span><span class="lb">حقيقي</span><img src="img/2705.png"></div>
+    </div>
+    <p class="sub">لا تدفع من رابط وصلك في رسالة. افتح <b>التطبيق الرسمي</b> بنفسك.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- 6: protect (no blur) -->
+<section class="s f-tajawal" data-out="slides/slide-6" data-i="6">
+  <div class="col">
+    <div class="eyebrow">احمِ أموالك</div>
+    <h2>5 قواعد تحمي جيبك <img class="i" src="img/1f6e1-fe0f.png" style="width:74px;height:74px"></h2>
+    <div class="checks">
+      <div><img src="img/2705.png"><span>لا تعطِ رمز التحقق لأي أحد<small>ولا حتى لمن يقول إنه من البنك</small></span></div>
+      <div><img src="img/2705.png"><span>ادفع من التطبيق أو الموقع الرسمي فقط<small>لا من روابط الرسائل</small></span></div>
+      <div><img src="img/2705.png"><span>بطاقة خاصة للشراء أونلاين برصيد محدود<small>إن خسرتها لا تخسر كل شيء</small></span></div>
+      <div><img src="img/2705.png"><span>فعّل إشعارات البنك لكل عملية<small>تكتشف أي سحب غريب فورًا</small></span></div>
+      <div><img src="img/2705.png"><span>شككت؟ اتصل بالبنك بنفسك<small>من الرقم المكتوب على بطاقتك</small></span></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- 7: summary + CTA (blur) -->
+<section class="s f-alex blur" data-out="slides/slide-7" data-i="7">
+  <img class="halo" src="img/1f4b0.png" style="left:130px;top:150px">
+  <div class="col">
+    <div class="eyebrow">تذكّر</div>
+    <img class="e gap-e" src="img/1f4b0.png" style="width:170px;height:170px">
+    <h2>إذا كان العرض<br>أجمل من أن يُصدَّق…<br>فلا تصدّقه.</h2>
+    <p class="sub">شارك هذا المنشور مع شخص تخاف على أمواله.</p>
+    <div class="cta">
+      <div class="glass"><img src="img/1f516.png">احفظ</div>
+      <div class="glass"><img src="img/1f4e4.png">شارك</div>
+      <div class="on"><img src="img/2795.png">تابع</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span></div>
+</section>
+
+</div>
+<script>
+  document.querySelectorAll('.s').forEach(s => {
+    const i = +(s.dataset.i || 1), d = document.createElement('div');
+    d.className = 'dots';
+    d.innerHTML = Array.from({length: 7}, (_, j) => `<i class="${j + 1 === i ? 'on' : ''}"></i>`).join('');
+    s.appendChild(d);
+  });
+</script>
+</body>
+</html>

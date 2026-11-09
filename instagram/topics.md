@@ -9,6 +9,8 @@ Language alternates: if the last finished post was Arabic, the next one is Engli
 - [x] Passwords: `passwords-post/` (ar)
 - [x] Email sharing and digital footprint: `email-footprint-post/` (en)
 
+- [x] Online money scams: `money-scams-post/` (ar, 2026-11-09)
+
 ## Queue
 - [ ] Public Wi-Fi: what can actually go wrong
 - [ ] How to spot a phishing message in 5 seconds
