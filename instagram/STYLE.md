@@ -17,3 +17,7 @@ Applies to every new Instagram post unless the owner asks otherwise.
 - Fonts: IBM Plex Sans Arabic (headline 700, 84–100px; body 400, 32px). Inter for Latin text and numbers.
 - Footer: `riyad_31mh · اسحب ←` plus progress dots; the last slide shows only the handle.
 - Reference implementation: `passwords-post/post.html`.
+
+## Hook preference (owner feedback)
+- Favourite so far: «أغلب الناس يرتكبون هذا الخطأ مع كلمة السر.» 🤦 and subtitle «وربما أنت منهم الآن، دون أن تعرف.»
+  This is a "most people make this mistake" hook that points at the reader. Lead with this kind of hook, and make slide 2 name the mistake straight away.
