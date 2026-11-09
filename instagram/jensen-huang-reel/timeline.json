@@ -1,0 +1,271 @@
+{
+ "scenes": [
+  {
+   "i": 1,
+   "start": 0.1,
+   "end": 7.33,
+   "vstart": 0.35,
+   "vdur": 6.53,
+   "subs": [
+    {
+     "t0": 0.35,
+     "t1": 1.314,
+     "text": "At nine years old,"
+    },
+    {
+     "t0": 1.314,
+     "t1": 2.598,
+     "text": "he was cleaning toilets."
+    },
+    {
+     "t0": 2.598,
+     "t1": 3.294,
+     "text": "At sixty-two,"
+    },
+    {
+     "t0": 3.294,
+     "t1": 5.382,
+     "text": "his company became the first in history"
+    },
+    {
+     "t0": 5.382,
+     "t1": 6.88,
+     "text": "worth five trillion dollars."
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "start": 7.08,
+   "end": 13.789,
+   "vstart": 7.33,
+   "vdur": 6.008,
+   "subs": [
+    {
+     "t0": 7.33,
+     "t1": 8.969,
+     "text": "This is Jensen Huang."
+    },
+    {
+     "t0": 8.969,
+     "t1": 10.764,
+     "text": "Born in Taiwan in 1963."
+    },
+    {
+     "t0": 10.764,
+     "t1": 13.339,
+     "text": "The co-founder and CEO of Nvidia."
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "start": 13.539,
+   "end": 20.769,
+   "vstart": 13.789,
+   "vdur": 6.53,
+   "subs": [
+    {
+     "t0": 13.789,
+     "t1": 15.516,
+     "text": "At nine, he was sent to America."
+    },
+    {
+     "t0": 15.516,
+     "t1": 17.135,
+     "text": "He ended up in a reform school"
+    },
+    {
+     "t0": 17.135,
+     "t1": 18.106,
+     "text": "in rural Kentucky,"
+    },
+    {
+     "t0": 18.106,
+     "t1": 20.319,
+     "text": "where his job was cleaning the bathrooms."
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "start": 20.519,
+   "end": 28.063,
+   "vstart": 20.769,
+   "vdur": 6.844,
+   "subs": [
+    {
+     "t0": 20.769,
+     "t1": 22.753,
+     "text": "At fifteen, he washed dishes at Denny's."
+    },
+    {
+     "t0": 22.753,
+     "t1": 24.489,
+     "text": "He finished high school at sixteen,"
+    },
+    {
+     "t0": 24.489,
+     "t1": 25.481,
+     "text": "studied engineering,"
+    },
+    {
+     "t0": 25.481,
+     "t1": 27.613,
+     "text": "and earned a master's degree from Stanford."
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "start": 27.813,
+   "end": 35.305,
+   "vstart": 28.063,
+   "vdur": 6.792,
+   "subs": [
+    {
+     "t0": 28.063,
+     "t1": 29.226,
+     "text": "In 1993, at thirty,"
+    },
+    {
+     "t0": 29.226,
+     "t1": 31.857,
+     "text": "he sat in a Denny's booth with two friends,"
+    },
+    {
+     "t0": 31.857,
+     "t1": 33.509,
+     "text": "and planned a chip company."
+    },
+    {
+     "t0": 33.509,
+     "t1": 34.855,
+     "text": "They called it Nvidia."
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "start": 35.055,
+   "end": 46.308,
+   "vstart": 35.305,
+   "vdur": 10.553,
+   "subs": [
+    {
+     "t0": 35.305,
+     "t1": 37.016,
+     "text": "Their first chip failed."
+    },
+    {
+     "t0": 37.016,
+     "t1": 38.585,
+     "text": "Nvidia was thirty days"
+    },
+    {
+     "t0": 38.585,
+     "t1": 40.51,
+     "text": "from going out of business."
+    },
+    {
+     "t0": 40.51,
+     "t1": 41.651,
+     "text": "Then came a hit."
+    },
+    {
+     "t0": 41.651,
+     "t1": 43.719,
+     "text": "And in 1999, the GeForce 256,"
+    },
+    {
+     "t0": 43.719,
+     "t1": 45.858,
+     "text": "sold as the world's first GPU."
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "start": 46.058,
+   "end": 53.054,
+   "vstart": 46.308,
+   "vdur": 6.295,
+   "subs": [
+    {
+     "t0": 46.308,
+     "t1": 48.592,
+     "text": "Then he made the biggest bet of his life."
+    },
+    {
+     "t0": 48.592,
+     "t1": 50.097,
+     "text": "Chips built for video games"
+    },
+    {
+     "t0": 50.097,
+     "t1": 52.604,
+     "text": "became the engine of artificial intelligence."
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "start": 52.804,
+   "end": 59.094,
+   "vstart": 53.054,
+   "vdur": 5.59,
+   "subs": [
+    {
+     "t0": 53.054,
+     "t1": 53.889,
+     "text": "One trillion."
+    },
+    {
+     "t0": 53.889,
+     "t1": 54.853,
+     "text": "Three trillion."
+    },
+    {
+     "t0": 54.853,
+     "t1": 55.752,
+     "text": "Four trillion."
+    },
+    {
+     "t0": 55.752,
+     "t1": 57.166,
+     "text": "Five trillion dollars."
+    },
+    {
+     "t0": 57.166,
+     "t1": 58.644,
+     "text": "The first company ever."
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "start": 58.844,
+   "end": 64.899,
+   "vstart": 59.094,
+   "vdur": 4.206,
+   "subs": [
+    {
+     "t0": 59.094,
+     "t1": 59.903,
+     "text": "Where you start"
+    },
+    {
+     "t0": 59.903,
+     "t1": 61.466,
+     "text": "doesn't decide where you end."
+    },
+    {
+     "t0": 61.466,
+     "t1": 63.299,
+     "text": "Follow for more stories like this."
+    }
+   ]
+  }
+ ],
+ "total": 64.899
+}

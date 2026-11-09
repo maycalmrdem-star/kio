@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jensen Huang Reel</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --mist:#f5f5f7; --green:#76b900; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1920px;overflow:hidden;background:#fff}
+  #stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"Inter",sans-serif;-webkit-font-smoothing:antialiased}
+  .scene{position:absolute;inset:0;opacity:0;overflow:hidden}
+  .white{background:#fff;color:var(--ink)}
+  .dark{background:#000;color:#fff}
+  .bgv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.15) 35%,rgba(0,0,0,.25) 60%,rgba(0,0,0,.85) 100%)}
+  .a{opacity:0;will-change:transform,opacity}
+  .center{position:absolute;left:80px;right:80px;text-align:center}
+  .k{font-size:28px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.75}
+  .halo{position:absolute;width:1000px;height:1000px;border-radius:50%;object-fit:cover;filter:blur(110px) saturate(1.2);opacity:.35;left:40px}
+  .photo{position:absolute;border-radius:40px;overflow:hidden;box-shadow:0 40px 90px rgba(0,0,0,.22)}
+  .photo img{width:100%;height:100%;object-fit:cover;display:block}
+  .credit{position:absolute;left:0;right:0;text-align:center;font-size:20px;color:var(--ink3)}
+  .dark .credit{color:rgba(255,255,255,.6)}
+  .chip{display:inline-flex;align-items:center;gap:14px;background:var(--mist);border-radius:99px;padding:16px 30px;font-size:34px;font-weight:700}
+  .dark .chip{background:rgba(255,255,255,.14);backdrop-filter:blur(20px);color:#fff;border:1px solid rgba(255,255,255,.2)}
+  .chip img{width:44px;height:44px}
+  .emo{display:block;margin:0 auto;object-fit:contain;filter:drop-shadow(0 30px 40px rgba(0,0,0,.15))}
+
+  /* persistent chrome */
+  #handle{position:absolute;top:70px;left:0;right:0;text-align:center;font-weight:700;font-size:26px;z-index:50;letter-spacing:.01em}
+  #bar{position:absolute;top:40px;left:80px;right:80px;height:6px;border-radius:9px;background:rgba(128,128,128,.25);z-index:50;overflow:hidden}
+  #bar i{display:block;height:100%;width:0;background:currentColor;border-radius:9px}
+  #sub{position:absolute;left:70px;right:70px;bottom:250px;text-align:center;z-index:50;font-size:46px;font-weight:800;line-height:1.25;letter-spacing:-.01em}
+  #sub span{display:inline;padding:8px 18px;border-radius:16px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+  .light #sub span{background:#1d1d1f;color:#fff}
+  .darkui #sub span{background:#fff;color:#1d1d1f}
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- 1 HOOK: money pile video -->
+  <section class="scene dark" id="s1">
+    <video class="bgv" src="clips/web/47517.webm" muted preload="auto"></video>
+    <div class="shade"></div>
+    <div class="center a" data-at="0.35" style="top:420px;font-family:'Inter Tight';font-weight:800;font-size:150px;letter-spacing:-.04em">At 9,</div>
+    <div class="center a" data-at="0.9" style="top:600px;font-family:'Inter Tight';font-weight:800;font-size:92px;letter-spacing:-.035em;line-height:1.05">he cleaned<br>toilets.</div>
+    <div class="center a" data-at="2.6" style="top:900px;font-family:'Inter Tight';font-weight:800;font-size:150px;letter-spacing:-.04em">At 62,</div>
+    <div class="center a" data-at="3.4" data-kind="pop" style="top:1080px;font-family:'Inter Tight';font-weight:800;font-size:150px;letter-spacing:-.045em;color:#fff">$5 TRILLION</div>
+  </section>
+
+  <!-- 2 WHO: white, portrait -->
+  <section class="scene white" id="s2">
+    <img class="halo" src="photos/jensen-2026.jpg" style="top:200px">
+    <div class="photo a kb" data-at="0.0" style="left:190px;top:230px;width:700px;height:900px"><img src="photos/jensen-2026.jpg" style="object-position:50% 20%"></div>
+    <div class="credit a" data-at="0.2" style="top:1150px">Photo: Anderseidesvik · CC BY-SA 4.0</div>
+    <div class="center a" data-at="0.3" style="top:1200px;font-family:'Instrument Serif';font-size:150px;letter-spacing:-.02em;line-height:1">Jensen Huang</div>
+    <div class="center a" data-at="1.7" style="top:1380px"><span class="chip"><img src="img/1f1f9-1f1fc.png">Born 1963 · Taiwan</span></div>
+    <div class="center a" data-at="3.2" style="top:1490px"><span class="chip">Co-founder &amp; CEO · Nvidia</span></div>
+  </section>
+
+  <!-- 3 AGE 9: white, emoji -->
+  <section class="scene white" id="s3">
+    <img class="halo" src="img/1f392.png" style="top:300px;opacity:.25">
+    <div class="center a" data-at="0.1" style="top:300px"><span class="k" style="color:var(--ink3)">Chapter 1 · Age 9</span></div>
+    <img class="emo a" data-at="0.3" data-kind="pop" src="img/1f392.png" style="position:absolute;left:390px;top:400px;width:300px;height:300px">
+    <div class="center a" data-at="0.6" style="top:760px;font-family:'JetBrains Mono';font-weight:800;font-size:84px;letter-spacing:-.05em;line-height:1.15">Sent to<br>America.</div>
+    <div class="center a" data-at="2.4" style="top:1010px;font-family:'JetBrains Mono';font-weight:800;font-size:72px;letter-spacing:-.05em;line-height:1.15">Ended up in a<br>reform school.</div>
+    <img class="emo a" data-at="4.4" data-kind="pop" src="img/1f9fd.png" style="position:absolute;left:470px;top:1250px;width:140px;height:140px">
+  </section>
+
+  <!-- 4 TEEN: Denny's photo full-bleed dark -->
+  <section class="scene dark" id="s4">
+    <div class="kbfull" style="position:absolute;inset:0"><img src="photos/dennys-berryessa.jpg" style="width:100%;height:100%;object-fit:cover;object-position:35% 50%"></div>
+    <div class="shade" style="background:linear-gradient(180deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.55) 38%,rgba(0,0,0,.3) 60%,rgba(0,0,0,.85) 100%)"></div>
+    <div class="credit" style="top:1840px">Photo: Coolcaesar · CC BY-SA 4.0</div>
+    <div class="center a" data-at="0.1" style="top:300px"><span class="k">Chapter 2 · Teen years</span></div>
+    <div class="center a" data-at="0.3" style="top:380px;font-family:'Fraunces';font-weight:800;font-size:110px;letter-spacing:-.03em;line-height:1.02">Washing dishes<br>at Denny’s.</div>
+    <div class="center a" data-at="0.8" style="top:1000px"><span class="chip"><img src="img/1f37d-fe0f.png">Age 15 · Dishwasher</span></div>
+    <div class="center a" data-at="2.6" style="top:1110px"><span class="chip">Age 16 · High school done</span></div>
+    <div class="center a" data-at="4.6" style="top:1220px"><span class="chip"><img src="img/1f393.png">Stanford · Master’s</span></div>
+  </section>
+
+  <!-- 5 1993: white, Denny's card + big year -->
+  <section class="scene white" id="s5">
+    <img class="halo" src="photos/dennys-berryessa.jpg" style="top:250px">
+    <div class="center a" data-at="0.1" style="top:250px"><span class="k" style="color:var(--ink3)">Chapter 3</span></div>
+    <div class="center a" data-at="0.2" data-kind="pop" style="top:300px;font-family:'Sora';font-weight:800;font-size:260px;letter-spacing:-.06em">1993</div>
+    <div class="photo a kb" data-at="1.0" style="left:80px;top:640px;width:920px;height:590px"><img src="photos/dennys-berryessa.jpg"></div>
+    <div class="credit a" data-at="1.0" style="top:1250px">Photo: Coolcaesar · CC BY-SA 4.0</div>
+    <div class="center a" data-at="2.0" style="top:1300px;font-family:'Sora';font-weight:700;font-size:76px;letter-spacing:-.045em;line-height:1.08">Nvidia was born<br>in a Denny’s booth. <img src="img/2615.png" style="width:70px;height:70px;vertical-align:-8px"></div>
+  </section>
+
+  <!-- 6 NEAR DEATH: clock on money -> gaming keyboard -->
+  <section class="scene dark" id="s6">
+    <video class="bgv" id="v6a" src="clips/web/46979.webm" muted preload="auto"></video>
+    <video class="bgv" id="v6b" src="clips/web/43527.webm" muted preload="auto" style="opacity:0"></video>
+    <div class="shade"></div>
+    <div class="center a" data-at="0.1" data-out="5.0" style="top:300px"><span class="k">Chapter 4 · The near-death</span></div>
+    <div class="center a" data-at="0.2" data-out="5.0" style="top:380px;font-family:'Space Grotesk';font-weight:700;font-size:96px;letter-spacing:-.04em;line-height:1.05">Their first chip<br>failed.</div>
+    <div class="center a" data-at="1.6" data-out="5.0" data-kind="pop" style="top:820px;font-family:'Space Grotesk';font-weight:700;font-size:300px;letter-spacing:-.06em;line-height:1" id="days">30</div>
+    <div class="center a" data-at="1.9" data-out="5.0" style="top:1130px;font-family:'Space Grotesk';font-weight:700;font-size:56px;letter-spacing:-.03em">days from going<br>out of business</div>
+    <div class="center a" data-at="5.4" style="top:420px"><span class="k">1999</span></div>
+    <div class="center a" data-at="6.6" data-kind="pop" style="top:500px;font-family:'Space Grotesk';font-weight:700;font-size:120px;letter-spacing:-.045em;line-height:1">GeForce 256</div>
+    <div class="center a" data-at="8.2" style="top:680px"><span class="chip"><img src="img/1f3ae.png">“The world’s first GPU”</span></div>
+  </section>
+
+  <!-- 7 AI BET: chip video -->
+  <section class="scene dark" id="s7">
+    <video class="bgv" src="clips/web/47051.webm" muted preload="auto"></video>
+    <div class="shade"></div>
+    <div class="center a" data-at="0.1" style="top:320px"><span class="k">Chapter 5 · The big bet</span></div>
+    <div class="center a" data-at="0.3" style="top:400px;font-family:'Manrope';font-weight:800;font-size:96px;letter-spacing:-.04em;line-height:1.05">The biggest bet<br>of his life.</div>
+    <div class="center a" data-at="2.8" style="top:900px"><span class="chip"><img src="img/1f3ae.png">Gaming chips</span></div>
+    <div class="center a" data-at="3.6" style="top:1010px;font-size:60px;font-weight:800">↓</div>
+    <div class="center a" data-at="4.3" data-kind="pop" style="top:1100px"><span class="chip" style="font-size:44px;padding:20px 36px"><img src="img/1f916.png" style="width:56px;height:56px">The engine of AI</span></div>
+  </section>
+
+  <!-- 8 MONEY: candles video + counter -->
+  <section class="scene dark" id="s8">
+    <video class="bgv" src="clips/web/30873.webm" muted preload="auto"></video>
+    <div class="shade" style="background:rgba(0,0,0,.55)"></div>
+    <div class="center a" data-at="0.0" style="top:420px"><span class="k">Nvidia market value</span></div>
+    <div class="center a" data-at="0.05" style="top:520px;font-family:'DM Serif Display';font-size:330px;letter-spacing:-.03em;line-height:1" id="cap">$1T</div>
+    <div class="center a" data-at="0.05" style="top:900px;font-size:40px;font-weight:700;opacity:.85" id="capdate">May 2023</div>
+    <div class="center a" data-at="4.2" data-kind="pop" style="top:1030px"><span class="chip" style="font-size:40px"><img src="img/1f4b0.png">The first company ever</span></div>
+  </section>
+
+  <!-- 9 LESSON + CTA: white -->
+  <section class="scene white" id="s9">
+    <img class="halo" src="photos/jensen-2016.jpg" style="top:250px">
+    <div class="photo a kb" data-at="0.0" style="left:80px;top:280px;width:920px;height:614px"><img src="photos/jensen-2016.jpg"></div>
+    <div class="credit a" data-at="0.0" style="top:910px">Photo: NVIDIA Taiwan · CC BY 2.0</div>
+    <div class="center a" data-at="0.2" style="top:980px;font-family:'Inter Tight';font-weight:800;font-size:92px;letter-spacing:-.04em;line-height:1.04">Where you start<br>doesn’t decide<br>where you end.</div>
+    <div class="center a" data-at="2.6" data-kind="pop" style="top:1360px"><span class="chip" style="background:#1d1d1f;color:#fff;font-size:40px">Follow @riyad__31mh</span></div>
+  </section>
+
+  <div id="bar"><i></i></div>
+  <div id="handle">@riyad__31mh</div>
+  <div id="sub"><span></span></div>
+</div>
+
+<script>
+const TL = window.TL; // injected
+const scenes = TL.scenes;
+const clamp = (x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const easeOut = x => 1-Math.pow(1-clamp(x),3);
+const easeOutBack = x => { x=clamp(x); const c1=1.4,c3=c1+1; return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2); };
+const darkScenes = new Set([1,4,6,7,8]);
+const capSteps = [[0,'$1T','May 2023'],[0.17,'$3T','June 2024'],[0.34,'$4T','July 2025'],[0.53,'$5T','October 2025']];
+
+window.renderAt = async function(t){
+  const waits = [];
+  const stage = document.getElementById('stage');
+  let current = null;
+  scenes.forEach(sc => {
+    const el = document.getElementById('s'+sc.i);
+    const local = t - sc.start, len = sc.end - sc.start;
+    let op = 0;
+    if (local >= 0 && local <= len + 0.25) op = Math.min(clamp(local/0.25), clamp((len+0.25-local)/0.25));
+    if (sc.i === 1 && local < 0.25) op = 1;            // first frame visible
+    if (sc.i === scenes.length && local > len) op = 1;  // hold last
+    el.style.opacity = op;
+    el.style.display = op > 0 ? 'block' : 'none';
+    if (op <= 0) return;
+    if (local >= 0 && (!current || op >= 0.5)) current = sc;
+    const lv = t - sc.vstart; // time relative to voice start
+    el.querySelectorAll('.a').forEach(a => {
+      const at = parseFloat(a.dataset.at||0), out = a.dataset.out ? parseFloat(a.dataset.out) : null;
+      let p = (lv - at)/0.5;
+      let o = clamp(p*1.6), y = (1-easeOut(p))*60, s = 1;
+      if (a.dataset.kind === 'pop'){ s = 0.6 + 0.4*easeOutBack(p); y = 0; }
+      if (out !== null){ const q = clamp((lv-out)/0.35); o *= (1-q); y -= q*40; }
+      a.style.opacity = o;
+      a.style.transform = `translateY(${y}px) scale(${s})`;
+    });
+    // ken burns
+    el.querySelectorAll('.kb img').forEach(img => { img.style.transform = `scale(${1.02 + 0.10*clamp(local/len)})`; });
+    el.querySelectorAll('.kbfull img').forEach(img => { img.style.transform = `scale(${1.15 + 0.12*clamp(local/len)}) translateX(${-30*clamp(local/len)}px)`; });
+    // videos
+    el.querySelectorAll('video').forEach(v => {
+      const d = v.duration || 10; const target = (Math.max(0, local) * 0.9) % (d - 0.1);
+      if (Math.abs(v.currentTime - target) > 0.001) waits.push(new Promise(r => { v.addEventListener('seeked', r, {once:true}); v.currentTime = target; }));
+    });
+    if (sc.i === 6){
+      const sw = clamp((lv - 5.0)/0.4);
+      document.getElementById('v6b').style.opacity = sw;
+      document.getElementById('days').textContent = String(Math.max(1, Math.round(30 - 29*clamp((lv-1.6)/3.2))));
+    }
+    if (sc.i === 8){
+      const f = lv / sc.vdur; let cur = capSteps[0];
+      capSteps.forEach(c => { if (f >= c[0]) cur = c; });
+      const cap = document.getElementById('cap');
+      if (cap.textContent !== cur[1]) cap.textContent = cur[1];
+      document.getElementById('capdate').textContent = cur[2];
+      const since = (f - cur[0]) * sc.vdur;
+      cap.style.transform = `scale(${0.85 + 0.15*easeOutBack(since/0.35)})`;
+      cap.style.color = cur[1] === '$5T' ? '#76b900' : '#fff';
+    }
+  });
+  // chrome
+  const cur = current || scenes[0];
+  const isDark = darkScenes.has(cur.i);
+  stage.className = isDark ? 'darkui' : 'light';
+  document.getElementById('handle').style.color = isDark ? '#fff' : '#1d1d1f';
+  document.getElementById('bar').style.color = isDark ? '#fff' : '#1d1d1f';
+  document.querySelector('#bar i').style.width = (100*clamp(t/TL.total))+'%';
+  // subtitles
+  let txt = '';
+  scenes.forEach(sc => sc.subs.forEach(s => { if (t >= s.t0 && t < s.t1 + 0.15) txt = s.text; }));
+  const span = document.querySelector('#sub span');
+  if (span.textContent !== txt) span.textContent = txt;
+  span.style.display = txt ? 'inline' : 'none';
+  await Promise.all(waits);
+};
+</script>
+</body>
+</html>
