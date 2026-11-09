@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Passwords Post</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* riyad_31mh house style — "Keynote white" (version 1). See STYLE.md */
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --hair:#e5e5ea; --mist:#f5f5f7; --blue:#0071e3; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:#fff}
+  .strip{display:flex;direction:ltr;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;direction:rtl;background:#fff;color:var(--ink);
+     font-family:"IBM Plex Sans Arabic",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  .lat{font-family:"Inter",sans-serif;direction:ltr;unicode-bidi:isolate}
+  img.e{display:block;object-fit:contain;margin:0 auto;filter:drop-shadow(0 26px 34px rgba(0,0,0,.12))}
+  .col{position:absolute;top:0;bottom:150px;left:80px;right:80px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0}
+  .eyebrow{font-size:26px;font-weight:600;color:var(--ink3);margin-bottom:34px}
+  h1{font-weight:700;font-size:100px;line-height:1.16;letter-spacing:-.015em}
+  h2{font-weight:700;font-size:84px;line-height:1.18;letter-spacing:-.012em}
+  .sub{font-size:32px;line-height:1.6;color:var(--ink2);font-weight:400;max-width:820px;margin-top:30px}
+  .sub b{color:var(--ink);font-weight:600}
+  .gap-e{margin-bottom:46px}
+  .foot{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px;align-items:center;color:var(--ink3);font-size:20px}
+  .foot .h{font-family:"Inter";font-weight:600;color:var(--ink);direction:ltr}
+  .dots{position:absolute;bottom:126px;left:0;right:0;display:flex;justify-content:center;gap:8px;direction:ltr}
+  .dots i{width:7px;height:7px;border-radius:99px;background:#d2d2d7;display:block}
+  .dots i.on{background:var(--ink);width:22px}
+
+  /* components */
+  .field{width:640px;height:96px;border-radius:22px;background:var(--mist);display:flex;align-items:center;justify-content:space-between;padding:0 34px;direction:ltr;margin-top:56px}
+  .field .pw{font-family:"Inter";font-weight:500;font-size:38px;letter-spacing:.08em;color:var(--ink)}
+  .caret{display:inline-block;width:3px;height:40px;background:var(--blue);vertical-align:-6px;margin-left:4px}
+  .tag{font-family:"IBM Plex Sans Arabic";font-weight:600;font-size:22px;color:#fff;background:var(--ink);padding:6px 16px 9px;border-radius:99px;direction:rtl;white-space:nowrap}
+  .tag.light{background:#fff;color:var(--ink);border:1px solid var(--hair)}
+  .list{width:760px;margin-top:50px;background:var(--mist);border-radius:28px;padding:10px 0;text-align:right}
+  .list .r{display:flex;align-items:center;justify-content:space-between;padding:20px 34px;position:relative}
+  .list .r + .r::before{content:"";position:absolute;top:0;left:34px;right:34px;height:1px;background:#e3e3e8}
+  .list .r .p{font-family:"Inter";font-weight:500;font-size:34px;direction:ltr;color:var(--ink)}
+  .list .r .p.ar{font-family:"IBM Plex Sans Arabic";direction:rtl;font-size:30px}
+  .list .r img{width:40px;height:40px}
+  .cmp{width:840px;margin-top:50px;display:flex;flex-direction:column;gap:22px}
+  .pwbox{background:var(--mist);border-radius:26px;padding:26px 32px 28px;text-align:right}
+  .pwbox .top{display:flex;justify-content:space-between;align-items:center}
+  .pwbox .lbl{font-size:24px;color:var(--ink2);font-weight:500}
+  .pwbox .val{font-family:"Inter";font-weight:500;font-size:40px;direction:ltr;text-align:left;margin:14px 0 18px;letter-spacing:.01em}
+  .meter{height:10px;border-radius:99px;background:#e3e3e8;direction:ltr;overflow:hidden}
+  .meter i{display:block;height:100%;border-radius:99px;background:var(--ink)}
+  .code{display:flex;gap:14px;direction:ltr;margin-top:54px}
+  .code b{width:92px;height:116px;border-radius:20px;background:var(--mist);display:grid;place-items:center;font-family:"Inter";font-weight:600;font-size:58px}
+  .code b.sp{width:20px;background:none}
+  .notif{width:760px;margin-top:40px;background:var(--mist);border-radius:26px;padding:22px 26px;display:flex;align-items:center;gap:20px;text-align:right}
+  .notif img{width:58px;height:58px;filter:none}
+  .notif .t{flex:1;font-size:25px;color:var(--ink2);line-height:1.45}
+  .notif .t b{display:block;color:var(--ink);font-size:26px}
+  .checks{width:800px;margin-top:46px;display:flex;flex-direction:column;gap:16px}
+  .checks div{display:flex;align-items:center;gap:20px;background:var(--mist);border-radius:22px;padding:22px 28px;font-size:30px;font-weight:600;text-align:right}
+  .checks img{width:48px;height:48px;filter:none}
+  .cta{display:flex;gap:16px;margin-top:40px}
+  .cta div{display:flex;align-items:center;gap:12px;border:1px solid var(--hair);border-radius:99px;padding:12px 24px 14px;font-size:24px;font-weight:600}
+  .cta div.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta img{width:34px;height:34px;filter:none}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- ================= HOOK OPTIONS (slide 1) ================= -->
+
+<!-- hook 1 -->
+<section class="s" data-out="hooks/hook-1">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات</div>
+    <img class="e gap-e" src="img/1f510.png" style="width:200px;height:200px">
+    <h1>كلمة سرّك تُكسر<br>في أقل من ثانية.</h1>
+    <p class="sub">إذا كانت ‎123456‎ أو اسمك أو تاريخ ميلادك… فهي ليست كلمة سر.</p>
+    <div class="field"><span class="pw">123456<span class="caret"></span></span><span class="tag">تُكسر فورًا</span></div>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- hook 2 -->
+<section class="s" data-out="hooks/hook-2">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات</div>
+    <img class="e gap-e" src="img/270b.png" style="width:200px;height:200px">
+    <h1>توقّف.<br>لا تكتب كلمة سرّك<br>قبل أن تقرأ هذا.</h1>
+    <p class="sub">خطأ واحد صغير يجعل حسابك مفتوحًا لأي شخص.</p>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- hook 3 -->
+<section class="s" data-out="hooks/hook-3">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات</div>
+    <h1 style="font-size:92px">هل كلمة سرّك<br>في هذه القائمة؟ <img class="e" src="img/1f440.png" style="display:inline-block;width:92px;height:92px;vertical-align:-12px;filter:none"></h1>
+    <div class="list">
+      <div class="r"><span class="p">123456</span><span class="tag light">الأكثر استخدامًا</span></div>
+      <div class="r"><span class="p">password</span></div>
+      <div class="r"><span class="p">qwerty</span></div>
+      <div class="r"><span class="p ar">اسمك + سنة ميلادك</span></div>
+    </div>
+    <p class="sub">إذا كانت هنا… فهي أول ما يجرّبه المخترق.</p>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- hook 4 -->
+<section class="s" data-out="hooks/hook-4">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات</div>
+    <img class="e gap-e" src="img/1f916.png" style="width:200px;height:200px">
+    <h1>المخترق لا يخمّن<br>كلمة سرّك.</h1>
+    <p class="sub" style="font-size:40px;color:var(--ink);font-weight:600;margin-top:24px">حاسوبه يجرّبها كلّها.</p>
+    <p class="sub" style="margin-top:14px">بسرعة لا يمكن لأي إنسان أن يتخيّلها.</p>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- hook 5 -->
+<section class="s" data-out="hooks/hook-5">
+  <div class="col">
+    <div class="eyebrow">أمن المعلومات</div>
+    <img class="e gap-e" src="img/1f926.png" style="width:200px;height:200px">
+    <h1>أغلب الناس<br>يرتكبون هذا الخطأ<br>مع كلمة السر.</h1>
+    <p class="sub">وربما أنت منهم الآن، دون أن تعرف.</p>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- ================= CAROUSEL SLIDES 2–6 ================= -->
+
+<!-- slide 2: why -->
+<section class="s" data-out="slides/slide-2" data-i="2">
+  <div class="col">
+    <div class="eyebrow">لماذا بهذه السرعة؟</div>
+    <img class="e gap-e" src="img/1f916.png" style="width:170px;height:170px">
+    <h2>الحاسوب لا يخمّن…<br>بل يجرّب.</h2>
+    <p class="sub">برامج الاختراق تبدأ بقوائم <b>كلمات السر الشائعة والمسرّبة</b>، ثم تجرّب كل الاحتمالات. وقد تصل إلى <b>مليارات المحاولات في الثانية</b> على أجهزة قوية.</p>
+    <div class="field" style="width:700px"><span class="pw" style="font-size:30px;color:var(--ink2);white-space:nowrap;letter-spacing:.02em">123456 · qwerty · admin<span class="caret"></span></span><span class="tag">قائمة جاهزة</span></div>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- slide 3: length -->
+<section class="s" data-out="slides/slide-3" data-i="3">
+  <div class="col">
+    <div class="eyebrow">القاعدة الذهبية</div>
+    <h2>الطول أهمّ<br>من التعقيد. <img class="e" src="img/1f4aa.png" style="display:inline-block;width:84px;height:84px;vertical-align:-10px;filter:none"></h2>
+    <div class="cmp">
+      <div class="pwbox"><div class="top"><span class="lbl">قصيرة ومعقّدة</span><span class="tag light">ضعيفة</span></div><div class="val">R!y@d1</div><div class="meter"><i style="width:22%"></i></div></div>
+      <div class="pwbox"><div class="top"><span class="lbl">جملة طويلة سهلة الحفظ</span><span class="tag">قوية</span></div><div class="val">coffee-mountain-window-42</div><div class="meter"><i style="width:94%"></i></div></div>
+    </div>
+    <p class="sub">استخدم <b>4 كلمات عشوائية أو أكثر</b> تربطها بعلامة. سهلة عليك، صعبة على الحاسوب.</p>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- slide 4: never reuse + manager -->
+<section class="s" data-out="slides/slide-4" data-i="4">
+  <div class="col">
+    <div class="eyebrow">الخطأ الأخطر</div>
+    <img class="e gap-e" src="img/1f6ab.png" style="width:170px;height:170px">
+    <h2>كلمة سر واحدة<br>لكل المواقع؟</h2>
+    <p class="sub">إذا تسرّبت من موقع واحد، يجرّبها المخترق على <b>بريدك وإنستغرام وحسابك البنكي</b>.</p>
+    <div class="notif"><img src="img/1f511.png"><div class="t"><b>الحل: مدير كلمات السر</b>مثل سلسلة مفاتيح iCloud أو مدير كلمات سر Google. يصنع لكل موقع كلمة سر مختلفة ويحفظها لك.</div></div>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- slide 5: 2FA -->
+<section class="s" data-out="slides/slide-5" data-i="5">
+  <div class="col">
+    <div class="eyebrow">الدرع الثاني</div>
+    <img class="e gap-e" src="img/1f6e1-fe0f.png" style="width:170px;height:170px">
+    <h2>فعّل المصادقة<br>الثنائية <span class="lat">2FA</span></h2>
+    <p class="sub">حتى لو عرفوا كلمة سرّك، <b>لن يدخلوا</b> بدون الرمز الذي يصل إلى هاتفك.</p>
+    <div class="code"><b>4</b><b>8</b><b>2</b><b class="sp"></b><b>9</b><b>1</b><b>3</b></div>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span>·<span>اسحب ←</span></div>
+</section>
+
+<!-- slide 6: summary + CTA -->
+<section class="s" data-out="slides/slide-6" data-i="6">
+  <div class="col">
+    <div class="eyebrow">الخلاصة</div>
+    <h2>ثلاث خطوات…<br>وحسابك في أمان. <img class="e" src="img/1f510.png" style="display:inline-block;width:84px;height:84px;vertical-align:-10px;filter:none"></h2>
+    <div class="checks">
+      <div><img src="img/2705.png">كلمة سر طويلة: 4 كلمات أو أكثر</div>
+      <div><img src="img/2705.png">كلمة مختلفة لكل موقع</div>
+      <div><img src="img/2705.png">المصادقة الثنائية مفعّلة</div>
+    </div>
+    <div class="cta">
+      <div><img src="img/1f516.png">احفظ</div>
+      <div><img src="img/1f4e4.png">شارك</div>
+      <div class="on"><img src="img/2795.png">تابع</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad_31mh</span></div>
+</section>
+
+</div>
+<script>
+  // progress dots on carousel slides (slide 1 = chosen hook)
+  document.querySelectorAll('.s').forEach(s => {
+    const i = +(s.dataset.i || 1), d = document.createElement('div');
+    d.className = 'dots';
+    d.innerHTML = Array.from({length: 6}, (_, j) => `<i class="${j + 1 === i ? 'on' : ''}"></i>`).join('');
+    s.appendChild(d);
+  });
+</script>
+</body>
+</html>
