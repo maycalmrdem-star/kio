@@ -1,4 +1,8 @@
-# riyad_31mh — house style (chosen: version 1, "Keynote white")
+# riyad_31mh — house style (APPROVED, permanent)
+
+> The owner approved this design ("amazing, keep it, always make the same design").
+> **Master reference: `email-footprint-post/`.** Start every new post by copying that folder.
+> The base look is version 1, "Keynote white".
 
 Applies to every new Instagram post unless the owner asks otherwise.
 
