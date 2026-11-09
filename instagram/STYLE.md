@@ -21,3 +21,9 @@ Applies to every new Instagram post unless the owner asks otherwise.
 ## Hook preference (owner feedback)
 - Favourite so far: «أغلب الناس يرتكبون هذا الخطأ مع كلمة السر.» 🤦 and subtitle «وربما أنت منهم الآن، دون أن تعرف.»
   This is a "most people make this mistake" hook that points at the reader. Lead with this kind of hook, and make slide 2 name the mistake straight away.
+
+## Updates (owner feedback, post 3)
+- **Vary the headline font on every slide** (body text stays Inter). Fonts used so far: Inter Tight, Instrument Serif, Space Grotesk, JetBrains Mono, Fraunces, Manrope, Sora, DM Serif Display.
+- **Alternate blur:** one slide gets a soft blurred halo of its emoji behind it plus frosted-glass cards, and the next slide is plain white with no blur.
+- Language can switch per post (post 3 is in English: LTR layout, "Swipe →").
+- Reference: `email-footprint-post/post.html`.
