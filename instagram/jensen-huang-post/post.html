@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jensen Huang Story</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* riyad__31mh house style — "Keynote white". Fonts vary per slide; blur alternates. Tech + finance story edition. */
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --hair:#e5e5ea; --mist:#f5f5f7; --green:#76b900; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:#fff}
+  .strip{display:flex;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:#fff;color:var(--ink);
+     font-family:"Inter",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  img.e{display:block;object-fit:contain;margin:0 auto;filter:drop-shadow(0 26px 34px rgba(0,0,0,.12))}
+  img.i{display:inline-block;object-fit:contain;vertical-align:-.14em;filter:none}
+  .col{position:absolute;top:0;bottom:150px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2}
+  .eyebrow{font-size:25px;font-weight:600;color:var(--ink3);margin-bottom:28px;letter-spacing:.01em}
+  .eyebrow b{color:var(--ink);font-weight:700}
+  h1{font-size:96px;line-height:1.04;letter-spacing:-.035em}
+  h2{font-size:80px;line-height:1.06;letter-spacing:-.03em}
+  .sub{font-size:31px;line-height:1.5;color:var(--ink2);max-width:860px;margin-top:26px;letter-spacing:-.005em}
+  .sub b{color:var(--ink);font-weight:600}
+  .gap-e{margin-bottom:36px}
+  .foot{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px;align-items:center;color:var(--ink3);font-size:20px;z-index:3}
+  .foot .h{font-weight:600;color:var(--ink)}
+  .dots{position:absolute;bottom:126px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:3}
+  .dots i{width:7px;height:7px;border-radius:99px;background:#d2d2d7;display:block}
+  .dots i.on{background:var(--ink);width:22px}
+
+  /* per-slide typefaces */
+  .f-tight h1,.f-tight h2{font-family:"Inter Tight";font-weight:800}
+  .f-serif h1,.f-serif h2{font-family:"Instrument Serif";font-weight:400;letter-spacing:-.02em;font-size:108px;line-height:1}
+  .f-grotesk h1,.f-grotesk h2{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.04em}
+  .f-mono h1,.f-mono h2{font-family:"JetBrains Mono";font-weight:800;letter-spacing:-.05em;font-size:70px;line-height:1.12}
+  .f-fraunces h1,.f-fraunces h2{font-family:"Fraunces";font-weight:800;letter-spacing:-.03em}
+  .f-manrope h1,.f-manrope h2{font-family:"Manrope";font-weight:800;letter-spacing:-.04em}
+  .f-sora h1,.f-sora h2{font-family:"Sora";font-weight:700;letter-spacing:-.045em}
+  .f-dm h1,.f-dm h2{font-family:"DM Serif Display";font-weight:400;letter-spacing:-.02em;font-size:100px}
+
+  /* blur */
+  .blur .halo{position:absolute;z-index:0;width:860px;height:860px;object-fit:cover;border-radius:50%;filter:blur(100px) saturate(1.2);opacity:.32}
+  .blur .glass{background:rgba(255,255,255,.62)!important;backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 60px rgba(0,0,0,.07)}
+
+  /* photo card */
+  .photo{position:relative;border-radius:30px;overflow:hidden;box-shadow:0 34px 70px rgba(0,0,0,.16);background:var(--mist)}
+  .photo img{display:block;width:100%;height:100%;object-fit:cover}
+  .photo .yr{position:absolute;top:18px;left:18px;background:rgba(255,255,255,.85);backdrop-filter:blur(10px);border-radius:99px;padding:6px 16px;font-size:20px;font-weight:700}
+  .credit{font-size:15px;color:var(--ink3);margin-top:12px;letter-spacing:.01em}
+
+  /* chapter label */
+  .chap{display:inline-flex;align-items:center;gap:10px;font-size:22px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin-bottom:22px}
+  .chap span{background:var(--ink);color:#fff;border-radius:99px;padding:5px 14px;letter-spacing:.04em}
+
+  /* facts row */
+  .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;width:880px;margin-top:34px}
+  .facts div{background:var(--mist);border-radius:22px;padding:20px 16px;text-align:left}
+  .facts .k{font-size:18px;font-weight:600;color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
+  .facts .v{font-size:27px;font-weight:700;margin-top:6px;line-height:1.25}
+
+  /* timeline list */
+  .tl{width:840px;margin-top:36px;background:var(--mist);border-radius:28px;padding:8px 0;text-align:left}
+  .tl .r{display:grid;grid-template-columns:110px 1fr;gap:18px;align-items:center;padding:20px 30px;position:relative}
+  .tl .r + .r::before{content:"";position:absolute;top:0;left:30px;right:30px;height:1px;background:rgba(0,0,0,.07)}
+  .tl .y{font-weight:800;font-size:26px;font-variant-numeric:tabular-nums}
+  .tl .t{font-size:26px;font-weight:500;line-height:1.35}
+
+  /* market cap bars */
+  .bars{width:860px;margin-top:40px;display:flex;align-items:flex-end;justify-content:space-between;height:420px;gap:22px}
+  .bars .b{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+  .bars .v{font-family:"Inter Tight";font-weight:800;font-size:40px;letter-spacing:-.03em;margin-bottom:12px}
+  .bars .bar{width:100%;border-radius:20px 20px 8px 8px;background:#d2d2d7}
+  .bars .b.last .bar{background:var(--ink)}
+  .bars .d{font-size:21px;font-weight:600;color:var(--ink3);margin-top:14px}
+  .src{font-size:16px;color:var(--ink3);margin-top:22px}
+
+  .lessons{width:860px;margin-top:34px;display:flex;flex-direction:column;gap:14px}
+  .lessons div{display:flex;align-items:center;gap:18px;background:var(--mist);border-radius:22px;padding:20px 26px;font-size:28px;font-weight:600;text-align:left}
+  .lessons .n{width:44px;height:44px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:22px;flex:none}
+  .cta{display:flex;gap:14px;margin-top:36px}
+  .cta div{display:flex;align-items:center;gap:12px;border:1px solid var(--hair);border-radius:99px;padding:13px 26px;font-size:24px;font-weight:600;background:#fff}
+  .cta div.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta img{width:32px;height:32px}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- ================== HOOK OPTIONS ================== -->
+<section class="s f-tight blur" data-out="hooks/hook-1">
+  <img class="halo" src="photos/jensen-2026.jpg" style="left:110px;top:60px">
+  <div class="col">
+    <div class="photo" style="width:400px;height:500px"><img src="photos/jensen-2026.jpg" style="object-position:50% 20%"></div>
+    <div class="credit">Jensen Huang, 2026 · Photo: Anderseidesvik, CC BY-SA 4.0</div>
+    <h1 style="margin-top:34px;font-size:84px">At 9, he cleaned toilets.<br>At 62, his company became<br>the first worth $5 trillion.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-serif" data-out="hooks/hook-2">
+  <div class="col">
+    <div class="eyebrow">Tech · Money</div>
+    <img class="e gap-e" src="img/1f9e5.png" style="width:190px;height:190px">
+    <h1>Most people don’t<br>know this about the<br>man behind <em>Nvidia</em>.</h1>
+    <p class="sub">His story starts far from Silicon Valley.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-grotesk blur" data-out="hooks/hook-3">
+  <img class="halo" src="photos/dennys-berryessa.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="photo" style="width:860px;height:500px"><img src="photos/dennys-berryessa.jpg"></div>
+    <div class="credit">2484 Berryessa Road, San Jose · Photo: Coolcaesar, CC BY-SA 4.0</div>
+    <h1 style="margin-top:36px;font-size:86px">This Denny’s started<br>a $5 trillion company.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-fraunces" data-out="hooks/hook-4">
+  <div class="col">
+    <div class="eyebrow">Tech · Money</div>
+    <img class="e gap-e" src="img/1f4c9.png" style="width:190px;height:190px">
+    <h1>His company almost<br>went bankrupt.<br>Then it changed<br>the world.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-manrope blur" data-out="hooks/hook-5">
+  <img class="halo" src="photos/jensen-2016.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="photo" style="width:820px;height:547px"><img src="photos/jensen-2016.jpg"></div>
+    <div class="credit">Computex Taipei, 2016 · Photo: NVIDIA Taiwan, CC BY 2.0</div>
+    <h1 style="margin-top:36px;font-size:84px">From dishwasher<br>to the top of tech.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- ================== CAROUSEL SLIDES 2–9 ================== -->
+
+<!-- 2: who is he (no blur) -->
+<section class="s f-serif" data-out="slides/slide-2" data-i="2">
+  <div class="col">
+    <div class="eyebrow">Meet the CEO</div>
+    <div class="photo" style="width:820px;height:547px"><img src="photos/jensen-2016.jpg"><span class="yr">2016</span></div>
+    <div class="credit">Computex Taipei · Photo: NVIDIA Taiwan, CC BY 2.0</div>
+    <h2 style="margin-top:30px">Jensen Huang.</h2>
+    <div class="facts">
+      <div><div class="k">Born</div><div class="v">1963, Tainan, Taiwan <img class="i" src="img/1f1f9-1f1fc.png" style="width:28px;height:28px"></div></div>
+      <div><div class="k">Role</div><div class="v">Co-founder &amp; CEO of Nvidia</div></div>
+      <div><div class="k">Since</div><div class="v">1993, more than 30 years</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 3: age 9 (blur) -->
+<section class="s f-mono blur" data-out="slides/slide-3" data-i="3">
+  <img class="halo" src="img/1f392.png" style="left:110px;top:120px">
+  <div class="col">
+    <div class="chap"><span>Chapter 1</span>Age 9</div>
+    <img class="e gap-e" src="img/1f392.png" style="width:170px;height:170px">
+    <h2>Sent to America.<br>Ended up in a<br>reform school.</h2>
+    <p class="sub">His parents sent him and his brother to live with relatives in the US. They were enrolled at a school in rural Kentucky that turned out to be a <b>reform school</b>. There, 9-year-old Jensen <b>cleaned the toilets</b> <img class="i" src="img/1f9fd.png" style="width:34px;height:34px"></p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 4: Denny's job + school (no blur) -->
+<section class="s f-fraunces" data-out="slides/slide-4" data-i="4">
+  <div class="col">
+    <div class="chap"><span>Chapter 2</span>Teen years</div>
+    <img class="e gap-e" src="img/1f37d-fe0f.png" style="width:160px;height:160px">
+    <h2>Washing dishes<br>at Denny’s.</h2>
+    <div class="tl">
+      <div class="r"><div class="y">Age 15</div><div class="t">Dishwasher, busboy and waiter at Denny’s</div></div>
+      <div class="r"><div class="y">Age 16</div><div class="t">Finished high school in Oregon, two years early</div></div>
+      <div class="r"><div class="y">1984</div><div class="t">Electrical engineering degree, Oregon State <img class="i" src="img/1f393.png" style="width:30px;height:30px"></div></div>
+      <div class="r"><div class="y">1992</div><div class="t">Master’s degree from Stanford</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 5: founding at Denny's (blur) -->
+<section class="s f-sora blur" data-out="slides/slide-5" data-i="5">
+  <img class="halo" src="photos/dennys-berryessa.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="chap"><span>Chapter 3</span>1993</div>
+    <div class="photo" style="width:860px;height:520px"><img src="photos/dennys-berryessa.jpg"><span class="yr">San Jose</span></div>
+    <div class="credit">The Denny’s on Berryessa Road · Photo: Coolcaesar, CC BY-SA 4.0</div>
+    <h2 style="margin-top:30px">Nvidia was born<br>in a Denny’s booth.</h2>
+    <p class="sub">At 30, he met <b>Chris Malachowsky</b> and <b>Curtis Priem</b> here to plan a chip company. <img class="i" src="img/2615.png" style="width:34px;height:34px"></p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 6: near failure + GPU (no blur) -->
+<section class="s f-grotesk" data-out="slides/slide-6" data-i="6">
+  <div class="col">
+    <div class="chap"><span>Chapter 4</span>The near-death</div>
+    <img class="e gap-e" src="img/1f4c9.png" style="width:160px;height:160px">
+    <h2>Their first chip<br>flopped.</h2>
+    <p class="sub">Nvidia almost ran out of money. Huang later said the company was <b>“30 days from going out of business.”</b></p>
+    <div class="tl" style="margin-top:30px">
+      <div class="r"><div class="y">1997</div><div class="t">RIVA 128 is a hit and saves the company</div></div>
+      <div class="r"><div class="y">1999</div><div class="t">Goes public and launches GeForce 256, sold as “the world’s first GPU” <img class="i" src="img/1f3ae.png" style="width:30px;height:30px"></div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 7: AI bet (blur) -->
+<section class="s f-manrope blur" data-out="slides/slide-7" data-i="7">
+  <img class="halo" src="photos/nvidia-hq.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="chap"><span>Chapter 5</span>The big bet</div>
+    <div class="photo" style="width:860px;height:500px"><img src="photos/nvidia-hq.jpg"><span class="yr">Nvidia HQ</span></div>
+    <div class="credit">Santa Clara, California · Photo: Coolcaesar, CC BY-SA 4.0</div>
+    <h2 style="margin-top:30px">Gaming chips<br>became AI chips. <img class="i" src="img/1f916.png" style="width:72px;height:72px"></h2>
+    <p class="sub"><b>2006:</b> CUDA lets GPUs do more than graphics. <b>2012:</b> a breakthrough AI model is trained on Nvidia GPUs. <b>2022+:</b> the AI boom runs on them.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 8: market cap (no blur) -->
+<section class="s f-dm" data-out="slides/slide-8" data-i="8">
+  <div class="col">
+    <div class="eyebrow">The money <img class="i" src="img/1f4b0.png" style="width:30px;height:30px"></div>
+    <h2>The first company<br>worth $5 trillion.</h2>
+    <div class="bars">
+      <div class="b"><div class="v">$1T</div><div class="bar" style="height:20%"></div><div class="d">May 2023</div></div>
+      <div class="b"><div class="v">$3T</div><div class="bar" style="height:60%"></div><div class="d">Jun 2024</div></div>
+      <div class="b"><div class="v">$4T</div><div class="bar" style="height:80%"></div><div class="d">Jul 2025</div></div>
+      <div class="b last"><div class="v">$5T</div><div class="bar" style="height:100%"></div><div class="d" style="color:var(--ink)">Oct 2025</div></div>
+    </div>
+    <div class="src">Nvidia market value milestones · Sources: Reuters, Al Jazeera, Gizmodo</div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 9: lessons + CTA (blur) -->
+<section class="s f-tight blur" data-out="slides/slide-9" data-i="9">
+  <img class="halo" src="photos/jensen-2026.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="eyebrow">What his story teaches</div>
+    <h2>From cleaning toilets<br>to $5 trillion. <img class="i" src="img/1f680.png" style="width:70px;height:70px"></h2>
+    <div class="lessons">
+      <div class="glass"><span class="n">1</span>Where you start doesn’t decide where you end</div>
+      <div class="glass"><span class="n">2</span>Almost failing is part of the story</div>
+      <div class="glass"><span class="n">3</span>Bet early on what the future needs</div>
+    </div>
+    <div class="cta">
+      <div class="glass"><img src="img/1f516.png">Save</div>
+      <div class="glass"><img src="img/1f4e4.png">Share</div>
+      <div class="on"><img src="img/2795.png">Follow</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span></div>
+</section>
+
+</div>
+<script>
+  document.querySelectorAll('.s').forEach(s => {
+    const i = +(s.dataset.i || 1), d = document.createElement('div');
+    d.className = 'dots';
+    d.innerHTML = Array.from({length: 9}, (_, j) => `<i class="${j + 1 === i ? 'on' : ''}"></i>`).join('');
+    s.appendChild(d);
+  });
+</script>
+</body>
+</html>

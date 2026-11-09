@@ -6,7 +6,7 @@ description: Design an Instagram carousel or post for @riyad__31mh in the approv
 # riyad__31mh Instagram post workflow
 
 The owner approved this design permanently. Keep it the same every time.
-The rules are in `instagram/STYLE.md`. The master reference is `instagram/email-footprint-post/`.
+The rules are in `instagram/STYLE.md`. The master reference is `instagram/jensen-huang-post/` (tech + money story, English, real licensed photos with credits).
 
 ## Steps
 1. **Copy the master:** `cp -r instagram/email-footprint-post instagram/<topic>-post`. Then delete the old `hooks/`, `slides/` and `*-sheet.png` in the copy.

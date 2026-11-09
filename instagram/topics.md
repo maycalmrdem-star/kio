@@ -11,7 +11,42 @@ Language alternates: if the last finished post was Arabic, the next one is Engli
 
 - [x] Online money scams: `money-scams-post/` (ar, 2026-11-09)
 
-## Queue
+- [x] Jensen Huang / Nvidia story: `jensen-huang-post/` (en, 2026-11-09)
+
+## Queue (tech + money, English)
+- [ ] Elon Musk: from Zip2 and PayPal to Tesla and SpaceX
+- [ ] Steve Jobs: fired from Apple, came back and saved it
+- [ ] Jeff Bezos: from a garage bookstore to Amazon
+- [ ] Mark Zuckerberg: a dorm-room site to Meta
+- [ ] Lisa Su: how she turned AMD around
+- [ ] Sam Altman and OpenAI: from nonprofit to a giant valuation
+- [ ] Larry Page and Sergey Brin: the Stanford project that became Google
+- [ ] Bill Gates: Harvard dropout to Microsoft
+- [ ] Satya Nadella: how Microsoft became a trillion-dollar company again
+- [ ] Jack Ma: rejected many times, then built Alibaba
+- [ ] Tim Cook: running Apple after Steve Jobs
+- [ ] Brian Chesky: selling cereal to save Airbnb
+- [ ] Daniel Ek: how Spotify beat music piracy
+- [ ] Reed Hastings: Netflix from DVDs by mail to streaming
+- [ ] Morris Chang: founding TSMC at 55
+- [ ] How Apple makes its money (iPhone vs services)
+- [ ] How Google makes money from free products
+- [ ] Why chips are the new oil (TSMC, Nvidia, ASML)
+- [ ] ASML: the company every chipmaker depends on
+- [ ] Bitcoin: the story of the first block to ETFs
+- [ ] The dot-com crash: what happened in 2000
+- [ ] Nokia and BlackBerry: how phone kings lost
+- [ ] Kodak invented the digital camera and still lost
+- [ ] Twitter to X: what Elon Musk paid and what changed
+- [ ] Huawei: from a small Shenzhen trader to a tech giant
+- [ ] Sundar Pichai: from Chennai to CEO of Google
+- [ ] Jony Ive: the designer behind the iPhone
+- [ ] Masayoshi Son: the biggest bets and losses in tech
+- [ ] How YouTube creators actually make money
+- [ ] The richest tech founders and how they got there
+
+## Old queue (security, paused; the owner changed direction)
+
 - [ ] Public Wi-Fi: what can actually go wrong
 - [ ] How to spot a phishing message in 5 seconds
 - [ ] SMS codes vs authenticator apps vs passkeys

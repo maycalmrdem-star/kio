@@ -31,3 +31,10 @@ Applies to every new Instagram post unless the owner asks otherwise.
 - **Alternate blur:** one slide gets a soft blurred halo of its emoji behind it plus frosted-glass cards, and the next slide is plain white with no blur.
 - Language can switch per post (post 3 is in English: LTR layout, "Swipe →").
 - Reference: `email-footprint-post/post.html`.
+
+## Account direction (owner feedback, latest — overrides earlier notes)
+- **Niche: technology and money/finance.** Stories of tech founders and companies, how money moves in tech, big tech numbers. **Not** cybersecurity or protection tips.
+- **Language: English** by default.
+- **Format:** story carousels of up to 9–10 slides told in chapters (Chapter 1, 2…), facts with years, and a money slide with real numbers and sources.
+- **Real photos:** use freely licensed photos (Wikimedia Commons: CC BY, CC BY-SA, CC0, public domain) found through the en.wikipedia API (`prop=imageinfo&iiprop=url|extmetadata`). Put a credit line under each photo (author and licence). Never use copyrighted press or family photos; if childhood photos are not freely licensed, tell the owner and use places from the story instead.
+- **New master reference:** `jensen-huang-post/`.
