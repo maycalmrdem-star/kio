@@ -1,4 +1,4 @@
-# riyad_31mh — house style (APPROVED, permanent)
+# riyad__31mh — house style (APPROVED, permanent)
 
 > The owner approved this design ("amazing, keep it, always make the same design").
 > **Master reference: `email-footprint-post/`.** Start every new post by copying that folder.
@@ -19,7 +19,7 @@ Applies to every new Instagram post unless the owner asks otherwise.
 - Black and white only. No other colours apart from the emoji.
 - Everything is centred: a gray eyebrow label, then one large emoji (170–200px), then a bold headline, then a gray subtitle, then one simple UI element.
 - Fonts: IBM Plex Sans Arabic (headline 700, 84–100px; body 400, 32px). Inter for Latin text and numbers.
-- Footer: `riyad_31mh · اسحب ←` plus progress dots; the last slide shows only the handle.
+- Footer: `riyad__31mh · اسحب ←` plus progress dots; the last slide shows only the handle.
 - Reference implementation: `passwords-post/post.html`.
 
 ## Hook preference (owner feedback)

@@ -23,7 +23,7 @@ Hackers don't break in. They log in. 🔑
 
 💾 Save this for later
 📤 Send it to a friend who uses one email for everything
-➕ Follow @riyad_31mh for more tech & security tips
+➕ Follow @riyad__31mh for more tech & security tips
 
 .
 .

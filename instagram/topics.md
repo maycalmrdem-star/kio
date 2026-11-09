@@ -1,4 +1,4 @@
-# Daily topic queue — @riyad_31mh
+# Daily topic queue — @riyad__31mh
 
 The daily task takes the **first unchecked topic**, makes the post, then ticks it `[x]` with the date and folder.
 Language alternates: if the last finished post was Arabic, the next one is English, and the other way round.

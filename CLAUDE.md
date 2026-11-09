@@ -1,4 +1,4 @@
-# kio — Instagram designs for @riyad_31mh
+# kio — Instagram designs for @riyad__31mh
 
 When asked to design an Instagram post, carousel or story for this account:
 
