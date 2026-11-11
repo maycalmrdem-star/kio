@@ -9,7 +9,7 @@ const BLOCKS = [
   '.def.cmp thead th', '.def.cmp tbody th', '.def.cmp td > span', '.task span', '.col > h2',
   '.item', '.sub', '.pill span', '.kw:not(.multi)', '.kw .ln', '.ex .lbl', '.ex p', '.ex > .ref',
   '.chips span', '.tiles span', '.sq', '.qr > div', '.qn', '.qr li', '.chain span', '.chain em',
-  '.arrows span', '.ft .who', '.ft .wish'
+  '.arrows span', '.tbl thead th', '.tbl tbody th', '.tbl td', '.def.two > div', '.ft .who', '.ft .wish'
 ].join(',');
 
 (async () => {
@@ -62,13 +62,13 @@ const BLOCKS = [
         for (const q of r.getClientRects()) { if (!q.width) continue; rects.push(q);
           x1 = Math.min(x1, q.left); y1 = Math.min(y1, q.top); x2 = Math.max(x2, q.right); y2 = Math.max(y2, q.bottom); }
       }
-      // right edge of the first line (later lines may start further right, under a bullet)
-      const firstRight = Math.max(...rects.filter(q => q.top < y1 + 4).map(q => q.right));
       // include pseudo-element glyphs: extend to the block's content box horizontally
       const br = b.getBoundingClientRect(), bs = getComputedStyle(b);
       const cx1 = br.left + parseFloat(bs.paddingLeft) + parseFloat(bs.borderLeftWidth);
       const cx2 = br.right - parseFloat(bs.paddingRight) - parseFloat(bs.borderRightWidth);
       const lh = bs.lineHeight === 'normal' ? parseFloat(bs.fontSize) * 1.2 : parseFloat(bs.lineHeight);
+      // right edge of the first line (later lines may start further right, under a bullet)
+      const firstRight = Math.max(...rects.filter(q => q.top < y1 + lh * 0.6).map(q => q.right));
       const lines = Math.max(1, Math.round((y2 - y1) / lh));
       const ta = bs.textAlign;
       const centered = ta === 'center' || bs.justifyItems === 'center' || bs.justifyContent === 'center' || getComputedStyle(b.parentElement).justifyContent === 'center'

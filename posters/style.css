@@ -134,3 +134,39 @@ body{
 .def.qa .ex p b{color:var(--gold-d)}
 .arrows{display:grid;gap:4px;margin-top:4px}
 .arrows span::before{content:"⇐ ";color:var(--gold)}
+
+/* ---------- full-width lesson tables ---------- */
+.tbl{text-align:start;font-weight:500;padding:44px 22px 22px}
+.tbl table{width:100%;border-collapse:separate;border-spacing:8px;table-layout:fixed}
+.tbl th,.tbl td{border-radius:12px;padding:12px 14px;vertical-align:middle;line-height:1.65}
+.tbl thead th{color:#fff;font-size:26px;font-weight:800;text-align:center;border-bottom:4px solid var(--gold);background:linear-gradient(180deg,var(--blue-a),#1a4189)}
+.tbl thead th.g{background:linear-gradient(180deg,var(--green-a),#1c6a3f)}
+.tbl thead th.r{background:linear-gradient(180deg,#b9473d,#8f2f27)}
+.tbl thead th.n{background:var(--navy)}
+.tbl tbody th{background:var(--navy);color:#fff;font-size:24px;font-weight:800;text-align:center}
+.tbl td{background:#f6f7fb;border:1.5px solid var(--line);font-size:23px;font-weight:600;color:#1d2333;text-align:right}
+.tbl td.g{background:var(--green-bg);color:var(--green);font-weight:700}
+.tbl td.b{background:var(--blue-bg);color:var(--blue);font-weight:700}
+.tbl td.c{text-align:center}
+.tbl td .ay{font-family:'Amiri',serif;font-weight:400;font-size:24px;line-height:1.85}
+.tbl .num{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--gold);color:var(--navy);font-size:20px;margin-inline-end:8px;vertical-align:middle}
+.qbox{margin:30px 46px 0;text-align:start;font-weight:700}
+.qbox p{margin:0;font-size:27px}
+.cols.three{grid-template-columns:repeat(3,1fr)}
+.col.gold > h2{background:linear-gradient(180deg,#c99a33,#8a6018)}
+.gold .item b{color:#8a6018}
+.gold .kw{background:#fbf3df;color:#7a5414}
+.def.two{display:grid;grid-template-columns:1fr 1fr;gap:28px;text-align:right;font-size:25px;line-height:1.8}
+.def.two b{color:var(--blue)}
+.def.two .g b{color:var(--green)}
+/* tables / columns that stretch to fill the page height */
+.tbl.grow{flex:1 0 auto;display:flex;flex-direction:column}
+.tbl.grow table{flex:1}
+.qbox.last{margin-bottom:44px}
+body.big .tbl td{font-size:27px;line-height:1.75}
+body.big .tbl tbody th{font-size:28px}
+body.big .tbl thead th{font-size:29px}
+body.big .item{font-size:29px}
+body.big .kw{font-size:28px}
+body.big .chain span{font-size:26px}
+body.big .chips span{font-size:28px}

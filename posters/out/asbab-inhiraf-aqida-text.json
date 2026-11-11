@@ -1,0 +1,686 @@
+{
+ "height": 2000,
+ "blocks": [
+  {
+   "x": 619.1875,
+   "y": 6,
+   "x2": 880.796875,
+   "y2": 65,
+   "cx1": 0,
+   "cx2": 1500,
+   "lh": 48,
+   "hasBefore": false,
+   "firstRight": 880.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بسم الله الرحمن الرحيم",
+     "color": "a8780f",
+     "size": 40,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 129.75,
+   "y": 76.5,
+   "x2": 230.25,
+   "y2": 106.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 230.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ",
+     "color": "e0a82e",
+     "size": 30,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 89.140625,
+   "y": 113.5,
+   "x2": 270.875,
+   "y2": 169.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 70,
+   "hasBefore": false,
+   "firstRight": 270.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "إبراهيم",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 464.765625,
+   "y": 254.6875,
+   "x2": 1035.25,
+   "y2": 310.6875,
+   "cx1": 464.765625,
+   "cx2": 1035.25,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 1035.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "أسباب انحراف العقيدة",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 470.703125,
+   "y": 323,
+   "x2": 1029.3125,
+   "y2": 379,
+   "cx1": 470.703125,
+   "cx2": 1029.3125,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 1029.3125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "والوسيلة التي تعالجها",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1116.03125,
+   "y": 443,
+   "x2": 1354,
+   "y2": 467,
+   "cx1": 1116.03125,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "أسباب انحراف العقيدة",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1095,
+   "y": 529,
+   "x2": 1390.4375,
+   "y2": 558,
+   "cx1": 1077.453125,
+   "cx2": 1408,
+   "lh": 47.85,
+   "hasBefore": false,
+   "firstRight": 1390.4375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "أسباب انحراف العقيدة",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 741.828125,
+   "y": 529,
+   "x2": 824.609375,
+   "y2": 558,
+   "cx1": 524.984375,
+   "cx2": 1041.453125,
+   "lh": 47.85,
+   "hasBefore": false,
+   "firstRight": 824.609375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الشرح",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 153.5625,
+   "y": 529,
+   "x2": 427.421875,
+   "y2": 558,
+   "cx1": 92,
+   "cx2": 488.984375,
+   "lh": 47.85,
+   "hasBefore": false,
+   "firstRight": 427.421875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الوسيلة التي تعالجها",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1083.53125,
+   "y": 655.671875,
+   "x2": 1389,
+   "y2": 729.859375,
+   "cx1": 1077.453125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1389,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "1",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الجهل بأصول العقيدة ومعانيها",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 572.296875,
+   "y": 655.609375,
+   "x2": 1040.453125,
+   "y2": 729.859375,
+   "cx1": 525.984375,
+   "cx2": 1040.453125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1040.453125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "نقص المعرفة وعدم الاهتمام بتعلمها أو تعليمها.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 247.671875,
+   "y": 655.609375,
+   "x2": 487.984375,
+   "y2": 729.859375,
+   "cx1": 93,
+   "cx2": 487.984375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 487.984375,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "إثارة العقل والوجدان",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "مناقشة الانحرافات.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1104.125,
+   "y": 865.703125,
+   "x2": 1369.203125,
+   "y2": 939.890625,
+   "cx1": 1077.453125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1369.203125,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "2",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "التعصب والغلو في الدين",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 585.65625,
+   "y": 865.640625,
+   "x2": 1040.453125,
+   "y2": 939.890625,
+   "cx1": 525.984375,
+   "cx2": 1040.453125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1040.453125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "التشدد والغلو في الدين وفي الصالحين، ورفعهم فوق منزلتهم.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 160.5,
+   "y": 865.640625,
+   "x2": 487.984375,
+   "y2": 939.890625,
+   "cx1": 93,
+   "cx2": 487.984375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 487.984375,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مناقشة الانحرافات",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "رسم صورة محببة للمؤمنين.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1134.5625,
+   "y": 1075.734375,
+   "x2": 1338.96875,
+   "y2": 1149.921875,
+   "cx1": 1077.453125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1338.96875,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "3",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "التقليد الأعمى للموروثات",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 562.4375,
+   "y": 1075.671875,
+   "x2": 1040.453125,
+   "y2": 1149.921875,
+   "cx1": 525.984375,
+   "cx2": 1040.453125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1040.453125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "اتباع أقوال الناس في العقيدة دون معرفة دليلها وصحتها.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 253.609375,
+   "y": 1099.296875,
+   "x2": 487.984375,
+   "y2": 1126.296875,
+   "cx1": 93,
+   "cx2": 487.984375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 487.984375,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مناقشة الانحرافات.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1100.828125,
+   "y": 1285.765625,
+   "x2": 1373.125,
+   "y2": 1359.953125,
+   "cx1": 1077.453125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1373.125,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "4",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الغفلة عن التدبر في الآيات الكونية",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 562.4375,
+   "y": 1285.703125,
+   "x2": 1040.453125,
+   "y2": 1359.953125,
+   "cx1": 525.984375,
+   "cx2": 1040.453125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1040.453125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "اتباع أقوال الناس في العقيدة دون معرفة دليلها وصحتها.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 238.828125,
+   "y": 1309.328125,
+   "x2": 487.984375,
+   "y2": 1336.328125,
+   "cx1": 93,
+   "cx2": 487.984375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 487.984375,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "إثارة العقل والوجدان.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1084.46875,
+   "y": 1495.828125,
+   "x2": 1389.375,
+   "y2": 1570.015625,
+   "cx1": 1077.453125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1389.375,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "5",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الانغماس في الملذات والشهوات",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 587.65625,
+   "y": 1495.765625,
+   "x2": 1040.453125,
+   "y2": 1570.015625,
+   "cx1": 525.984375,
+   "cx2": 1040.453125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1040.453125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الانشغال بالملذات والشهوات الدنيوية والغفلة عن ذكر الله.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 161.796875,
+   "y": 1495.765625,
+   "x2": 487.984375,
+   "y2": 1570.015625,
+   "cx1": 93,
+   "cx2": 487.984375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 487.984375,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "رسم صورة الكافرين المنفرة",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "التذكير بمراقبة الله تعالى.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1176.578125,
+   "y": 1685.0625,
+   "x2": 1354,
+   "y2": 1709.0625,
+   "cx1": 1176.578125,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الأسئلة المقترحة",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 712.203125,
+   "y": 1749.0625,
+   "x2": 1406,
+   "y2": 1776.0625,
+   "cx1": 94,
+   "cx2": 1406,
+   "lh": 49.95,
+   "hasBefore": false,
+   "firstRight": 1406,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ما هي أسباب انحراف العقيدة؟ ما هي الوسيلة التي تعالجها؟",
+     "color": "0f1f3d",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1216.40625,
+   "y": 1907.5,
+   "x2": 1440,
+   "y2": 1962.5,
+   "cx1": 1216.40625,
+   "cx2": 1440,
+   "lh": 45.6,
+   "hasBefore": false,
+   "firstRight": 1440,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بالتوفيق إن شاء الله",
+     "color": "e0a82e",
+     "size": 38,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 606.3125,
+   "y": 1912,
+   "x2": 893.6875,
+   "y2": 1954,
+   "cx1": 562.3125,
+   "cx2": 937.6875,
+   "lh": 50.4,
+   "hasBefore": false,
+   "firstRight": 893.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ إبراهيم",
+     "color": "ffffff",
+     "size": 42,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  }
+ ]
+}

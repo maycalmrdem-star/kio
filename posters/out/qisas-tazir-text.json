@@ -1,0 +1,809 @@
+{
+ "height": 2000,
+ "blocks": [
+  {
+   "x": 619.1875,
+   "y": 6,
+   "x2": 880.796875,
+   "y2": 65,
+   "cx1": 0,
+   "cx2": 1500,
+   "lh": 48,
+   "hasBefore": false,
+   "firstRight": 880.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بسم الله الرحمن الرحيم",
+     "color": "a8780f",
+     "size": 40,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 129.75,
+   "y": 76.5,
+   "x2": 230.25,
+   "y2": 106.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 230.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ",
+     "color": "e0a82e",
+     "size": 30,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 89.140625,
+   "y": 113.5,
+   "x2": 270.875,
+   "y2": 169.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 70,
+   "hasBefore": false,
+   "firstRight": 270.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "إبراهيم",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 555.125,
+   "y": 254.6875,
+   "x2": 944.890625,
+   "y2": 310.6875,
+   "cx1": 555.125,
+   "cx2": 944.890625,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 944.890625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "القصاص والدية",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 649.78125,
+   "y": 323,
+   "x2": 850.21875,
+   "y2": 379,
+   "cx1": 649.78125,
+   "cx2": 850.21875,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 850.21875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "والتعزير",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 994.15625,
+   "y": 485,
+   "x2": 1223.84375,
+   "y2": 518,
+   "cx1": 765,
+   "cx2": 1453,
+   "lh": 39.6,
+   "hasBefore": false,
+   "firstRight": 1223.84375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "القصاص والدية",
+     "color": "ffffff",
+     "size": 33,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 814.84375,
+   "y": 618.125,
+   "x2": 1431,
+   "y2": 699.3125,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "القصاص:",
+     "color": "1d4a9a",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " هو أن يفعل بالجاني مثل ما فعل بالمجني عليه.",
+     "color": "1d2333",
+     "size": 29,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 908.15625,
+   "y": 809.765625,
+   "x2": 1309.859375,
+   "y2": 835.765625,
+   "cx1": 908.15625,
+   "cx2": 1309.859375,
+   "lh": 44.2,
+   "hasBefore": false,
+   "firstRight": 1309.859375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "في النفس: القتل العمدي والعدواني",
+     "color": "1d2333",
+     "size": 26,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 902.3125,
+   "y": 867.953125,
+   "x2": 1315.6875,
+   "y2": 893.953125,
+   "cx1": 902.3125,
+   "cx2": 1315.6875,
+   "lh": 44.2,
+   "hasBefore": false,
+   "firstRight": 1315.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "دون النفس: الجرح العمدي والعدواني",
+     "color": "1d2333",
+     "size": 26,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 945.484375,
+   "y": 1021.40625,
+   "x2": 1431,
+   "y2": 1050.40625,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الدية:",
+     "color": "1d4a9a",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " هي المال الذي يعطى للمجني عليه.",
+     "color": "1d2333",
+     "size": 29,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1358.40625,
+   "y": 1155.859375,
+   "x2": 1431,
+   "y2": 1184.859375,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "تكون:",
+     "color": "1d4a9a",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 908.03125,
+   "y": 1302.3125,
+   "x2": 1382.8125,
+   "y2": 1330.3125,
+   "cx1": 805,
+   "cx2": 1413,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 1382.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "أصلية: في حالة الخطأ مثل القتل الخطأ.",
+     "color": "1d4a9a",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 989.84375,
+   "y": 1352.703125,
+   "x2": 1382.8125,
+   "y2": 1380.703125,
+   "cx1": 805,
+   "cx2": 1413,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 1382.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "تبعية: في حالة العفو (القصاص).",
+     "color": "1d4a9a",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1289.234375,
+   "y": 1511.359375,
+   "x2": 1431,
+   "y2": 1540.359375,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "قيمة الدية:",
+     "color": "1d4a9a",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1228.171875,
+   "y": 1647.8125,
+   "x2": 1319.6875,
+   "y2": 1675.8125,
+   "cx1": 1228.171875,
+   "cx2": 1319.6875,
+   "lh": 33.6,
+   "hasBefore": false,
+   "firstRight": 1319.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "100 إبل",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1077.15625,
+   "y": 1647.8125,
+   "x2": 1170.171875,
+   "y2": 1675.8125,
+   "cx1": 1077.15625,
+   "cx2": 1170.171875,
+   "lh": 33.6,
+   "hasBefore": false,
+   "firstRight": 1170.171875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "1000 دذ",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 898.3125,
+   "y": 1647.8125,
+   "x2": 1019.15625,
+   "y2": 1675.8125,
+   "cx1": 898.3125,
+   "cx2": 1019.15625,
+   "lh": 33.6,
+   "hasBefore": false,
+   "firstRight": 1019.15625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "1000 شاة",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1041.015625,
+   "y": 1702.8125,
+   "x2": 1176.984375,
+   "y2": 1730.8125,
+   "cx1": 1041.015625,
+   "cx2": 1176.984375,
+   "lh": 33.6,
+   "hasBefore": false,
+   "firstRight": 1176.984375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "أو 1200 دف",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 340.71875,
+   "y": 485,
+   "x2": 441.28125,
+   "y2": 518,
+   "cx1": 47,
+   "cx2": 735,
+   "lh": 39.6,
+   "hasBefore": false,
+   "firstRight": 441.28125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التعزير",
+     "color": "ffffff",
+     "size": 33,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 147.421875,
+   "y": 616.328125,
+   "x2": 713,
+   "y2": 645.328125,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 713,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "التعزير:",
+     "color": "1e7a45",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " عقوبة غير مقدرة شرعًا، يقدرها القاضي.",
+     "color": "1d2333",
+     "size": 29,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 76.578125,
+   "y": 747.171875,
+   "x2": 713,
+   "y2": 828.359375,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 713,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "أمثلة:",
+     "color": "1e7a45",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " شهادة الزور، أي كل الجرائم ما عدا جرائم الحدود والقصاص.",
+     "color": "1d2333",
+     "size": 29,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 465.796875,
+   "y": 944.203125,
+   "x2": 713,
+   "y2": 973.203125,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 713,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "خصائص العقوبات:",
+     "color": "1e7a45",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 277.34375,
+   "y": 1087.046875,
+   "x2": 664.8125,
+   "y2": 1115.046875,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 664.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "شرعية: لا عقوبة إلا بنص شرعي.",
+     "color": "1e7a45",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 202.40625,
+   "y": 1137.4375,
+   "x2": 664.8125,
+   "y2": 1165.4375,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 664.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "المساواة: تطبيق العقوبة على الجميع.",
+     "color": "1e7a45",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 203.078125,
+   "y": 1187.828125,
+   "x2": 664.8125,
+   "y2": 1215.828125,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 664.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "العدالة: لا تطبق العقوبة إلا على مجرم.",
+     "color": "1e7a45",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 92.28125,
+   "y": 1238.21875,
+   "x2": 695,
+   "y2": 1316.609375,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 664.8125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الرحمة في العقوبات: ستر في العقوبات - تشريع الدية - درأ الحدود عن الشبهات.",
+     "color": "1e7a45",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 344.484375,
+   "y": 1443.65625,
+   "x2": 713,
+   "y2": 1472.65625,
+   "cx1": 69,
+   "cx2": 713,
+   "lh": 52.2,
+   "hasBefore": false,
+   "firstRight": 713,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الحكمة من تشريع العقوبات:",
+     "color": "1e7a45",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 419.96875,
+   "y": 1586.5,
+   "x2": 664.8125,
+   "y2": 1614.5,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 664.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "حفظ مصالح الناس.",
+     "color": "1e7a45",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 488.40625,
+   "y": 1636.890625,
+   "x2": 664.8125,
+   "y2": 1664.890625,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 664.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "التأديب والردع.",
+     "color": "1e7a45",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 354.921875,
+   "y": 1687.28125,
+   "x2": 664.8125,
+   "y2": 1715.28125,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 50.4,
+   "hasBefore": true,
+   "firstRight": 664.8125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "تطييب خاطر المجني عليه.",
+     "color": "1e7a45",
+     "size": 28,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1216.40625,
+   "y": 1907.5,
+   "x2": 1440,
+   "y2": 1962.5,
+   "cx1": 1216.40625,
+   "cx2": 1440,
+   "lh": 45.6,
+   "hasBefore": false,
+   "firstRight": 1440,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بالتوفيق إن شاء الله",
+     "color": "e0a82e",
+     "size": 38,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 606.3125,
+   "y": 1912,
+   "x2": 893.6875,
+   "y2": 1954,
+   "cx1": 562.3125,
+   "cx2": 937.6875,
+   "lh": 50.4,
+   "hasBefore": false,
+   "firstRight": 893.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ إبراهيم",
+     "color": "ffffff",
+     "size": 42,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  }
+ ]
+}

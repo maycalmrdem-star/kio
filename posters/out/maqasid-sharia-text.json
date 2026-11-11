@@ -1,0 +1,1077 @@
+{
+ "height": 2172,
+ "blocks": [
+  {
+   "x": 619.1875,
+   "y": 6,
+   "x2": 880.796875,
+   "y2": 65,
+   "cx1": 0,
+   "cx2": 1500,
+   "lh": 48,
+   "hasBefore": false,
+   "firstRight": 880.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بسم الله الرحمن الرحيم",
+     "color": "a8780f",
+     "size": 40,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 129.75,
+   "y": 76.5,
+   "x2": 230.25,
+   "y2": 106.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 230.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ",
+     "color": "e0a82e",
+     "size": 30,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 89.140625,
+   "y": 113.5,
+   "x2": 270.875,
+   "y2": 169.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 70,
+   "hasBefore": false,
+   "firstRight": 270.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "إبراهيم",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 441.203125,
+   "y": 256.125,
+   "x2": 1058.8125,
+   "y2": 308.125,
+   "cx1": 441.203125,
+   "cx2": 1058.8125,
+   "lh": 63.44,
+   "hasBefore": false,
+   "firstRight": 1058.8125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "مقاصد الشريعة الإسلامية",
+     "color": "ffffff",
+     "size": 52,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 504.21875,
+   "y": 320.5625,
+   "x2": 995.796875,
+   "y2": 376.5625,
+   "cx1": 504.21875,
+   "cx2": 995.796875,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 995.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "(المصالح المعتبرة)",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1268.9375,
+   "y": 443,
+   "x2": 1354,
+   "y2": 467,
+   "cx1": 1268.9375,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التعريف",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 238.046875,
+   "y": 508,
+   "x2": 1261.9375,
+   "y2": 537,
+   "cx1": 94,
+   "cx2": 1406,
+   "lh": 53.65,
+   "hasBefore": false,
+   "firstRight": 1261.9375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "المقاصد: هي الأهداف والغايات التي شرعها الله لتحقيق السعادة في الدنيا والآخرة.",
+     "color": "0f1f3d",
+     "size": 29,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 255.140625,
+   "y": 561.640625,
+   "x2": 1244.859375,
+   "y2": 590.640625,
+   "cx1": 94,
+   "cx2": 1406,
+   "lh": 53.65,
+   "hasBefore": false,
+   "firstRight": 1244.859375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "المقصد العام: الهدف أو الغاية من هذه المقاصد: جلب المنفعة - دفع المفسدة.",
+     "color": "0f1f3d",
+     "size": 29,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 639.15625,
+   "y": 669.28125,
+   "x2": 830.84375,
+   "y2": 696.28125,
+   "cx1": 639.15625,
+   "cx2": 860.84375,
+   "lh": 32.4,
+   "hasBefore": false,
+   "firstRight": 830.84375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "أقسام المقاصد",
+     "color": "a8780f",
+     "size": 27,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1115.09375,
+   "y": 750.28125,
+   "x2": 1342.265625,
+   "y2": 818.421875,
+   "cx1": 1022.34375,
+   "cx2": 1435,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 1288.375,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الضرورية",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "\n"
+    },
+    {
+     "text": "(الكليات الخمس)",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1030.40625,
+   "y": 871.5625,
+   "x2": 1431,
+   "y2": 986.5625,
+   "cx1": 1026.34375,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 3,
+   "align": "right",
+   "runs": [
+    {
+     "text": "حفظ الدين:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " الإيمان والتوحيد، العبادات. حرم الشرك والسحر. الأمر بالمعروف والنهي عن المنكر.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1033.53125,
+   "y": 1012.5625,
+   "x2": 1431,
+   "y2": 1082.5625,
+   "cx1": 1026.34375,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "حفظ النفس:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " الزواج، الطعام واللباس. حرم القتل والانتحار وشرع العلاج.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1061.03125,
+   "y": 1108.5625,
+   "x2": 1431,
+   "y2": 1178.5625,
+   "cx1": 1026.34375,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "حفظ العقل:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " طلب العلم. حرم الخمر وكل ما يذهب العقل.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1067.90625,
+   "y": 1204.5625,
+   "x2": 1431,
+   "y2": 1274.5625,
+   "cx1": 1026.34375,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "حفظ النسل:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " الزواج الشرعي، العدة للمرأة. حرم الزنى والقذف والتبني.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1076.484375,
+   "y": 1300.5625,
+   "x2": 1431,
+   "y2": 1370.5625,
+   "cx1": 1026.34375,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "حفظ المال:",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " أباح المعاملات كالبيع والشراء. حرم الربا والسرقة.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 702.609375,
+   "y": 760.703125,
+   "x2": 797.421875,
+   "y2": 789.703125,
+   "cx1": 543.671875,
+   "cx2": 956.34375,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 797.421875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الحاجية",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 596.46875,
+   "y": 864.28125,
+   "x2": 908.46875,
+   "y2": 888.28125,
+   "cx1": 565.671875,
+   "cx2": 934.34375,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 908.46875,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "رفع المشقة والحرج عن الناس",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 603.484375,
+   "y": 940.46875,
+   "x2": 952.34375,
+   "y2": 965.46875,
+   "cx1": 547.671875,
+   "cx2": 952.34375,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 952.34375,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "• تقصير الصلاة، الفطر في رمضان.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 571.953125,
+   "y": 991.46875,
+   "x2": 952.34375,
+   "y2": 1106.46875,
+   "cx1": 547.671875,
+   "cx2": 952.34375,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 952.34375,
+   "lines": 3,
+   "align": "right",
+   "runs": [
+    {
+     "text": "• أجاز التيمم، إباحة الصيد، الطلاق بين الزوجين، التقسيط، الصرف، العفو عن القصاص.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 204.234375,
+   "y": 760.703125,
+   "x2": 338.453125,
+   "y2": 789.703125,
+   "cx1": 65.015625,
+   "cx2": 477.671875,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 338.453125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "التحسينية",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 117.5,
+   "y": 864.28125,
+   "x2": 455.671875,
+   "y2": 931.46875,
+   "cx1": 87.015625,
+   "cx2": 455.671875,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 429.796875,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "الأخذ بمحاسن العادات ومكارم الأخلاق",
+     "color": "7a5414",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 72.40625,
+   "y": 983.65625,
+   "x2": 473.671875,
+   "y2": 1008.65625,
+   "cx1": 69.015625,
+   "cx2": 473.671875,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 473.671875,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "• الطهارة، ستر العورة، الصدقة، الجهاد.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 136.65625,
+   "y": 1034.65625,
+   "x2": 473.671875,
+   "y2": 1104.65625,
+   "cx1": 69.015625,
+   "cx2": 473.671875,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 473.671875,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "• حرم البيع على البيع، قتل الرهبان والصغار، قطع الشجر.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 902.96875,
+   "y": 1481.984375,
+   "x2": 1315.03125,
+   "y2": 1510.984375,
+   "cx1": 783,
+   "cx2": 1435,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 1315.03125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "أهمية ترتيب المقاصد (الأقسام)",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1142.71875,
+   "y": 1585.5625,
+   "x2": 1387.125,
+   "y2": 1609.5625,
+   "cx1": 805,
+   "cx2": 1413,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 1387.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "نبدأ من الأهم إلى المهم",
+     "color": "1d4a9a",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 931.265625,
+   "y": 1661.75,
+   "x2": 1431,
+   "y2": 1686.75,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "1.",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " إذا تعارض الضروري مع الحاجي نقدم الضروري.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 945.046875,
+   "y": 1712.75,
+   "x2": 1431,
+   "y2": 1737.75,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "2.",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " إذا تعارض الحاجي مع التحسيني نقدم الحاجي.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 897.640625,
+   "y": 1763.75,
+   "x2": 1431,
+   "y2": 1788.75,
+   "cx1": 787,
+   "cx2": 1431,
+   "lh": 45,
+   "hasBefore": false,
+   "firstRight": 1431,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "3.",
+     "color": "1d4a9a",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": " إذا تعارض الضروري مع التحسيني نقدم الضروري.",
+     "color": "1d2333",
+     "size": 25,
+     "weight": 500,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1086.90625,
+   "y": 1817.75,
+   "x2": 1131.09375,
+   "y2": 1838.75,
+   "cx1": 1086.90625,
+   "cx2": 1131.09375,
+   "lh": 33.6,
+   "hasBefore": false,
+   "firstRight": 1131.09375,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مثال",
+     "color": "ffffff",
+     "size": 21,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1115.734375,
+   "y": 1874.75,
+   "x2": 1407,
+   "y2": 1896.75,
+   "cx1": 811,
+   "cx2": 1407,
+   "lh": 35.2,
+   "hasBefore": false,
+   "firstRight": 1407,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "جواز كشف العورة حال التداوي.",
+     "color": "a8780f",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 985.8125,
+   "y": 1913.9375,
+   "x2": 1407,
+   "y2": 1935.9375,
+   "cx1": 811,
+   "cx2": 1407,
+   "lh": 35.2,
+   "hasBefore": false,
+   "firstRight": 1407,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ستر العورة: ",
+     "color": "a8780f",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "تحسيني",
+     "color": "1e7a45",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": " - حفظ النفس: ",
+     "color": "a8780f",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "ضروري",
+     "color": "1e7a45",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": ".",
+     "color": "a8780f",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 190.515625,
+   "y": 1481.984375,
+   "x2": 591.5,
+   "y2": 1510.984375,
+   "cx1": 65,
+   "cx2": 717,
+   "lh": 39.15,
+   "hasBefore": false,
+   "firstRight": 591.5,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "أهمية ترتيب المصالح الضرورية",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 468.3125,
+   "y": 1585.5625,
+   "x2": 669.125,
+   "y2": 1609.5625,
+   "cx1": 87,
+   "cx2": 695,
+   "lh": 43.2,
+   "hasBefore": true,
+   "firstRight": 669.125,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "pseudo": true,
+     "text": "⇐ ",
+     "color": "e0a82e",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    },
+    {
+     "text": "من الأهم إلى المهم",
+     "color": "1e7a45",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 588.484375,
+   "y": 1657.75,
+   "x2": 671.875,
+   "y2": 1682.75,
+   "cx1": 588.484375,
+   "cx2": 671.875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 671.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "1. الدين",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 426.015625,
+   "y": 1657.75,
+   "x2": 530.484375,
+   "y2": 1682.75,
+   "cx1": 426.015625,
+   "cx2": 530.484375,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 530.484375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "2. النفس",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 271.296875,
+   "y": 1657.75,
+   "x2": 368.015625,
+   "y2": 1682.75,
+   "cx1": 271.296875,
+   "cx2": 368.015625,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 368.015625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "3. العقل",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 110.125,
+   "y": 1657.75,
+   "x2": 213.296875,
+   "y2": 1682.75,
+   "cx1": 110.125,
+   "cx2": 213.296875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 213.296875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "4. النسل",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 346.15625,
+   "y": 1708.75,
+   "x2": 435.84375,
+   "y2": 1733.75,
+   "cx1": 346.15625,
+   "cx2": 435.84375,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 435.84375,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "5. المال",
+     "color": "ffffff",
+     "size": 25,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 368.90625,
+   "y": 1762.75,
+   "x2": 413.09375,
+   "y2": 1783.75,
+   "cx1": 368.90625,
+   "cx2": 413.09375,
+   "lh": 33.6,
+   "hasBefore": false,
+   "firstRight": 413.09375,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "مثال",
+     "color": "ffffff",
+     "size": 21,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 488.15625,
+   "y": 1819.75,
+   "x2": 689,
+   "y2": 1841.75,
+   "cx1": 93,
+   "cx2": 689,
+   "lh": 35.2,
+   "hasBefore": false,
+   "firstRight": 689,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الجهاد في سبيل الله:",
+     "color": "a8780f",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 459.40625,
+   "y": 1858.9375,
+   "x2": 689,
+   "y2": 1880.9375,
+   "cx1": 93,
+   "cx2": 689,
+   "lh": 35.2,
+   "hasBefore": false,
+   "firstRight": 689,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "تقديم الدين على النفس.",
+     "color": "a8780f",
+     "size": 22,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1216.40625,
+   "y": 2079.625,
+   "x2": 1440,
+   "y2": 2134.625,
+   "cx1": 1216.40625,
+   "cx2": 1440,
+   "lh": 45.6,
+   "hasBefore": false,
+   "firstRight": 1440,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بالتوفيق إن شاء الله",
+     "color": "e0a82e",
+     "size": 38,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 606.3125,
+   "y": 2084.125,
+   "x2": 893.6875,
+   "y2": 2126.125,
+   "cx1": 562.3125,
+   "cx2": 937.6875,
+   "lh": 50.4,
+   "hasBefore": false,
+   "firstRight": 893.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ إبراهيم",
+     "color": "ffffff",
+     "size": 42,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  }
+ ]
+}

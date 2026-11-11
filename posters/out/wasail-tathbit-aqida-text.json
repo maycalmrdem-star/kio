@@ -1,0 +1,656 @@
+{
+ "height": 2000,
+ "blocks": [
+  {
+   "x": 619.1875,
+   "y": 6,
+   "x2": 880.796875,
+   "y2": 65,
+   "cx1": 0,
+   "cx2": 1500,
+   "lh": 48,
+   "hasBefore": false,
+   "firstRight": 880.796875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بسم الله الرحمن الرحيم",
+     "color": "a8780f",
+     "size": 40,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 129.75,
+   "y": 76.5,
+   "x2": 230.25,
+   "y2": 106.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 30,
+   "hasBefore": false,
+   "firstRight": 230.25,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ",
+     "color": "e0a82e",
+     "size": 30,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 89.140625,
+   "y": 113.5,
+   "x2": 270.875,
+   "y2": 169.5,
+   "cx1": 89.140625,
+   "cx2": 270.875,
+   "lh": 70,
+   "hasBefore": false,
+   "firstRight": 270.875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "إبراهيم",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 586.109375,
+   "y": 254.6875,
+   "x2": 913.890625,
+   "y2": 310.6875,
+   "cx1": 586.109375,
+   "cx2": 913.890625,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 913.890625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "وسائل تثبيت",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 652.984375,
+   "y": 323,
+   "x2": 847.03125,
+   "y2": 379,
+   "cx1": 652.984375,
+   "cx2": 847.03125,
+   "lh": 68.32,
+   "hasBefore": false,
+   "firstRight": 847.03125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "العقيدة",
+     "color": "ffffff",
+     "size": 56,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1130.65625,
+   "y": 443,
+   "x2": 1354,
+   "y2": 467,
+   "cx1": 1130.65625,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "وسائل تثبيت العقيدة",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1123.9375,
+   "y": 529,
+   "x2": 1401.328125,
+   "y2": 558,
+   "cx1": 1117.28125,
+   "cx2": 1408,
+   "lh": 47.85,
+   "hasBefore": false,
+   "firstRight": 1401.328125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "وسائل تثبيت العقيدة",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 788.296875,
+   "y": 529,
+   "x2": 871.078125,
+   "y2": 558,
+   "cx1": 578.09375,
+   "cx2": 1081.28125,
+   "lh": 47.85,
+   "hasBefore": false,
+   "firstRight": 871.078125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الشرح",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 200.1875,
+   "y": 529,
+   "x2": 433.90625,
+   "y2": 558,
+   "cx1": 92,
+   "cx2": 542.09375,
+   "lh": 47.85,
+   "hasBefore": false,
+   "firstRight": 433.90625,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الكلمات المفتاحية",
+     "color": "ffffff",
+     "size": 29,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1171.765625,
+   "y": 712.578125,
+   "x2": 1340.59375,
+   "y2": 786.765625,
+   "cx1": 1117.28125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1340.59375,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "1",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "إثارة العقل والوجدان",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 618.203125,
+   "y": 688.890625,
+   "x2": 1080.28125,
+   "y2": 810.390625,
+   "cx1": 579.09375,
+   "cx2": 1080.28125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1080.28125,
+   "lines": 3,
+   "align": "right",
+   "runs": [
+    {
+     "text": "تحفيز الإنسان على التفكر في خلق الله وآياته في الكون مما يثير مشاعره ويوقظ وجدانه ليدرك عظمة الخالق.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 127.203125,
+   "y": 641.640625,
+   "x2": 541.09375,
+   "y2": 857.640625,
+   "cx1": 93,
+   "cx2": 541.09375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 541.09375,
+   "lines": 5,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ينظرون - يبصرون - يتفكرون - أولي النهى - لأولي الأبصار - يعقلون - بيان عظمة الخالق (السماوات - الأرض - الجبال - القمر - الأنهار - الشمس - يتدبرون...) حسب سياق الكلام.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1140.890625,
+   "y": 979.53125,
+   "x2": 1372.265625,
+   "y2": 1053.71875,
+   "cx1": 1117.28125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1372.265625,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "2",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "تذكير مراقبة الله تعالى",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 633.265625,
+   "y": 955.84375,
+   "x2": 1080.28125,
+   "y2": 1077.34375,
+   "cx1": 579.09375,
+   "cx2": 1080.28125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1080.28125,
+   "lines": 3,
+   "align": "right",
+   "runs": [
+    {
+     "text": "تذكير العباد بأن الله يراقبهم في السر والعلن، وأن علمه محيط بكل شيء مما يدفعهم للاستقامة والطاعة.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 93.234375,
+   "y": 979.46875,
+   "x2": 541.09375,
+   "y2": 1053.71875,
+   "cx1": 93,
+   "cx2": 541.09375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 541.09375,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "والله يعلم - عليم - بصير - خبير - شهيد - وهو معكم - سميع.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1121.546875,
+   "y": 1184.203125,
+   "x2": 1391.8125,
+   "y2": 1212.203125,
+   "cx1": 1117.28125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1391.8125,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "3",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "مناقشة الانحرافات",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 621.1875,
+   "y": 1161.046875,
+   "x2": 1080.28125,
+   "y2": 1235.296875,
+   "cx1": 579.09375,
+   "cx2": 1080.28125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1080.28125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الرد على العقائد المحرفة بالدليل العقلي والشرعي لبيان خطئها وتصحيحها.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 130.65625,
+   "y": 1161.046875,
+   "x2": 541.09375,
+   "y2": 1235.296875,
+   "cx1": 93,
+   "cx2": 541.09375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 541.09375,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "قالوا - قل - سيقولون - وقالت (يعني جدل أخذ ورد).",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1133.25,
+   "y": 1342.6875,
+   "x2": 1380.546875,
+   "y2": 1416.875,
+   "cx1": 1117.28125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1380.546875,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "4",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "رسم صورة محببة للمؤمنين",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 588.734375,
+   "y": 1342.625,
+   "x2": 1080.28125,
+   "y2": 1416.875,
+   "cx1": 579.09375,
+   "cx2": 1080.28125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1080.28125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ذكر صفات المؤمنين وما ينتظرهم من نعيم الجنة.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 120.078125,
+   "y": 1319,
+   "x2": 541.09375,
+   "y2": 1440.5,
+   "cx1": 93,
+   "cx2": 541.09375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 541.09375,
+   "lines": 3,
+   "align": "right",
+   "runs": [
+    {
+     "text": "صفات المؤمنين: (المخلصين - الصادقين - المحسنين - الصلاة - الصوم - عبادة الله) + الجنة وصفاتها.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1117.453125,
+   "y": 1524.28125,
+   "x2": 1396.21875,
+   "y2": 1598.46875,
+   "cx1": 1117.28125,
+   "cx2": 1408,
+   "lh": 46.2,
+   "hasBefore": false,
+   "firstRight": 1396.21875,
+   "lines": 2,
+   "align": "center",
+   "runs": [
+    {
+     "text": "5",
+     "color": "17306a",
+     "size": 20,
+     "weight": 800,
+     "font": "Tajawal"
+    },
+    {
+     "text": "رسم صورة الكافرين المنفرة",
+     "color": "ffffff",
+     "size": 28,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 590.8125,
+   "y": 1524.21875,
+   "x2": 1080.28125,
+   "y2": 1598.46875,
+   "cx1": 579.09375,
+   "cx2": 1080.28125,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 1080.28125,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "ذكر صفات الكافرين وما ينتظرهم من عذاب في الآخرة.",
+     "color": "1d2333",
+     "size": 27,
+     "weight": 600,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 97.234375,
+   "y": 1524.21875,
+   "x2": 541.09375,
+   "y2": 1598.46875,
+   "cx1": 93,
+   "cx2": 541.09375,
+   "lh": 47.25,
+   "hasBefore": false,
+   "firstRight": 541.09375,
+   "lines": 2,
+   "align": "right",
+   "runs": [
+    {
+     "text": "صفات المنافقين (عذاب أليم - شديد) + النار وصفاتها.",
+     "color": "1e7a45",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1176.578125,
+   "y": 1685.0625,
+   "x2": 1354,
+   "y2": 1709.0625,
+   "cx1": 1176.578125,
+   "cx2": 1382,
+   "lh": 36,
+   "hasBefore": false,
+   "firstRight": 1354,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "الأسئلة المقترحة",
+     "color": "ffffff",
+     "size": 24,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 585.65625,
+   "y": 1749.0625,
+   "x2": 1406,
+   "y2": 1776.0625,
+   "cx1": 94,
+   "cx2": 1406,
+   "lh": 49.95,
+   "hasBefore": false,
+   "firstRight": 1406,
+   "lines": 1,
+   "align": "right",
+   "runs": [
+    {
+     "text": "استخرج وسيلة من وسائل تثبيت العقيدة، وما علاقتها مع آثار العقيدة؟",
+     "color": "0f1f3d",
+     "size": 27,
+     "weight": 700,
+     "font": "Tajawal"
+    }
+   ]
+  },
+  {
+   "x": 1216.40625,
+   "y": 1907.5,
+   "x2": 1440,
+   "y2": 1962.5,
+   "cx1": 1216.40625,
+   "cx2": 1440,
+   "lh": 45.6,
+   "hasBefore": false,
+   "firstRight": 1440,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "بالتوفيق إن شاء الله",
+     "color": "e0a82e",
+     "size": 38,
+     "weight": 700,
+     "font": "Aref Ruqaa"
+    }
+   ]
+  },
+  {
+   "x": 606.3125,
+   "y": 1912,
+   "x2": 893.6875,
+   "y2": 1954,
+   "cx1": 562.3125,
+   "cx2": 937.6875,
+   "lh": 50.4,
+   "hasBefore": false,
+   "firstRight": 893.6875,
+   "lines": 1,
+   "align": "center",
+   "runs": [
+    {
+     "text": "الأستاذ إبراهيم",
+     "color": "ffffff",
+     "size": 42,
+     "weight": 800,
+     "font": "Tajawal"
+    }
+   ]
+  }
+ ]
+}
