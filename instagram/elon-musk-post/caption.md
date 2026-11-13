@@ -1,12 +1,12 @@
 # Caption — Elon Musk story
 
-**Title:** From a $500 video game to $839 billion 🚀
+**Title:** Elon Musk just made a car fly 🚗🔥
 
 **Caption:**
 
-At 12, he sold his first video game for $500. In 2026, Forbes put his net worth at $839 billion, the highest it has ever recorded 🚀
+Elon Musk just made a car fly 🚗🔥 On October 15, 2026, the new Tesla Roadster lifted off on thrusters, and it does 0–60 mph in under 1 second.
 
-This is how Elon Musk really got rich 👇
+But the story starts with a $500 video game. This is how he really got rich 👇
 
 🎮 Age 12: taught himself to code and sold a space game called Blastar for about $500.
 🇨🇦 Age 17: left South Africa for Canada, then studied physics and economics in the US.
@@ -16,7 +16,7 @@ This is how Elon Musk really got rich 👇
 🚀 The 4th launch reached orbit. NASA then signed a $1.6B contract, and Tesla closed a rescue round.
 🚗 Then came the Model S, reusable rockets, and a $44B Twitter deal.
 
-Every win was reinvested into a bigger bet.
+Every win was reinvested into a bigger bet. In 2026, Forbes put his net worth at $839 billion, the highest it has ever recorded.
 
 💾 Save this for motivation
 📤 Send it to a friend who's building something
@@ -26,4 +26,4 @@ Every win was reinvested into a bigger bet.
 Photos: Gage Skidmore (CC BY-SA 4.0), Sagar Savla (CC BY-SA 3.0), Peteratkins (CC BY-SA 4.0), via Wikimedia Commons
 Net worth: Forbes World's Billionaires 2026
 
-#elonmusk #tesla #spacex #paypal #entrepreneur #entrepreneurship #successstory #business #money #finance #investing #billionaire #tech #motivation #startup
+#elonmusk #tesla #teslaroadster #flyingcar #spacex #paypal #entrepreneur #entrepreneurship #successstory #business #money #finance #investing #billionaire #tech #startup
