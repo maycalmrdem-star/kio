@@ -16,7 +16,7 @@ Language alternates: if the last finished post was Arabic, the next one is Engli
 - [x] How AI and algorithms work: `ai-explained-post/` (en, 2026-11-13)
 
 ## Queue (tech + money, English)
-- [ ] Elon Musk: from Zip2 and PayPal to Tesla and SpaceX
+- [x] Elon Musk: from Zip2 and PayPal to Tesla and SpaceX: `elon-musk-post/` (en, 2026-11-13)
 - [ ] Steve Jobs: fired from Apple, came back and saved it
 - [ ] Jeff Bezos: from a garage bookstore to Amazon
 - [ ] Mark Zuckerberg: a dorm-room site to Meta
