@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RNA Group</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* riyad__31mh house style — "Keynote white". Fonts vary per slide; blur alternates. Company spotlight: RNA Group. */
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --hair:#e5e5ea; --mist:#f5f5f7; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:#fff}
+  .strip{display:flex;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:#fff;color:var(--ink);
+     font-family:"Inter",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  img.e{display:block;object-fit:contain;margin:0 auto;filter:drop-shadow(0 26px 34px rgba(0,0,0,.12))}
+  img.i{display:inline-block;object-fit:contain;vertical-align:-.14em;filter:none}
+  .col{position:absolute;top:0;bottom:150px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2}
+  .eyebrow{font-size:25px;font-weight:600;color:var(--ink3);margin-bottom:26px}
+  h1{font-size:92px;line-height:1.04;letter-spacing:-.035em}
+  h2{font-size:80px;line-height:1.06;letter-spacing:-.03em}
+  .sub{font-size:31px;line-height:1.5;color:var(--ink2);max-width:860px;margin-top:24px}
+  .sub b{color:var(--ink);font-weight:600}
+  .gap-e{margin-bottom:34px}
+  .foot{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px;align-items:center;color:var(--ink3);font-size:20px;z-index:3}
+  .foot .h{font-weight:600;color:var(--ink)}
+  .dots{position:absolute;bottom:126px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:3}
+  .dots i{width:7px;height:7px;border-radius:99px;background:#d2d2d7;display:block}
+  .dots i.on{background:var(--ink);width:22px}
+
+  .f-tight h1,.f-tight h2{font-family:"Inter Tight";font-weight:800}
+  .f-serif h1,.f-serif h2{font-family:"Instrument Serif";font-weight:400;letter-spacing:-.02em;font-size:108px;line-height:1}
+  .f-grotesk h1,.f-grotesk h2{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.04em}
+  .f-mono h1,.f-mono h2{font-family:"JetBrains Mono";font-weight:800;letter-spacing:-.05em;font-size:68px;line-height:1.12}
+  .f-fraunces h1,.f-fraunces h2{font-family:"Fraunces";font-weight:800;letter-spacing:-.03em}
+  .f-manrope h1,.f-manrope h2{font-family:"Manrope";font-weight:800;letter-spacing:-.04em}
+  .f-sora h1,.f-sora h2{font-family:"Sora";font-weight:700;letter-spacing:-.045em}
+  .f-dm h1,.f-dm h2{font-family:"DM Serif Display";font-weight:400;letter-spacing:-.02em;font-size:100px}
+
+  .blur .halo{position:absolute;z-index:0;width:860px;height:860px;object-fit:cover;border-radius:50%;filter:blur(100px) saturate(1.3);opacity:.34}
+  .blur .glass{background:rgba(255,255,255,.62)!important;backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 60px rgba(0,0,0,.07)}
+
+  /* app icons */
+  .icon{border-radius:26%;overflow:hidden;box-shadow:0 18px 36px rgba(0,0,0,.18);flex:none}
+  .icon img{display:block;width:100%;height:100%;object-fit:cover}
+  .icons-row{display:flex;gap:18px;justify-content:center}
+  .logo{width:180px;height:180px;border-radius:44px;overflow:hidden;box-shadow:0 24px 50px rgba(0,0,0,.14);border:1px solid var(--hair);background:#fff}
+  .logo img{width:100%;height:100%;object-fit:contain}
+
+  /* browser window mockup */
+  .win{border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 34px 70px rgba(0,0,0,.18);border:1px solid var(--hair)}
+  .win .bar{height:40px;background:var(--mist);display:flex;align-items:center;gap:8px;padding:0 16px;border-bottom:1px solid var(--hair)}
+  .win .bar i{width:12px;height:12px;border-radius:50%;background:#d2d2d7;display:block}
+  .win .bar span{margin-left:14px;font-size:16px;color:var(--ink3);background:#fff;border-radius:8px;padding:3px 14px}
+  .win img{display:block;width:100%}
+
+  /* stats */
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:18px;width:880px;margin-top:36px}
+  .stats > div{background:var(--mist);border-radius:28px;padding:28px 24px;text-align:left}
+  .stats .v{font-family:"Inter Tight";font-weight:800;font-size:96px;letter-spacing:-.05em;line-height:1}
+  .stats .k{font-size:24px;font-weight:600;color:var(--ink2);margin-top:8px;display:flex;align-items:center;gap:10px}
+  .stats .k img{width:30px;height:30px}
+  .stats .big{grid-column:1 / -1;background:var(--ink);color:#fff}
+  .stats .big .k{color:#a1a1a6}
+
+  .feat{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:860px;margin-top:30px}
+  .feat > div{background:var(--mist);border-radius:20px;padding:18px 22px;font-size:25px;font-weight:600;text-align:left}
+
+  .grid-icons{display:grid;grid-template-columns:repeat(5,130px);gap:22px;margin-top:34px}
+  .grid-icons .icon{width:130px;height:130px}
+  .cats{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;width:900px;margin-top:30px}
+  .cats div{background:var(--mist);border-radius:99px;padding:12px 22px;font-size:24px;font-weight:600}
+  .cats b{font-family:"Inter Tight";font-weight:800}
+
+  .fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:880px;margin-top:32px}
+  .fields > div{display:flex;align-items:center;gap:16px;background:var(--mist);border-radius:22px;padding:18px 22px;font-size:26px;font-weight:700;text-align:left}
+  .fields img{width:46px;height:46px}
+
+  .team{display:grid;grid-template-columns:1fr 1fr;gap:18px;width:860px;margin-top:36px}
+  .team > div{background:var(--mist);border-radius:28px;padding:26px 24px;display:flex;align-items:center;gap:20px;text-align:left}
+  .team .av{width:96px;height:96px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:"Inter Tight";font-weight:800;font-size:40px;flex:none}
+  .team .n{font-size:32px;font-weight:800;letter-spacing:-.02em}
+  .team .r{font-size:22px;color:var(--ink2);font-weight:600;margin-top:4px}
+
+  .contact{display:flex;flex-direction:column;gap:14px;width:820px;margin-top:34px}
+  .contact > div{display:flex;align-items:center;gap:16px;background:var(--mist);border-radius:22px;padding:20px 26px;font-size:28px;font-weight:600;text-align:left}
+  .contact img{width:40px;height:40px}
+  .contact .dark{background:var(--ink);color:#fff}
+  .cta{display:flex;gap:14px;margin-top:30px}
+  .cta div{display:flex;align-items:center;gap:12px;border:1px solid var(--hair);border-radius:99px;padding:13px 26px;font-size:24px;font-weight:600;background:#fff}
+  .cta div.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta img{width:32px;height:32px}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- ================== HOOK OPTIONS ================== -->
+<section class="s f-tight blur" data-out="hooks/hook-1">
+  <img class="halo" src="site/icons-ai-hub.webp" style="left:110px;top:120px">
+  <div class="col">
+    <div class="eyebrow">Made in Algeria <img class="i" src="img/1f1e9-1f1ff.png" style="width:30px;height:30px"></div>
+    <div class="icons-row" style="margin-bottom:46px">
+      <div class="icon" style="width:150px;height:150px;transform:rotate(-8deg) translateY(16px)"><img src="site/icons-nyx.webp"></div>
+      <div class="icon" style="width:180px;height:180px"><img src="site/icons-ai-hub.webp"></div>
+      <div class="icon" style="width:150px;height:150px;transform:rotate(8deg) translateY(16px)"><img src="site/icons-paylink.webp"></div>
+    </div>
+    <h1 style="font-size:90px">4 people. 21 apps.<br>80,000 users.</h1>
+    <p class="sub">Meet the Algerian startup building its own browser, AI agents and more.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-serif" data-out="hooks/hook-2">
+  <div class="col">
+    <div class="eyebrow">Made in Algeria <img class="i" src="img/1f1e9-1f1ff.png" style="width:30px;height:30px"></div>
+    <img class="e gap-e" src="img/1f4a1.png" style="width:180px;height:180px">
+    <h1>Most people think<br>Algeria can’t build<br><em>world-class tech.</em></h1>
+    <p class="sub">Four of us are proving them wrong.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-grotesk blur" data-out="hooks/hook-3">
+  <img class="halo" src="site/icons-nyx.webp" style="left:110px;top:120px">
+  <div class="col">
+    <div class="eyebrow">RNA Group</div>
+    <div class="icon gap-e" style="width:200px;height:200px"><img src="site/icons-nyx.webp"></div>
+    <h1>We built our own<br>web browser.<br>From Algeria.</h1>
+    <p class="sub">And 20 more products after it.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-fraunces" data-out="hooks/hook-4">
+  <div class="col">
+    <div class="logo gap-e"><img src="site/rna-logo.png"></div>
+    <h1>80,000 people<br>use what we built.</h1>
+    <p class="sub">We’re 4 people. And we’re just getting started.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-manrope blur" data-out="hooks/hook-5">
+  <img class="halo" src="img/1f91d.png" style="left:110px;top:120px">
+  <div class="col">
+    <div class="eyebrow">For investors</div>
+    <img class="e gap-e" src="img/1f91d.png" style="width:190px;height:190px">
+    <h1>Looking for the<br>next big tech bet<br>in North Africa?</h1>
+    <p class="sub">Here it is. Swipe to meet RNA Group.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- ================== CAROUSEL SLIDES 2–9 ================== -->
+
+<!-- 2 meet RNA (no blur) -->
+<section class="s f-serif" data-out="slides/slide-2" data-i="2">
+  <div class="col">
+    <div class="logo gap-e"><img src="site/rna-logo.png"></div>
+    <div class="eyebrow">RNA Group · Technology startup from Algeria <img class="i" src="img/1f1e9-1f1ff.png" style="width:28px;height:28px"></div>
+    <h2>We invent.<br>We build.<br><em>We develop.</em></h2>
+    <p class="sub">Our mission: <b>transform technology in Algeria</b> and put it to work across many fields, from AI and deep learning to cybersecurity, commerce and learning.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 3 numbers (blur) -->
+<section class="s f-tight blur" data-out="slides/slide-3" data-i="3">
+  <img class="halo" src="site/icons-paylink.webp" style="left:110px;top:100px">
+  <div class="col">
+    <div class="eyebrow">RNA in numbers</div>
+    <h2>Small team.<br>Big output.</h2>
+    <div class="stats">
+      <div class="glass"><div class="v">21</div><div class="k"><img src="img/1f6e0-fe0f.png">products built</div></div>
+      <div class="glass"><div class="v">4</div><div class="k"><img src="img/1f465.png">people on the team</div></div>
+      <div class="big"><div class="v">80,000</div><div class="k"><img src="img/1f310.png">people use our services</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 4 Nyx (no blur) -->
+<section class="s f-grotesk" data-out="slides/slide-4" data-i="4">
+  <div class="col">
+    <div class="icon gap-e" style="width:170px;height:170px"><img src="site/icons-nyx.webp"></div>
+    <div class="eyebrow">Our biggest build · Nyx</div>
+    <h2>Our own browser<br>for Windows.</h2>
+    <p class="sub">Fast and light. It blocks ads before they load and stays inside the limits you set.</p>
+    <div class="feat">
+      <div>Built-in ad blocking</div>
+      <div>Memory, CPU and network limits</div>
+      <div>Signed automatic updates</div>
+      <div>Works with Chrome extensions</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 5 AI (blur) -->
+<section class="s f-mono blur" data-out="slides/slide-5" data-i="5">
+  <img class="halo" src="site/icons-ai-hub.webp" style="left:110px;top:100px">
+  <div class="col">
+    <div class="eyebrow">AI &amp; deep learning <img class="i" src="img/1f9e0.png" style="width:28px;height:28px"></div>
+    <div class="win" style="width:860px"><div class="bar"><i></i><i></i><i></i><span>Lona AI</span></div><img src="site/shots-lona-ai.jpg"></div>
+    <h2 style="margin-top:30px">Your own team<br>of AI agents.</h2>
+    <p class="sub" style="font-size:28px"><b>AI Hub</b>: an assistant, a coder, a thinker and an image reader that work together, privately, on your own PC. <b>Lona AI</b>: an Arabic-first AI assistant.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 6 everything (no blur) -->
+<section class="s f-fraunces" data-out="slides/slide-6" data-i="6">
+  <div class="col">
+    <div class="eyebrow">Everything we’ve made</div>
+    <h2>21 products.<br>4 fields.</h2>
+    <div class="grid-icons">
+      <div class="icon"><img src="site/icons-nyx.webp"></div>
+      <div class="icon"><img src="site/icons-ai-hub.webp"></div>
+      <div class="icon"><img src="site/icons-lona.webp"></div>
+      <div class="icon"><img src="site/icons-paylink.webp"></div>
+      <div class="icon"><img src="site/icons-souqly.webp"></div>
+      <div class="icon"><img src="site/icons-glassify.webp"></div>
+      <div class="icon"><img src="site/icons-kiostore.webp"></div>
+      <div class="icon"><img src="site/icons-velti.webp"></div>
+      <div class="icon"><img src="site/icons-sada.webp"></div>
+      <div class="icon"><img src="site/icons-cinanoa.webp"></div>
+    </div>
+    <div class="cats">
+      <div><b>7</b> AI &amp; tools</div>
+      <div><b>5</b> Learning &amp; games</div>
+      <div><b>4</b> Commerce &amp; payments</div>
+      <div><b>5</b> Social &amp; media</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 7 where we're heading (blur) -->
+<section class="s f-sora blur" data-out="slides/slide-7" data-i="7">
+  <img class="halo" src="img/1f9e0.png" style="left:110px;top:100px">
+  <div class="col">
+    <div class="eyebrow">Where we’re heading</div>
+    <h2>Innovative solutions<br>for real fields.</h2>
+    <div class="fields">
+      <div class="glass"><img src="img/1f9e0.png">AI &amp; deep learning</div>
+      <div class="glass"><img src="img/1f4f4.png">Offline AI on your devices</div>
+      <div class="glass"><img src="img/1f6e1-fe0f.png">Cybersecurity</div>
+      <div class="glass"><img src="img/2601-fe0f.png">Cloud infrastructure</div>
+      <div class="glass"><img src="img/1f3ed.png">Industry &amp; automation</div>
+      <div class="glass"><img src="img/1f9ec.png">Medical &amp; biotech</div>
+      <div class="glass"><img src="img/1f6d2.png">Smart commerce</div>
+      <div class="glass"><img src="img/1f3af.png">Client projects</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 8 team (no blur) -->
+<section class="s f-manrope" data-out="slides/slide-8" data-i="8">
+  <div class="col">
+    <div class="eyebrow">The people behind RNA</div>
+    <h2>4 people.<br>Every product.</h2>
+    <p class="sub">We design, code and market everything we put out.</p>
+    <div class="team">
+      <div><span class="av">R</span><span><div class="n">Riad</div><div class="r">Founder</div></span></div>
+      <div><span class="av">A</span><span><div class="n">Ali</div><div class="r">CEO</div></span></div>
+      <div><span class="av">A</span><span><div class="n">Abderrahmane</div><div class="r">Developer</div></span></div>
+      <div><span class="av">N</span><span><div class="n">Nasro</div><div class="r">Head of Marketing</div></span></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 9 investors CTA (blur) -->
+<section class="s f-dm blur" data-out="slides/slide-9" data-i="9">
+  <img class="halo" src="img/1f91d.png" style="left:110px;top:100px">
+  <div class="col">
+    <div class="eyebrow">We’re looking for investors <img class="i" src="img/1f4c8.png" style="width:28px;height:28px"></div>
+    <img class="e gap-e" src="img/1f91d.png" style="width:150px;height:150px">
+    <h2>Invest in Algeria’s<br>tech future.</h2>
+    <div class="contact">
+      <div class="glass"><img src="img/1f310.png">rna-group.netlify.app</div>
+      <div class="glass"><img src="img/1f4e9.png">riad.dz.mahroug@gmail.com</div>
+      <div class="dark"><img src="img/1f4ac.png" onerror="this.style.display='none'">Or DM us: we reply fast</div>
+    </div>
+    <div class="cta">
+      <div class="glass"><img src="img/1f516.png">Save</div>
+      <div class="glass"><img src="img/1f4e4.png">Share</div>
+      <div class="on"><img src="img/2795.png">Follow</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span></div>
+</section>
+
+</div>
+<script>
+  document.querySelectorAll('.s').forEach(s => {
+    const i = +(s.dataset.i || 1), d = document.createElement('div');
+    d.className = 'dots';
+    d.innerHTML = Array.from({length: 9}, (_, j) => `<i class="${j + 1 === i ? 'on' : ''}"></i>`).join('');
+    s.appendChild(d);
+  });
+</script>
+</body>
+</html>
