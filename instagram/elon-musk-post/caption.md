@@ -23,7 +23,7 @@ Every win was reinvested into a bigger bet. In 2026, Forbes put his net worth at
 ➕ Follow @riyad__31mh for tech & money stories
 
 —
-Photos: Gage Skidmore (CC BY-SA 4.0), Sagar Savla (CC BY-SA 3.0), Peteratkins (CC BY-SA 4.0), via Wikimedia Commons
+Hook image: Tesla unveiling livestream · Photos: Gage Skidmore (CC BY-SA 4.0), Sagar Savla (CC BY-SA 3.0), Peteratkins (CC BY-SA 4.0), via Wikimedia Commons
 Net worth: Forbes World's Billionaires 2026
 
 #elonmusk #tesla #teslaroadster #flyingcar #spacex #paypal #entrepreneur #entrepreneurship #successstory #business #money #finance #investing #billionaire #tech #startup
