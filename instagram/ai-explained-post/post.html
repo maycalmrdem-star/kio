@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How AI Works</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* riyad__31mh house style — "Keynote white". Fonts vary per slide; blur alternates. Tech + money explainer. */
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --hair:#e5e5ea; --mist:#f5f5f7; --blue:#0071e3; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:#fff}
+  .strip{display:flex;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:#fff;color:var(--ink);
+     font-family:"Inter",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  img.e{display:block;object-fit:contain;margin:0 auto;filter:drop-shadow(0 26px 34px rgba(0,0,0,.12))}
+  img.i{display:inline-block;object-fit:contain;vertical-align:-.14em;filter:none}
+  .col{position:absolute;top:0;bottom:150px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2}
+  .eyebrow{font-size:25px;font-weight:600;color:var(--ink3);margin-bottom:26px;letter-spacing:.01em}
+  h1{font-size:96px;line-height:1.04;letter-spacing:-.035em}
+  h2{font-size:80px;line-height:1.06;letter-spacing:-.03em}
+  .sub{font-size:31px;line-height:1.5;color:var(--ink2);max-width:860px;margin-top:24px;letter-spacing:-.005em}
+  .sub b{color:var(--ink);font-weight:600}
+  .gap-e{margin-bottom:36px}
+  .foot{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px;align-items:center;color:var(--ink3);font-size:20px;z-index:3}
+  .foot .h{font-weight:600;color:var(--ink)}
+  .dots{position:absolute;bottom:126px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:3}
+  .dots i{width:7px;height:7px;border-radius:99px;background:#d2d2d7;display:block}
+  .dots i.on{background:var(--ink);width:22px}
+
+  .f-tight h1,.f-tight h2{font-family:"Inter Tight";font-weight:800}
+  .f-serif h1,.f-serif h2{font-family:"Instrument Serif";font-weight:400;letter-spacing:-.02em;font-size:108px;line-height:1}
+  .f-grotesk h1,.f-grotesk h2{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.04em}
+  .f-mono h1,.f-mono h2{font-family:"JetBrains Mono";font-weight:800;letter-spacing:-.05em;font-size:68px;line-height:1.12}
+  .f-fraunces h1,.f-fraunces h2{font-family:"Fraunces";font-weight:800;letter-spacing:-.03em}
+  .f-manrope h1,.f-manrope h2{font-family:"Manrope";font-weight:800;letter-spacing:-.04em}
+  .f-sora h1,.f-sora h2{font-family:"Sora";font-weight:700;letter-spacing:-.045em}
+  .f-dm h1,.f-dm h2{font-family:"DM Serif Display";font-weight:400;letter-spacing:-.02em;font-size:100px}
+
+  .blur .halo{position:absolute;z-index:0;width:860px;height:860px;object-fit:cover;border-radius:50%;filter:blur(100px) saturate(1.2);opacity:.32}
+  .blur .glass{background:rgba(255,255,255,.62)!important;backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 60px rgba(0,0,0,.07)}
+
+  .photo{position:relative;border-radius:30px;overflow:hidden;box-shadow:0 34px 70px rgba(0,0,0,.16);background:var(--mist)}
+  .photo img{display:block;width:100%;height:100%;object-fit:cover}
+  .credit{font-size:15px;color:var(--ink3);margin-top:12px}
+
+  /* recipe steps */
+  .steps{width:820px;margin-top:38px;background:var(--mist);border-radius:28px;padding:10px 0;text-align:left}
+  .steps .r{display:flex;align-items:center;gap:20px;padding:20px 30px;position:relative;font-size:28px;font-weight:600}
+  .steps .r + .r::before{content:"";position:absolute;top:0;left:30px;right:30px;height:1px;background:rgba(0,0,0,.07)}
+  .steps .n{width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:22px;flex:none}
+  .steps small{display:block;font-size:21px;color:var(--ink3);font-weight:500;margin-top:2px}
+
+  /* compare columns */
+  .vs{display:grid;grid-template-columns:1fr 1fr;gap:20px;width:880px;margin-top:34px}
+  .vs > div{background:var(--mist);border-radius:26px;padding:26px 26px;text-align:left}
+  .vs .k{font-size:19px;font-weight:700;color:var(--ink3);letter-spacing:.06em;text-transform:uppercase}
+  .vs .t{font-size:27px;font-weight:600;margin-top:10px;line-height:1.35}
+  .vs code{display:block;font-family:"JetBrains Mono";font-size:19px;background:#1d1d1f;color:#f5f5f7;border-radius:12px;padding:12px 14px;margin-top:14px;line-height:1.5}
+
+  /* learning loop */
+  .loop{display:flex;align-items:center;gap:10px;margin-top:30px}
+  .loop div{background:var(--mist);border-radius:20px;padding:16px 20px;font-size:25px;font-weight:700}
+  .loop span{font-size:28px;color:var(--ink3)}
+  svg.nn{width:760px;height:300px;margin-top:10px}
+
+  /* next-token demo */
+  .prompt{font-family:"Sora";font-weight:600;font-size:46px;letter-spacing:-.03em;margin-top:34px}
+  .prompt u{text-decoration:none;display:inline-block;min-width:150px;border-bottom:5px solid var(--ink);color:var(--ink3)}
+  .probs{width:800px;margin-top:30px;display:flex;flex-direction:column;gap:14px}
+  .probs .p{display:grid;grid-template-columns:120px 1fr 90px;align-items:center;gap:18px;font-size:28px;font-weight:600;text-align:left}
+  .probs .bar{height:28px;border-radius:99px;background:rgba(0,0,0,.06);overflow:hidden}
+  .probs .bar i{display:block;height:100%;border-radius:99px;background:#d2d2d7}
+  .probs .p.top .bar i{background:var(--ink)}
+  .probs .v{font-variant-numeric:tabular-nums;text-align:right;color:var(--ink2)}
+
+  /* signals */
+  .sig{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;width:880px;margin-top:28px}
+  .sig div{display:flex;align-items:center;gap:10px;background:var(--mist);border-radius:99px;padding:12px 22px;font-size:25px;font-weight:600}
+  .sig img{width:34px;height:34px}
+
+  /* money bars */
+  .mbars{width:760px;margin-top:30px;display:flex;flex-direction:column;gap:18px}
+  .mbars .r{display:grid;grid-template-columns:150px 1fr;align-items:center;gap:20px;text-align:left}
+  .mbars .y{font-size:24px;font-weight:600;color:var(--ink3)}
+  .mbars .bar{height:76px;border-radius:18px;display:flex;align-items:center;padding:0 22px;font-family:"Inter Tight";font-weight:800;font-size:38px;letter-spacing:-.03em}
+  .mbars .old{width:57%;background:#d2d2d7}
+  .mbars .new{width:100%;background:var(--ink);color:#fff}
+  .note{width:760px;margin-top:22px;background:var(--mist);border-radius:22px;padding:18px 24px;font-size:24px;font-weight:600;text-align:left;display:flex;gap:14px;align-items:center}
+  .note img{width:40px;height:40px}
+  .src{font-size:16px;color:var(--ink3);margin-top:18px}
+
+  .eq{display:flex;align-items:center;gap:18px;margin-top:36px}
+  .eq div{display:flex;flex-direction:column;align-items:center;gap:10px;background:var(--mist);border-radius:26px;padding:24px 26px;min-width:190px}
+  .eq img{width:76px;height:76px}
+  .eq b{font-size:26px}
+  .eq span{font-size:44px;font-weight:800;color:var(--ink3)}
+  .cta{display:flex;gap:14px;margin-top:40px}
+  .cta div{display:flex;align-items:center;gap:12px;border:1px solid var(--hair);border-radius:99px;padding:13px 26px;font-size:24px;font-weight:600;background:#fff}
+  .cta div.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta img{width:32px;height:32px}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- ================== HOOK OPTIONS ================== -->
+<section class="s f-tight blur" data-out="hooks/hook-1">
+  <img class="halo" src="img/1f9e0.png" style="left:110px;top:120px">
+  <div class="col">
+    <div class="eyebrow">Tech explained</div>
+    <img class="e gap-e" src="img/1f9e0.png" style="width:200px;height:200px">
+    <h1 style="font-size:88px">Most people use AI<br>every day. Almost<br>nobody knows<br>how it works.</h1>
+    <p class="sub">Here’s the whole thing, in 8 slides.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-serif" data-out="hooks/hook-2">
+  <div class="col">
+    <div class="eyebrow">Tech explained</div>
+    <img class="e gap-e" src="img/1f916.png" style="width:180px;height:180px">
+    <h1>ChatGPT doesn’t<br><em>think.</em></h1>
+    <p class="sub" style="font-size:40px;color:var(--ink);font-weight:600">It predicts the next word.</p>
+    <p class="sub" style="margin-top:10px">And that’s enough to write essays, code and poems.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-grotesk blur" data-out="hooks/hook-3">
+  <img class="halo" src="photos/phone.jpg" style="left:110px;top:60px">
+  <div class="col">
+    <div class="photo" style="width:420px;height:560px"><img src="photos/phone.jpg" style="object-position:50% 40%"></div>
+    <div class="credit">Footage: Mixkit</div>
+    <h1 style="margin-top:30px;font-size:80px">The algorithm knows<br>what you’ll watch<br>before you do.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-fraunces" data-out="hooks/hook-4">
+  <div class="col">
+    <div class="eyebrow">Tech explained</div>
+    <img class="e gap-e" src="img/1f9ee.png" style="width:190px;height:190px">
+    <h1>AI isn’t magic.<br>It’s math.<br>A lot of it.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-manrope blur" data-out="hooks/hook-5">
+  <img class="halo" src="photos/glasses.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="photo" style="width:860px;height:484px"><img src="photos/glasses.jpg"></div>
+    <div class="credit">Footage: Mixkit</div>
+    <h1 style="margin-top:34px;font-size:84px">Every app you open<br>runs an algorithm<br>on you.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- ================== CAROUSEL SLIDES 2–8 ================== -->
+
+<!-- 2 algorithm (no blur) -->
+<section class="s f-serif" data-out="slides/slide-2" data-i="2">
+  <div class="col">
+    <div class="eyebrow">Step 1 · The basics</div>
+    <img class="e gap-e" src="img/1f373.png" style="width:160px;height:160px">
+    <h2>An algorithm is<br>just a <em>recipe.</em></h2>
+    <p class="sub">Clear steps, in order, that turn an input into an answer.</p>
+    <div class="steps">
+      <div class="r"><span class="n">1</span><span>Take the input<small>Your location and destination</small></span></div>
+      <div class="r"><span class="n">2</span><span>Follow the steps<small>Compare every possible route</small></span></div>
+      <div class="r"><span class="n">3</span><span>Give the answer<small>“Fastest route: 18 min” <img class="i" src="img/1f5fa-fe0f.png" style="width:26px;height:26px"></small></span></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 3 classic code vs AI (blur) -->
+<section class="s f-mono blur" data-out="slides/slide-3" data-i="3">
+  <img class="halo" src="photos/code.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="eyebrow">Step 2 · The big difference</div>
+    <div class="photo" style="width:880px;height:400px"><img src="photos/code.jpg"></div>
+    <div class="credit">Footage: Mixkit</div>
+    <h2 style="margin-top:28px">Old code follows rules.<br>AI learns them.</h2>
+    <div class="vs">
+      <div class="glass"><div class="k">Classic code</div><div class="t">A human writes every rule</div><code>if "win money" in email:<br>&nbsp;&nbsp;mark_as_spam()</code></div>
+      <div class="glass"><div class="k">AI</div><div class="t">It sees millions of spam emails and finds the patterns itself <img class="i" src="img/1f4e7.png" style="width:30px;height:30px"></div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 4 how it learns (no blur) -->
+<section class="s f-fraunces" data-out="slides/slide-4" data-i="4">
+  <div class="col">
+    <div class="eyebrow">Step 3 · How AI learns</div>
+    <h2>Guess. Check.<br>Fix. Repeat. <img class="i" src="img/1f504.png" style="width:72px;height:72px"></h2>
+    <svg class="nn" viewBox="0 0 760 300" id="nn"></svg>
+    <div class="loop"><div>Guess</div><span>→</span><div>Measure the error</div><span>→</span><div>Adjust</div><span>↺</span></div>
+    <p class="sub">Show it millions of cat photos <img class="i" src="img/1f431.png" style="width:36px;height:36px"> and it slowly tunes billions of tiny numbers until it can tell what a cat looks like.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 5 next word (blur) -->
+<section class="s f-sora blur" data-out="slides/slide-5" data-i="5">
+  <img class="halo" src="img/1f916.png" style="left:110px;top:100px">
+  <div class="col">
+    <div class="eyebrow">Step 4 · How ChatGPT writes</div>
+    <h2>It predicts the<br>next word.</h2>
+    <div class="prompt">The cat sat on the <u>&nbsp;?&nbsp;</u></div>
+    <div class="probs">
+      <div class="p top"><span>mat</span><span class="bar"><i style="width:62%"></i></span><span class="v">62%</span></div>
+      <div class="p"><span>sofa</span><span class="bar"><i style="width:18%"></i></span><span class="v">18%</span></div>
+      <div class="p"><span>floor</span><span class="bar"><i style="width:9%"></i></span><span class="v">9%</span></div>
+    </div>
+    <p class="src" style="margin-top:12px">Illustrative example</p>
+    <p class="sub">It picks a word, adds it, then predicts the next one. Again and again. GPT-3 alone had <b>175 billion</b> of those tiny numbers.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 6 feed algorithm (no blur) -->
+<section class="s f-manrope" data-out="slides/slide-6" data-i="6">
+  <div class="col">
+    <div class="eyebrow">Step 5 · The algorithm on your phone</div>
+    <div class="photo" style="width:360px;height:440px"><img src="photos/phone.jpg" style="object-position:50% 40%"></div>
+    <div class="credit">Footage: Mixkit</div>
+    <h2 style="margin-top:24px;font-size:74px">Your feed is a prediction.</h2>
+    <div class="sig">
+      <div><img src="img/23f1-fe0f.png">Watch time</div>
+      <div><img src="img/1f504.png">Rewatches</div>
+      <div><img src="img/2764-fe0f.png">Likes</div>
+      <div><img src="img/1f4e4.png">Shares</div>
+      <div><img src="img/23ed-fe0f.png">Skips</div>
+    </div>
+    <p class="sub">Every swipe teaches it. Then it shows you more of what keeps you watching.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 7 money (blur) -->
+<section class="s f-dm blur" data-out="slides/slide-7" data-i="7">
+  <img class="halo" src="photos/chip.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="eyebrow">Step 6 · The money <img class="i" src="img/1f4b0.png" style="width:28px;height:28px"></div>
+    <div class="photo" style="width:860px;height:340px"><img src="photos/chip.jpg"></div>
+    <div class="credit">Footage: Mixkit</div>
+    <h2 style="margin-top:24px;font-size:92px">AI runs on chips.<br>And chips cost billions.</h2>
+    <div class="mbars">
+      <div class="r"><span class="y">2025</span><div class="bar old">$410B</div></div>
+      <div class="r"><span class="y">2026 plans</span><div class="bar new">~$725B</div></div>
+    </div>
+    <div class="note glass"><img src="img/26a1.png"><span>Training GPT-4 cost “more than $100 million.”<br><span style="color:var(--ink3);font-weight:500;font-size:21px">Sam Altman, OpenAI CEO, 2023</span></span></div>
+    <p class="src">AI spending by Amazon, Alphabet, Meta and Microsoft. Source: Financial Times tally, via Tom’s Hardware</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 8 summary (no blur) -->
+<section class="s f-grotesk" data-out="slides/slide-8" data-i="8">
+  <div class="col">
+    <div class="eyebrow">In one line</div>
+    <h2>AI is not magic.</h2>
+    <div class="eq">
+      <div><img src="img/1f4ca.png"><b>Data</b></div><span>+</span>
+      <div><img src="img/1f9ee.png"><b>Math</b></div><span>+</span>
+      <div><img src="img/26a1.png"><b>Chips</b></div>
+    </div>
+    <p class="sub">Understand that, and you understand the biggest tech race on Earth.</p>
+    <div class="cta">
+      <div><img src="img/1f516.png">Save</div>
+      <div><img src="img/1f4e4.png">Share</div>
+      <div class="on"><img src="img/2795.png">Follow</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span></div>
+</section>
+
+</div>
+<script>
+  document.querySelectorAll('.s').forEach(s => {
+    const i = +(s.dataset.i || 1), d = document.createElement('div');
+    d.className = 'dots';
+    d.innerHTML = Array.from({length: 8}, (_, j) => `<i class="${j + 1 === i ? 'on' : ''}"></i>`).join('');
+    s.appendChild(d);
+  });
+  // neural network diagram (slide 4)
+  (function(){
+    const svg = document.getElementById('nn'); if (!svg) return;
+    const layers = [3, 5, 5, 2], W = 760, H = 300, xs = layers.map((_, i) => 80 + i * (W - 160) / (layers.length - 1));
+    const pos = layers.map((n, i) => Array.from({length: n}, (_, j) => [xs[i], H / 2 + (j - (n - 1) / 2) * 56]));
+    let s = '';
+    for (let i = 0; i < pos.length - 1; i++) pos[i].forEach(a => pos[i + 1].forEach((b, k) => {
+      s += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="#1d1d1f" stroke-opacity="${0.08 + ((k * 7 + a[1]) % 5) * 0.06}" stroke-width="2"/>`;
+    }));
+    pos.forEach((L, i) => L.forEach(p => {
+      const dark = i === pos.length - 1 && p === L[0];
+      s += `<circle cx="${p[0]}" cy="${p[1]}" r="20" fill="${dark ? '#1d1d1f' : '#fff'}" stroke="#1d1d1f" stroke-width="3"/>`;
+    }));
+    s += `<text x="${xs[0]}" y="292" font-family="Inter" font-size="18" font-weight="600" fill="#86868b" text-anchor="middle">input</text>`;
+    s += `<text x="${xs[3]}" y="292" font-family="Inter" font-size="18" font-weight="600" fill="#86868b" text-anchor="middle">“cat”</text>`;
+    svg.innerHTML = s;
+  })();
+</script>
+</body>
+</html>

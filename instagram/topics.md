@@ -13,6 +13,8 @@ Language alternates: if the last finished post was Arabic, the next one is Engli
 
 - [x] Jensen Huang / Nvidia story: `jensen-huang-post/` (en, 2026-11-09)
 
+- [x] How AI and algorithms work: `ai-explained-post/` (en, 2026-11-13)
+
 ## Queue (tech + money, English)
 - [ ] Elon Musk: from Zip2 and PayPal to Tesla and SpaceX
 - [ ] Steve Jobs: fired from Apple, came back and saved it
