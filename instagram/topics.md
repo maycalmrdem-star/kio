@@ -17,7 +17,7 @@ Language alternates: if the last finished post was Arabic, the next one is Engli
 
 ## Queue (tech + money, English)
 - [x] Elon Musk: from Zip2 and PayPal to Tesla and SpaceX: `elon-musk-post/` (en, 2026-11-13)
-- [ ] Steve Jobs: fired from Apple, came back and saved it
+- [x] Steve Jobs: fired from Apple, came back and saved it: `steve-jobs-post/` (en, 2026-11-14)
 - [ ] Jeff Bezos: from a garage bookstore to Amazon
 - [ ] Mark Zuckerberg: a dorm-room site to Meta
 - [ ] Lisa Su: how she turned AMD around
