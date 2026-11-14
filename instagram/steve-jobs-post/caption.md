@@ -4,9 +4,9 @@
 
 **Caption:**
 
-Apple fired its own founder. 12 years later, he came back and saved it 🍎
+The iPhone 18 Pro in black and burgundy 📱 It all started with a man Apple fired.
 
-This is the Steve Jobs story 👇
+Apple fired its own founder. 12 years later, he came back and saved it 🍎 This is the Steve Jobs story 👇
 
 🏠 1976: after dropping out of college, he started Apple with Steve Wozniak in his parents' garage.
 🖋️ A calligraphy class he sat in on later shaped the Mac's fonts.
@@ -26,6 +26,6 @@ This is the Steve Jobs story 👇
 ➕ Follow @riyad__31mh for tech & money stories
 
 —
-Photos: Matthew Yohe (CC BY-SA 3.0), Sailko (CC BY 3.0), Rama / David Fuchs (CC BY-SA 4.0), via Wikimedia Commons
+iPhone 18 Pro image: Apple Newsroom · Photos: Matthew Yohe (CC BY-SA 3.0), Sailko (CC BY 3.0), Rama / David Fuchs (CC BY-SA 4.0), via Wikimedia Commons
 
-#stevejobs #apple #iphone #mac #entrepreneur #entrepreneurship #successstory #business #money #finance #investing #tech #startup #motivation #leadership
+#stevejobs #apple #iphone18pro #iphone #mac #entrepreneur #entrepreneurship #successstory #business #money #finance #investing #tech #startup #leadership
