@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RNA Milestone</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* riyad__31mh house style — "Keynote white". Fonts vary per slide; blur alternates. Company spotlight: RNA Group. */
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --hair:#e5e5ea; --mist:#f5f5f7; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:#fff}
+  .strip{display:flex;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:#fff;color:var(--ink);
+     font-family:"Inter",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  img.e{display:block;object-fit:contain;margin:0 auto;filter:drop-shadow(0 26px 34px rgba(0,0,0,.12))}
+  img.i{display:inline-block;object-fit:contain;vertical-align:-.14em;filter:none}
+  .col{position:absolute;top:0;bottom:150px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2}
+  .eyebrow{font-size:25px;font-weight:600;color:var(--ink3);margin-bottom:26px}
+  h1{font-size:92px;line-height:1.04;letter-spacing:-.035em}
+  h2{font-size:80px;line-height:1.06;letter-spacing:-.03em}
+  .sub{font-size:31px;line-height:1.5;color:var(--ink2);max-width:860px;margin-top:24px}
+  .sub b{color:var(--ink);font-weight:600}
+  .gap-e{margin-bottom:34px}
+  .foot{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px;align-items:center;color:var(--ink3);font-size:20px;z-index:3}
+  .foot .h{font-weight:600;color:var(--ink)}
+  .dots{position:absolute;bottom:126px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:3}
+  .dots i{width:7px;height:7px;border-radius:99px;background:#d2d2d7;display:block}
+  .dots i.on{background:var(--ink);width:22px}
+
+  .f-tight h1,.f-tight h2{font-family:"Inter Tight";font-weight:800}
+  .f-serif h1,.f-serif h2{font-family:"Instrument Serif";font-weight:400;letter-spacing:-.02em;font-size:108px;line-height:1}
+  .f-grotesk h1,.f-grotesk h2{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.04em}
+  .f-mono h1,.f-mono h2{font-family:"JetBrains Mono";font-weight:800;letter-spacing:-.05em;font-size:68px;line-height:1.12}
+  .f-fraunces h1,.f-fraunces h2{font-family:"Fraunces";font-weight:800;letter-spacing:-.03em}
+  .f-manrope h1,.f-manrope h2{font-family:"Manrope";font-weight:800;letter-spacing:-.04em}
+  .f-sora h1,.f-sora h2{font-family:"Sora";font-weight:700;letter-spacing:-.045em}
+  .f-dm h1,.f-dm h2{font-family:"DM Serif Display";font-weight:400;letter-spacing:-.02em;font-size:100px}
+
+  .blur .halo{position:absolute;z-index:0;width:860px;height:860px;object-fit:cover;border-radius:50%;filter:blur(100px) saturate(1.3);opacity:.34}
+  .blur .glass{background:rgba(255,255,255,.62)!important;backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 60px rgba(0,0,0,.07)}
+
+  /* app icons */
+  .icon{border-radius:26%;overflow:hidden;box-shadow:0 18px 36px rgba(0,0,0,.18);flex:none}
+  .icon img{display:block;width:100%;height:100%;object-fit:cover}
+  .icons-row{display:flex;gap:18px;justify-content:center}
+  .logo{width:180px;height:180px;border-radius:44px;overflow:hidden;box-shadow:0 24px 50px rgba(0,0,0,.14);border:1px solid var(--hair);background:#fff}
+  .logo img{width:100%;height:100%;object-fit:contain}
+
+  /* browser window mockup */
+  .win{border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 34px 70px rgba(0,0,0,.18);border:1px solid var(--hair)}
+  .win .bar{height:40px;background:var(--mist);display:flex;align-items:center;gap:8px;padding:0 16px;border-bottom:1px solid var(--hair)}
+  .win .bar i{width:12px;height:12px;border-radius:50%;background:#d2d2d7;display:block}
+  .win .bar span{margin-left:14px;font-size:16px;color:var(--ink3);background:#fff;border-radius:8px;padding:3px 14px}
+  .win img{display:block;width:100%}
+
+  /* stats */
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:18px;width:880px;margin-top:36px}
+  .stats > div{background:var(--mist);border-radius:28px;padding:28px 24px;text-align:left}
+  .stats .v{font-family:"Inter Tight";font-weight:800;font-size:96px;letter-spacing:-.05em;line-height:1}
+  .stats .k{font-size:24px;font-weight:600;color:var(--ink2);margin-top:8px;display:flex;align-items:center;gap:10px}
+  .stats .k img{width:30px;height:30px}
+  .stats .big{grid-column:1 / -1;background:var(--ink);color:#fff}
+  .stats .big .k{color:#a1a1a6}
+
+  .feat{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:860px;margin-top:30px}
+  .feat > div{background:var(--mist);border-radius:20px;padding:18px 22px;font-size:25px;font-weight:600;text-align:left}
+
+  .grid-icons{display:grid;grid-template-columns:repeat(5,130px);gap:22px;margin-top:34px}
+  .grid-icons .icon{width:130px;height:130px}
+  .cats{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;width:900px;margin-top:30px}
+  .cats div{background:var(--mist);border-radius:99px;padding:12px 22px;font-size:24px;font-weight:600}
+  .cats b{font-family:"Inter Tight";font-weight:800}
+
+  .fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:880px;margin-top:32px}
+  .fields > div{display:flex;align-items:center;gap:16px;background:var(--mist);border-radius:22px;padding:18px 22px;font-size:26px;font-weight:700;text-align:left}
+  .fields img{width:46px;height:46px}
+
+  .team{display:grid;grid-template-columns:1fr 1fr;gap:18px;width:860px;margin-top:36px}
+  .team > div{background:var(--mist);border-radius:28px;padding:26px 24px;display:flex;align-items:center;gap:20px;text-align:left}
+  .team .av{width:96px;height:96px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:"Inter Tight";font-weight:800;font-size:40px;flex:none}
+  .team .n{font-size:32px;font-weight:800;letter-spacing:-.02em}
+  .team .r{font-size:22px;color:var(--ink2);font-weight:600;margin-top:4px}
+
+  .contact{display:flex;flex-direction:column;gap:14px;width:820px;margin-top:34px}
+  .contact > div{display:flex;align-items:center;gap:16px;background:var(--mist);border-radius:22px;padding:20px 26px;font-size:28px;font-weight:600;text-align:left}
+  .contact img{width:40px;height:40px}
+  .contact .dark{background:var(--ink);color:#fff}
+  .cta{display:flex;gap:14px;margin-top:30px}
+  .cta div{display:flex;align-items:center;gap:12px;border:1px solid var(--hair);border-radius:99px;padding:13px 26px;font-size:24px;font-weight:600;background:#fff}
+  .cta div.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta img{width:32px;height:32px}
+
+  /* milestone */
+  .big-num{font-family:"Inter Tight";font-weight:800;font-size:200px;letter-spacing:-.06em;line-height:1;margin-bottom:6px}
+  .val{width:860px;margin-top:34px;background:var(--ink);color:#fff;border-radius:30px;padding:28px 32px;text-align:left}
+  .val .k{font-size:20px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#a1a1a6}
+  .val .v{font-family:"Inter Tight";font-weight:800;font-size:76px;letter-spacing:-.04em;margin-top:4px}
+  .range{position:relative;height:14px;border-radius:99px;background:rgba(255,255,255,.18);margin:26px 0 12px}
+  .range i{position:absolute;top:-8px;width:30px;height:30px;border-radius:50%;background:#fff;border:6px solid #1d1d1f;box-shadow:0 0 0 2px #fff}
+  .range-l{display:flex;justify-content:space-between;font-size:20px;color:#a1a1a6;font-weight:600}
+  .disc{font-size:16px;color:var(--ink3);margin-top:14px}
+  /* products */
+  .prods{display:flex;flex-direction:column;gap:12px;width:860px;margin-top:22px}
+  .prods > div{display:flex;align-items:center;gap:20px;background:var(--mist);border-radius:24px;padding:14px 22px;text-align:left}
+  .prods .icon{width:72px;height:72px}
+  .prods .two{display:flex}
+  .prods .two .icon + .icon{margin-left:-22px}
+  .prods b{display:block;font-size:28px;letter-spacing:-.02em}
+  .prods span{font-size:22px;color:var(--ink2);font-weight:500;line-height:1.35}
+  /* dashboard */
+  .dash{display:grid;grid-template-columns:1fr 1fr;gap:16px;width:920px;margin-top:26px;text-align:left}
+  .card2{background:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.9);backdrop-filter:blur(24px);border-radius:26px;padding:20px 22px;box-shadow:0 20px 40px rgba(0,0,0,.06)}
+  .card2 h4{font-size:18px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--ink3);margin-bottom:12px}
+  .wide{grid-column:1 / -1}
+  .agebars{display:flex;align-items:flex-end;gap:14px;height:170px}
+  .agebars .b{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+  .agebars .stack{width:100%;display:flex;flex-direction:column-reverse;border-radius:10px;overflow:hidden}
+  .agebars .w{background:#1d1d1f}.agebars .m{background:#a1a1a6}
+  .agebars .p{font-family:"Inter Tight";font-weight:800;font-size:22px;margin-bottom:6px}
+  .agebars .l{font-size:17px;color:var(--ink3);font-weight:600;margin-top:8px}
+  .legend{display:flex;gap:18px;font-size:17px;color:var(--ink2);font-weight:600;margin-top:10px}
+  .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+  table{width:100%;border-collapse:collapse;font-size:20px}
+  td{padding:7px 0;border-bottom:1px solid rgba(0,0,0,.06)}
+  td:last-child{text-align:right;font-family:"Inter Tight";font-weight:800}
+  td img{width:22px;height:22px;vertical-align:-4px;margin-right:8px}
+  tr:last-child td{border-bottom:none}
+  .gender{display:flex;align-items:center;gap:20px}
+  .donut{width:130px;height:130px;border-radius:50%;background:conic-gradient(#1d1d1f 0 60.3%,#a1a1a6 60.3% 100%);position:relative;flex:none}
+  .donut::after{content:"";position:absolute;inset:26px;border-radius:50%;background:#fff}
+  .gender .v{font-family:"Inter Tight";font-weight:800;font-size:40px;letter-spacing:-.03em;line-height:1.05}
+  .gender small{display:block;font-size:17px;color:var(--ink3);font-weight:600}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- 1 milestone (blur) -->
+<section class="s f-tight blur" data-out="slides/slide-1" data-i="1">
+  <img class="halo" src="site/icons-ai-hub.webp" style="left:110px;top:100px">
+  <div class="col">
+    <div class="eyebrow">Milestone alert <img class="i" src="img/1f680.png" style="width:28px;height:28px"> RNA Group · Tech Venture Studio</div>
+    <div class="logo" style="width:120px;height:120px;border-radius:30px;margin-bottom:26px"><img src="site/rna-logo.png"></div>
+    <div class="big-num">80,000+</div>
+    <h2 style="font-size:64px;margin-top:10px">active users. <img class="i" src="img/1f389.png" style="width:60px;height:60px"></h2>
+    <div class="val">
+      <div class="k">Estimated initial studio valuation</div>
+      <div class="v">$4.2M</div>
+      <div class="range"><i style="left:calc(31.5% - 15px)"></i></div>
+      <div class="range-l"><span>$2.8M</span><span>SOTP venture model range</span><span>$7.0M</span></div>
+    </div>
+    <p class="disc">Internal estimate based on sum-of-the-parts (SOTP) venture models. Not an independent appraisal.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 2 website + products (no blur) -->
+<section class="s f-serif" data-out="slides/slide-2" data-i="2">
+  <div class="col">
+    <div class="eyebrow">21 proprietary products · built by a lean team</div>
+    <div class="win" style="width:860px"><div class="bar"><i></i><i></i><i></i><span>rna-group.netlify.app</span></div><img src="site/website-hero.png" style="height:420px;object-fit:cover;object-position:50% 0"></div>
+    <h2 style="margin-top:24px;font-size:80px">We invent. We build.<br><em>We develop.</em></h2>
+    <div class="prods">
+      <div><div class="icon"><img src="site/icons-nyx.webp"></div><div><b>Nyx Browser</b><span>Built for AI agents, with native Model Context Protocol (MCP) support</span></div></div>
+      <div><div class="two"><div class="icon"><img src="site/icons-lona.webp"></div><div class="icon"><img src="site/icons-ai-hub.webp"></div></div><div><b>Lona AI &amp; AI Hub</b><span>Smarter AI workflows, open to everyone</span></div></div>
+      <div><div class="two"><div class="icon"><img src="site/icons-souqly.webp"></div><div class="icon"><img src="site/icons-paylink.webp"></div></div><div><b>Souqly &amp; PayLink</b><span>Digital commerce and frictionless payments</span></div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- 3 data 2026 (blur) -->
+<section class="s f-grotesk blur" data-out="slides/slide-3" data-i="3">
+  <img class="halo" src="site/icons-paylink.webp" style="left:110px;top:120px">
+  <div class="col">
+    <div class="eyebrow">Audience data · 2026 <img class="i" src="img/1f4ca.png" style="width:28px;height:28px"></div>
+    <h2 style="font-size:76px">~90% are 18–34.</h2>
+    <div class="dash">
+      <div class="card2 wide">
+        <h4>Age &amp; gender</h4>
+        <div class="agebars">
+          <div class="b"><div class="p">~67%</div><div class="stack" style="height:100%"><div class="w" style="height:66%"></div><div class="m" style="height:34%"></div></div><div class="l">18–24</div></div>
+          <div class="b"><div class="p">~23%</div><div class="stack" style="height:34%"><div class="w" style="height:57%"></div><div class="m" style="height:43%"></div></div><div class="l">25–34</div></div>
+          <div class="b"><div class="p">~6%</div><div class="stack" style="height:9%"><div class="w" style="height:50%"></div><div class="m" style="height:50%"></div></div><div class="l">35–44</div></div>
+          <div class="b"><div class="p">~2.5%</div><div class="stack" style="height:4%"><div class="w" style="height:40%"></div><div class="m" style="height:60%"></div></div><div class="l">45–54</div></div>
+          <div class="b"><div class="p">~1%</div><div class="stack" style="height:2%"><div class="w"></div><div class="m" style="height:100%"></div></div><div class="l">55–64</div></div>
+          <div class="b"><div class="p">~1%</div><div class="stack" style="height:2%"><div class="w"></div><div class="m" style="height:100%"></div></div><div class="l">65+</div></div>
+        </div>
+        <div class="legend"><span><i style="background:#1d1d1f"></i>Women</span><span><i style="background:#a1a1a6"></i>Men</span></div>
+      </div>
+      <div class="card2">
+        <h4>Top countries</h4>
+        <table>
+          <tr><td><img src="img/1f1f2-1f1e6.png">Morocco</td><td>53.5%</td></tr>
+          <tr><td><img src="img/1f1e9-1f1ff.png">Algeria</td><td>40.7%</td></tr>
+          <tr><td><img src="img/1f1f8-1f1e9.png">Sudan</td><td>3.0%</td></tr>
+          <tr><td><img src="img/1f1f2-1f1f7.png">Mauritania</td><td>0.6%</td></tr>
+          <tr><td><img src="img/1f1ea-1f1ec.png">Egypt</td><td>0.3%</td></tr>
+        </table>
+      </div>
+      <div class="card2">
+        <h4>Top cities</h4>
+        <table>
+          <tr><td>Casablanca</td><td>6.8%</td></tr>
+          <tr><td>Algiers</td><td>4.9%</td></tr>
+          <tr><td>Marrakech</td><td>3.1%</td></tr>
+          <tr><td>Salé</td><td>2.6%</td></tr>
+          <tr><td>Fès</td><td>2.1%</td></tr>
+        </table>
+      </div>
+      <div class="card2 wide">
+        <div class="gender">
+          <div class="donut"></div>
+          <div><div class="v">60.3% women · 39.7% men</div><small>Thank you to our 80,000+ users. The best is yet to come. <img class="i" src="img/1f64f.png" style="width:20px;height:20px"></small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span></div>
+</section>
+
+</div>
+<script>
+  document.querySelectorAll('.s').forEach(s => {
+    const i = +(s.dataset.i || 1), d = document.createElement('div');
+    d.className = 'dots';
+    d.innerHTML = Array.from({length: 3}, (_, j) => `<i class="${j + 1 === i ? 'on' : ''}"></i>`).join('');
+    s.appendChild(d);
+  });
+</script>
+</body>
+</html>
