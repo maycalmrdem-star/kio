@@ -20,7 +20,7 @@ Language alternates: if the last finished post was Arabic, the next one is Engli
 - [x] Steve Jobs: fired from Apple, came back and saved it: `steve-jobs-post/` (en, 2026-11-14)
 - [x] Jeff Bezos: from a garage bookstore to Amazon: `jeff-bezos-post/` (en, 2026-11-15)
 - [x] Mark Zuckerberg: a dorm-room site to Meta: `mark-zuckerberg-post/` (en, 2026-11-16)
-- [ ] Lisa Su: how she turned AMD around
+- [x] Lisa Su: how she turned AMD around: `lisa-su-post/` (en, 2026-11-17)
 - [ ] Sam Altman and OpenAI: from nonprofit to a giant valuation
 - [ ] Larry Page and Sergey Brin: the Stanford project that became Google
 - [ ] Bill Gates: Harvard dropout to Microsoft
