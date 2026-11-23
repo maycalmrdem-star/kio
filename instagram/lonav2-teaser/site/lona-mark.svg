@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Lona">
+  <!-- Lona mark: a crescent moon (Lona / Luna) inside a speech bubble. -->
+  <path fill="#C96442" d="M16 2.5C8.54 2.5 2.5 8.32 2.5 15.5c0 3.06 1.1 5.88 2.95 8.1L4 29.5l6.2-2.3c1.78.78 3.75 1.2 5.8 1.2 7.46 0 13.5-5.82 13.5-13s-6.04-12.9-13.5-12.9z"/>
+  <path fill="#FAF9F5" d="M17.6 8.6a7.2 7.2 0 1 0 4.9 12.1 6.1 6.1 0 1 1-4.9-12.1z"/>
+</svg>

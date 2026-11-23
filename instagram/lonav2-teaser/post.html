@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Lona V2 Teaser</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* Lona V2 "coming soon" — 3D + glass. Brand: cream #FBFAF7, terracotta #C96442, lime, lavender, sky. */
+  :root{ --cream:#fbfaf7; --ink:#1f1e1c; --ink2:#5f5d58; --terra:#c96442; --lime:#c8e38a; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:var(--cream)}
+  .strip{display:flex;direction:ltr;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:var(--cream);color:var(--ink);direction:rtl;
+     font-family:"IBM Plex Sans Arabic",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  .lat{font-family:"Inter",sans-serif;direction:ltr;unicode-bidi:isolate}
+  .bg{position:absolute;left:0;width:1080px;height:625px;object-fit:cover;z-index:0}
+  .glow{position:absolute;border-radius:50%;filter:blur(90px);z-index:0}
+  .col{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2}
+
+  /* glass */
+  .glass{background:linear-gradient(145deg,rgba(255,255,255,.72),rgba(255,255,255,.38));backdrop-filter:blur(26px) saturate(1.5);
+     border:1.5px solid rgba(255,255,255,.95);box-shadow:0 40px 80px rgba(80,50,30,.14), inset 0 1px 0 rgba(255,255,255,1), inset 0 -10px 30px rgba(255,255,255,.35)}
+
+  /* 3D logo tile */
+  .tile-wrap{perspective:1200px;margin-bottom:34px}
+  .tile{width:250px;height:250px;border-radius:64px;display:grid;place-items:center;transform:rotateX(14deg) rotateY(-18deg);
+     background:linear-gradient(150deg,rgba(255,255,255,.85),rgba(255,255,255,.35));backdrop-filter:blur(20px);
+     border:2px solid rgba(255,255,255,.95);
+     box-shadow:-18px 30px 0 -6px rgba(201,100,66,.10), 0 60px 90px rgba(120,60,30,.22), inset 0 2px 0 #fff, inset -8px -14px 30px rgba(201,100,66,.10)}
+  .tile img{width:150px;height:150px;filter:drop-shadow(0 18px 18px rgba(201,100,66,.35))}
+
+  .soon{font-family:"Alexandria";font-weight:800;font-size:170px;line-height:1;letter-spacing:-.01em;color:var(--ink);
+     text-shadow:0 2px 0 #e9e3da,0 4px 0 #e2dbd0,0 6px 0 #dad2c6,0 8px 0 #d3cabd,0 22px 30px rgba(80,50,30,.25)}
+  .brand{font-family:"Inter";font-weight:800;font-size:56px;letter-spacing:-.03em;direction:ltr;margin-top:46px}
+  .brand span{color:var(--terra)}
+  .tag{font-size:34px;line-height:1.55;color:var(--ink2);max-width:760px;margin-top:18px}
+  .tag b{color:var(--ink);background:var(--lime);padding:0 10px;border-radius:12px}
+  .pill{display:inline-flex;align-items:center;gap:14px;margin-top:40px;padding:18px 34px;border-radius:99px;font-family:"Inter";font-weight:700;font-size:32px;direction:ltr}
+  .pill i{width:14px;height:14px;border-radius:50%;background:var(--terra);box-shadow:0 0 0 6px rgba(201,100,66,.18)}
+  .card{border-radius:44px;padding:56px 60px 50px;width:860px;display:flex;flex-direction:column;align-items:center}
+  .foot{position:absolute;bottom:56px;left:0;right:0;text-align:center;font-family:"Inter";font-weight:600;font-size:22px;color:var(--ink2);direction:ltr;z-index:3}
+
+  /* slide 2 */
+  .h2{font-family:"Alexandria";font-weight:800;font-size:78px;line-height:1.2;text-shadow:0 2px 0 #e9e3da,0 4px 0 #e0d8cc,0 16px 24px rgba(80,50,30,.18)}
+  .h2 em{font-style:normal;color:var(--terra)}
+  .stage{perspective:1600px;margin-top:40px}
+  .mock{width:900px;border-radius:30px;overflow:hidden;transform:rotateX(16deg) rotateY(10deg) rotateZ(-2deg);
+     box-shadow:0 70px 110px rgba(80,50,30,.25), 0 0 0 1px rgba(0,0,0,.05)}
+  .mock img{display:block;width:100%}
+  .chips{position:absolute;z-index:4}
+  .chip{position:absolute;border-radius:26px;padding:18px 24px;font-size:26px;font-weight:700;display:flex;align-items:center;gap:14px;white-space:nowrap}
+  .chip img{width:40px;height:40px}
+  .chip small{display:block;font-size:19px;font-weight:500;color:var(--ink2)}
+  .channels{display:flex;gap:16px;align-items:center;margin-top:70px;padding:16px 28px;border-radius:99px}
+  .channels img{width:46px;height:46px}
+  .channels .soonbadge{font-size:20px;font-weight:700;color:var(--terra);background:rgba(201,100,66,.12);padding:6px 14px;border-radius:99px}
+  .free{margin-top:22px;font-size:26px;color:var(--ink2)}
+  .free b{color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- ============ 1: COMING SOON ============ -->
+<section class="s" data-out="slides/slide-1">
+  <img class="bg" src="site/bubbles-top-s1.png" style="top:0">
+  <img class="bg" src="site/bubbles-top-mirror.png" style="top:725px">
+  <div class="glow" style="width:620px;height:620px;left:230px;top:330px;background:rgba(201,100,66,.20)"></div>
+  <div class="glow" style="width:420px;height:420px;left:120px;top:760px;background:rgba(200,227,138,.35)"></div>
+  <div class="col">
+    <div class="tile-wrap"><div class="tile"><img src="site/lona-mark.svg"></div></div>
+    <div class="card glass">
+      <div class="soon">قريبًا</div>
+      <div class="brand">Lona <span>V2</span></div>
+      <p class="tag">موظف ذكي لمتجرك يرد على زبائنك في <b>إنستغرام وفيسبوك</b> خلال ثوانٍ، بلهجتهم.</p>
+    </div>
+    <div class="pill glass"><i></i>lonav2.com</div>
+  </div>
+  <div class="foot">@riyad__31mh · RNA Group</div>
+</section>
+
+<!-- ============ 2: WHAT IT DOES ============ -->
+<section class="s" data-out="slides/slide-2">
+  <img class="bg" src="site/bubbles-top.png" style="top:-110px;opacity:.9">
+  <div class="glow" style="width:700px;height:700px;left:190px;top:420px;background:rgba(201,100,66,.16)"></div>
+  <div class="col" style="justify-content:flex-start;padding-top:175px">
+    <div class="h2">زبائنك يكتبون بالدارجة.<br><em>لونا</em> يرد في ثوانٍ.</div>
+    <div class="stage"><div class="mock"><img src="site/app-mock.png"></div></div>
+    <div class="channels glass">
+      <img src="site/instagram.svg"><img src="site/messenger.svg"><img src="site/facebook.svg">
+      <img src="site/whatsapp.svg" style="opacity:.55"><span class="soonbadge">واتساب قريبًا</span>
+    </div>
+    <p class="free">ربط رسمي عبر <span class="lat">Meta</span>، وتجربة <b>مجانية لمدة 14 يومًا</b></p>
+  </div>
+  <div class="chip glass" style="right:36px;top:700px;z-index:5"><img src="img/1f5e3-fe0f.png"><span>يرد بلهجة زبونك<small>الدارجة · Français · English</small></span></div>
+  <div class="chip glass" style="left:36px;top:880px;z-index:5"><img src="img/1f4e6.png"><span>يسجّل الطلبات وحده<small>الاسم · الهاتف · الولاية</small></span></div>
+  <div class="chip glass" style="left:60px;top:560px;z-index:5"><img src="img/1f9e0.png"><span>يتعلّم أسعارك من منشوراتك</span></div>
+  <div class="foot">lonav2.com · @riyad__31mh</div>
+</section>
+
+</div>
+</body>
+</html>
