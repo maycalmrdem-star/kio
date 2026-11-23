@@ -23,7 +23,7 @@ Language alternates: if the last finished post was Arabic, the next one is Engli
 - [x] Lisa Su: how she turned AMD around: `lisa-su-post/` (en, 2026-11-17)
 - [x] Sam Altman and OpenAI: from nonprofit to a giant valuation: `sam-altman-post/` (en, 2026-11-21)
 - [x] Larry Page and Sergey Brin: the Stanford project that became Google: `google-founders-post/` (en, 2026-11-22)
-- [ ] Bill Gates: Harvard dropout to Microsoft
+- [x] Bill Gates: Harvard dropout to Microsoft: `bill-gates-post/` (en, 2026-11-23)
 - [ ] Satya Nadella: how Microsoft became a trillion-dollar company again
 - [ ] Jack Ma: rejected many times, then built Alibaba
 - [ ] Tim Cook: running Apple after Steve Jobs
