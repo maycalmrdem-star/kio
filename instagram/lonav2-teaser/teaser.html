@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Lona V2 Mystery Teaser</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root{ --cream:#fbfaf7; --ink:#1f1e1c; --ink2:#6f6b64; --terra:#c96442; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:var(--cream)}
+  .strip{display:flex;direction:ltr;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:var(--cream);color:var(--ink);direction:rtl;
+     font-family:"IBM Plex Sans Arabic",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  .bg{position:absolute;left:0;width:1080px;height:625px;object-fit:cover;z-index:0}
+  .soft{filter:blur(9px) saturate(1.1);opacity:.85}
+  .glow{position:absolute;border-radius:50%;filter:blur(100px);z-index:0}
+  .col{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:3}
+
+  /* the hidden object: logo behind frosted glass */
+  .vault{position:relative;width:520px;height:520px;perspective:1400px}
+  .vault .obj{position:absolute;inset:90px;display:grid;place-items:center;transform:rotateX(12deg) rotateY(-16deg)}
+  .vault .obj img{width:300px;height:300px;filter:blur(2px) drop-shadow(0 40px 50px rgba(201,100,66,.45))}
+  .pane{position:absolute;inset:0;border-radius:90px;transform:rotateX(12deg) rotateY(-16deg) translateZ(60px);
+     background:linear-gradient(150deg,rgba(255,255,255,.55),rgba(255,255,255,.18));backdrop-filter:blur(34px) saturate(1.6);
+     border:2px solid rgba(255,255,255,.95);
+     box-shadow:0 70px 110px rgba(120,60,30,.22), inset 0 2px 0 #fff, inset 0 -30px 60px rgba(255,255,255,.35)}
+  .pane::before{content:"";position:absolute;inset:0;border-radius:90px;background:linear-gradient(115deg,rgba(255,255,255,.75) 0%,rgba(255,255,255,0) 32%,rgba(255,255,255,0) 72%,rgba(255,255,255,.35) 100%)}
+  .q{position:absolute;inset:0;display:grid;place-items:center;transform:rotateX(12deg) rotateY(-16deg) translateZ(80px);
+     font-family:"Inter";font-weight:800;font-size:200px;color:rgba(255,255,255,.95);text-shadow:0 10px 30px rgba(201,100,66,.35)}
+
+  .kicker{font-size:30px;font-weight:600;color:var(--ink2);letter-spacing:.02em;margin-top:40px}
+  .soon{font-family:"Alexandria";font-weight:800;font-size:190px;line-height:1.05;color:var(--ink);
+     text-shadow:0 2px 0 #ebe5dc,0 4px 0 #e3dcd1,0 6px 0 #dbd3c7,0 8px 0 #d3cabd,0 10px 0 #ccc2b4,0 28px 36px rgba(80,50,30,.28)}
+  .dots3{display:flex;gap:16px;margin-top:20px}
+  .dots3 i{width:16px;height:16px;border-radius:50%;background:var(--terra);opacity:.9}
+  .dots3 i:nth-child(2){opacity:.55}.dots3 i:nth-child(3){opacity:.25}
+  .handle{position:absolute;bottom:60px;left:0;right:0;text-align:center;font-family:"Inter";font-weight:600;font-size:22px;color:var(--ink2);direction:ltr;z-index:4}
+
+  /* slide 2 */
+  .big{font-family:"Alexandria";font-weight:800;font-size:82px;line-height:1.25;color:var(--ink);
+     text-shadow:0 2px 0 #ebe5dc,0 4px 0 #e2dbcf,0 18px 26px rgba(80,50,30,.18)}
+  .big em{font-style:normal;color:var(--terra)}
+  .glasscard{border-radius:48px;padding:60px 64px;width:880px;
+     background:linear-gradient(145deg,rgba(255,255,255,.72),rgba(255,255,255,.34));backdrop-filter:blur(28px) saturate(1.5);
+     border:1.5px solid rgba(255,255,255,.95);box-shadow:0 50px 90px rgba(80,50,30,.16), inset 0 1px 0 #fff}
+  .pillrow{display:flex;gap:16px;justify-content:center;margin-top:44px}
+  .pill{display:inline-flex;align-items:center;gap:12px;padding:16px 30px;border-radius:99px;font-weight:700;font-size:30px;
+     background:linear-gradient(145deg,rgba(255,255,255,.8),rgba(255,255,255,.4));backdrop-filter:blur(20px);border:1.5px solid #fff;box-shadow:0 20px 40px rgba(80,50,30,.12)}
+  .pill img{width:40px;height:40px}
+  .pill.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .v2{font-family:"Inter";font-weight:800;font-size:46px;letter-spacing:.3em;color:var(--terra);direction:ltr;margin-top:40px}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<!-- 1: the mystery -->
+<section class="s" data-out="teaser/teaser-1">
+  <img class="bg soft" src="site/bubbles-top-s1.png" style="top:0">
+  <img class="bg soft" src="site/bubbles-top-mirror.png" style="top:725px">
+  <div class="glow" style="width:640px;height:640px;left:220px;top:200px;background:rgba(201,100,66,.26)"></div>
+  <div class="col">
+    <div class="vault">
+      <div class="obj"><img src="site/lona-mark.svg"></div>
+      <div class="pane"></div>
+      <div class="q">?</div>
+    </div>
+    <div class="kicker">شيء جديد يُحضَّر بصمت…</div>
+    <div class="soon">قريبًا</div>
+    <div class="dots3"><i></i><i></i><i></i></div>
+  </div>
+  <div class="handle">@riyad__31mh</div>
+</section>
+
+<!-- 2: the hook question -->
+<section class="s" data-out="teaser/teaser-2">
+  <img class="bg soft" src="site/bubbles-top-s1.png" style="top:0">
+  <img class="bg soft" src="site/bubbles-top-mirror.png" style="top:725px">
+  <div class="glow" style="width:700px;height:700px;left:190px;top:330px;background:rgba(201,100,66,.20)"></div>
+  <div class="col">
+    <div class="glasscard">
+      <div class="big">ماذا لو كان متجرك<br>لا <em>ينام</em> أبدًا؟ <img src="img/1f319.png" style="width:90px;height:90px;vertical-align:-14px"></div>
+      <div class="v2">V2</div>
+    </div>
+    <div class="pillrow">
+      <div class="pill dark">قريبًا جدًا</div>
+      <div class="pill"><img src="img/1f514.png">فعّل الإشعارات</div>
+    </div>
+  </div>
+  <div class="handle">@riyad__31mh · lonav2.com</div>
+</section>
+
+</div>
+</body>
+</html>
