@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nyx Browser</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  /* riyad__31mh house style — "Keynote white". Fonts vary per slide; blur alternates. Tech + money story. */
+  :root{ --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#86868b; --hair:#e5e5ea; --mist:#f5f5f7; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:1350px;overflow:hidden;background:#fff}
+  .strip{display:flex;width:max-content}
+  .s{position:relative;width:1080px;height:1350px;flex:none;overflow:hidden;background:#fff;color:var(--ink);
+     font-family:"Inter",sans-serif;-webkit-font-smoothing:antialiased;text-align:center}
+  img.e{display:block;object-fit:contain;margin:0 auto;filter:drop-shadow(0 26px 34px rgba(0,0,0,.12))}
+  img.i{display:inline-block;object-fit:contain;vertical-align:-.14em;filter:none}
+  .col{position:absolute;top:0;bottom:150px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2}
+  .eyebrow{font-size:25px;font-weight:600;color:var(--ink3);margin-bottom:26px}
+  h1{font-size:92px;line-height:1.04;letter-spacing:-.035em}
+  h2{font-size:80px;line-height:1.06;letter-spacing:-.03em}
+  .sub{font-size:31px;line-height:1.5;color:var(--ink2);max-width:860px;margin-top:24px}
+  .sub b{color:var(--ink);font-weight:600}
+  .gap-e{margin-bottom:34px}
+  .foot{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px;align-items:center;color:var(--ink3);font-size:20px;z-index:3}
+  .foot .h{font-weight:600;color:var(--ink)}
+  .dots{position:absolute;bottom:126px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:3}
+  .dots i{width:7px;height:7px;border-radius:99px;background:#d2d2d7;display:block}
+  .dots i.on{background:var(--ink);width:22px}
+
+  .f-tight h1,.f-tight h2{font-family:"Inter Tight";font-weight:800}
+  .f-serif h1,.f-serif h2{font-family:"Instrument Serif";font-weight:400;letter-spacing:-.02em;font-size:108px;line-height:1}
+  .f-grotesk h1,.f-grotesk h2{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.04em}
+  .f-mono h1,.f-mono h2{font-family:"JetBrains Mono";font-weight:800;letter-spacing:-.05em;font-size:70px;line-height:1.12}
+  .f-fraunces h1,.f-fraunces h2{font-family:"Fraunces";font-weight:800;letter-spacing:-.03em}
+  .f-manrope h1,.f-manrope h2{font-family:"Manrope";font-weight:800;letter-spacing:-.04em}
+  .f-sora h1,.f-sora h2{font-family:"Sora";font-weight:700;letter-spacing:-.045em}
+  .f-dm h1,.f-dm h2{font-family:"DM Serif Display";font-weight:400;letter-spacing:-.02em;font-size:100px}
+
+  .blur .halo{position:absolute;z-index:0;width:860px;height:860px;object-fit:cover;border-radius:50%;filter:blur(100px) saturate(1.2);opacity:.32}
+  .blur .glass{background:rgba(255,255,255,.62)!important;backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.9);box-shadow:0 30px 60px rgba(0,0,0,.07)}
+
+  .photo{position:relative;border-radius:30px;overflow:hidden;box-shadow:0 34px 70px rgba(0,0,0,.16);background:var(--mist)}
+  .photo img{display:block;width:100%;height:100%;object-fit:cover}
+  .photo .yr{position:absolute;top:18px;left:18px;background:rgba(255,255,255,.85);backdrop-filter:blur(10px);border-radius:99px;padding:6px 16px;font-size:20px;font-weight:700}
+  .credit{font-size:15px;color:var(--ink3);margin-top:12px}
+  .chap{display:inline-flex;align-items:center;gap:10px;font-size:22px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin-bottom:22px}
+  .chap span{background:var(--ink);color:#fff;border-radius:99px;padding:5px 14px;letter-spacing:.04em}
+
+  .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;width:880px;margin-top:32px}
+  .facts > div{background:var(--mist);border-radius:22px;padding:20px 16px;text-align:left}
+  .facts .k{font-size:18px;font-weight:600;color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
+  .facts .v{font-size:26px;font-weight:700;margin-top:6px;line-height:1.25}
+
+  .tl{width:840px;margin-top:34px;background:var(--mist);border-radius:28px;padding:8px 0;text-align:left}
+  .tl .r{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;padding:20px 30px;position:relative}
+  .tl .r + .r::before{content:"";position:absolute;top:0;left:30px;right:30px;height:1px;background:rgba(0,0,0,.07)}
+  .tl .y{font-weight:800;font-size:26px;font-variant-numeric:tabular-nums}
+  .tl .t{font-size:26px;font-weight:500;line-height:1.35}
+
+  .deal{display:flex;align-items:center;justify-content:center;gap:22px;margin-top:34px}
+  .deal > div{background:var(--mist);border-radius:26px;padding:22px 26px;min-width:300px}
+  .deal .k{font-size:19px;font-weight:700;color:var(--ink3);letter-spacing:.05em;text-transform:uppercase}
+  .deal .v{font-family:"Inter Tight";font-weight:800;font-size:58px;letter-spacing:-.04em;margin-top:4px}
+  .deal .arrow{font-size:40px;color:var(--ink3);background:none;min-width:0;padding:0}
+  .deal .dark{background:var(--ink);color:#fff}
+  .deal .dark .k{color:#a1a1a6}
+
+  .launches{display:flex;gap:16px;margin-top:34px}
+  .launches div{width:190px;background:var(--mist);border-radius:24px;padding:20px 10px;display:flex;flex-direction:column;align-items:center;gap:10px}
+  .launches img{width:70px;height:70px}
+  .launches b{font-size:24px}
+  .launches small{font-size:19px;color:var(--ink3);font-weight:600}
+  .launches .win{background:var(--ink);color:#fff}
+  .launches .win small{color:#a1a1a6}
+
+  .ladder{width:860px;margin-top:34px;display:flex;flex-direction:column;gap:14px}
+  .ladder .r{display:flex;align-items:baseline;justify-content:space-between;background:var(--mist);border-radius:22px;padding:18px 28px;text-align:left}
+  .ladder .y{font-size:23px;font-weight:600;color:var(--ink3);width:250px}
+  .ladder .v{font-family:"Inter Tight";font-weight:800;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+  .ladder .r.top{background:var(--ink);color:#fff}
+  .ladder .r.top .y{color:#a1a1a6}
+  .src{font-size:16px;color:var(--ink3);margin-top:18px}
+
+  .lessons{width:860px;margin-top:32px;display:flex;flex-direction:column;gap:14px}
+  .lessons div{display:flex;align-items:center;gap:18px;background:var(--mist);border-radius:22px;padding:20px 26px;font-size:28px;font-weight:600;text-align:left}
+  .lessons .n{width:44px;height:44px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:22px;flex:none}
+  .cta{display:flex;gap:14px;margin-top:36px}
+  .cta div{display:flex;align-items:center;gap:12px;border:1px solid var(--hair);border-radius:99px;padding:13px 26px;font-size:24px;font-weight:600;background:#fff}
+  .cta div.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta img{width:32px;height:32px}
+
+  
+  .appicon{width:220px;height:220px;border-radius:52px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.28);margin:0 auto}
+  .appicon img{width:100%;height:100%;display:block}
+  .shot{border-radius:26px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.18);border:1px solid #e5e5ea;background:#fff}
+  .shot img{display:block;width:100%}
+  .logos{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;width:820px;margin-top:36px}
+  .logos > div{background:#1d1d1f;color:#f5f5f7;border-radius:24px;padding:22px 10px;display:flex;flex-direction:column;align-items:center;gap:10px;font-size:21px;font-weight:600}
+  .logos img{width:56px;height:56px}
+  .feat2{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:880px;margin-top:30px;text-align:left}
+  .feat2 > div{background:var(--mist);border-radius:22px;padding:18px 22px;font-size:25px;font-weight:700;display:flex;gap:14px;align-items:center}
+  .feat2 small{display:block;font-size:19px;font-weight:500;color:var(--ink2);margin-top:2px}
+  .feat2 img{width:40px;height:40px;flex:none}
+  .dl{display:inline-flex;align-items:center;gap:14px;background:var(--ink);color:#fff;border-radius:99px;padding:20px 38px;font-size:30px;font-weight:700;margin-top:34px;box-shadow:0 24px 50px rgba(0,0,0,.25)}
+  .dl img{width:36px;height:36px}
+  .rnatag{display:inline-flex;align-items:center;gap:12px;background:var(--mist);border-radius:99px;padding:10px 20px 10px 12px;font-size:22px;font-weight:700;margin-bottom:26px}
+  .rnatag img{width:40px;height:40px;border-radius:10px}
+  .logo{border-radius:38px;overflow:hidden;box-shadow:0 24px 50px rgba(0,0,0,.14);border:1px solid #e5e5ea;background:#fff}
+  .logo img{width:100%;height:100%;object-fit:contain;display:block}
+</style>
+</head>
+<body>
+<div class="strip">
+
+<section class="s f-tight blur" data-out="hooks/hook-1">
+  <img class="halo" src="site/agent.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="rnatag"><img src="site/rna-logo.png">Made by RNA Group <img class="i" src="img/1f1e9-1f1ff.png" style="width:26px;height:26px"></div>
+    <div class="appicon gap-e"><img src="site/icon.png"></div>
+    <h1 style="font-size:92px">We built the browser<br>AI can drive.</h1>
+    <p class="sub">Meet <b>Nyx</b>: free, light, and made for AI agents. From a 4-person team in Algeria.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-serif" data-out="hooks/hook-2">
+  <div class="col">
+    <div class="appicon gap-e"><img src="site/icon.png"></div>
+    <h1>Forty tabs open.<br><em>Your game still runs.</em></h1>
+    <p class="sub">That’s Nyx.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-grotesk blur" data-out="hooks/hook-3">
+  <img class="halo" src="img/1f916.png" style="left:110px;top:120px">
+  <div class="col">
+    <div class="eyebrow">Tech · Made in Algeria</div>
+    <img class="e gap-e" src="img/1f916.png" style="width:190px;height:190px">
+    <h1>What if Claude<br>could use your<br>browser for you?</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-fraunces" data-out="hooks/hook-4">
+  <div class="col">
+    <div class="rnatag"><img src="site/rna-logo.png">Made by RNA Group <img class="i" src="img/1f1e9-1f1ff.png" style="width:26px;height:26px"></div>
+    <h1>4 people.<br>One browser.<br>Free for everyone.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-manrope blur" data-out="hooks/hook-5">
+  <img class="halo" src="site/film.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="shot" style="width:880px"><img src="site/film.jpg"></div>
+    <div class="credit">Nyx · nyx-browser-mcarze.netlify.app</div>
+    <h1 style="margin-top:32px;font-size:82px">Your browser is<br>eating your memory.</h1>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<!-- ================== CAROUSEL SLIDES 2–9 ================== -->
+
+<section class="s f-serif" data-out="slides/slide-2" data-i="2">
+  <div class="col">
+    <div class="logo gap-e" style="width:150px;height:150px;border-radius:38px"><img src="site/rna-logo.png"></div>
+    <div class="eyebrow">RNA Group · Technology startup from Algeria</div>
+    <h2>We invent. We build.<br><em>We develop.</em></h2>
+    <p class="sub">A 4-person team with 21 products and 80,000+ users. Our biggest build yet: a web browser of our own.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-mono blur" data-out="slides/slide-3" data-i="3">
+  <img class="halo" src="site/agent.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="eyebrow">Nyx · The AI agent browser</div>
+    <div class="shot" style="width:880px"><img src="site/agent.jpg"></div>
+    <h2 style="margin-top:28px">Let an AI drive<br>this window.</h2>
+    <p class="sub">Claude, ChatGPT and Gemini can open sites, read them, click and type in Nyx’s <b>AI Agent window</b>, with its own sign-ins, <b>never yours</b>.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-fraunces" data-out="slides/slide-4" data-i="4">
+  <div class="col">
+    <div class="eyebrow">Built-in MCP server</div>
+    <h2>Works with the<br>assistants you use.</h2>
+    <div class="logos">
+      <div><img src="site/logo-claude.svg">Claude</div>
+      <div><img src="site/logo-openai.svg">ChatGPT</div>
+      <div><img src="site/logo-googlegemini.svg">Gemini</div>
+      <div><img src="site/logo-cursor.svg">Cursor</div>
+      <div><img src="site/logo-githubcopilot.svg">Copilot</div>
+      <div><img src="site/logo-perplexity.svg">Perplexity</div>
+      <div><img src="site/logo-deepseek.svg">DeepSeek</div>
+      <div><img src="site/logo-antigravity.svg">Antigravity</div>
+    </div>
+    <p class="sub">It listens only on your computer, needs a secret key, and stops with one click. <img class="i" src="img/1f512.png" style="width:32px;height:32px"></p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-sora blur" data-out="slides/slide-5" data-i="5">
+  <img class="halo" src="site/loop.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="eyebrow">Memory</div>
+    <div class="shot" style="width:880px;border:none"><img src="site/film.jpg"></div>
+    <h2 style="margin-top:28px">Forty tabs.<br>A fraction of the memory.</h2>
+    <p class="sub">Tabs you haven’t used in a while go to sleep and give memory back. Set limits on memory, CPU and bandwidth before a match, and your <b>game</b> gets the machine. <img class="i" src="img/1f3ae.png" style="width:34px;height:34px"></p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-grotesk" data-out="slides/slide-6" data-i="6">
+  <div class="col">
+    <div class="eyebrow">Privacy</div>
+    <div class="shot" style="width:880px"><img src="site/block.jpg"></div>
+    <h2 style="margin-top:28px">Ads and trackers,<br>blocked.</h2>
+    <p class="sub">Built in, with the same filter lists as uBlock Origin. <b>No account. No analytics.</b> Your history and passwords stay on your computer.</p>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-manrope blur" data-out="slides/slide-7" data-i="7">
+  <img class="halo" src="site/float.jpg" style="left:110px;top:80px">
+  <div class="col">
+    <div class="eyebrow">And everything else</div>
+    <h2>A full browser.<br>Made for Windows.</h2>
+    <div class="feat2">
+      <div class="glass"><img src="img/1f9e9.png"><span>Chrome extensions<small>From the Chrome Web Store</small></span></div>
+      <div class="glass"><img src="img/1f4fa.png"><span>Floating video<small>Pop any video out</small></span></div>
+      <div class="glass"><img src="img/1f512.png"><span>Private tabs<small>Nothing is kept</small></span></div>
+      <div class="glass"><img src="img/1f504.png"><span>Updates itself<small>In the background</small></span></div>
+      <div class="glass"><img src="img/1f50d.png"><span>Ctrl+K palette<small>Jump to anything</small></span></div>
+      <div class="glass"><img src="img/1f310.png"><span>English · العربية · Français<small>Arabic reads right to left</small></span></div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span>·<span>Swipe →</span></div>
+</section>
+
+<section class="s f-tight" data-out="slides/slide-8" data-i="8">
+  <div class="col">
+    <div class="appicon gap-e"><img src="site/icon.png"></div>
+    <h2>Get Nyx.<br>It’s free.</h2>
+    <p class="sub">Version 2.1.0 for Windows 10 and 11 (64-bit), about 100 MB.</p>
+    <div class="dl"><img src="img/2b07-fe0f.png">Download for Windows</div>
+    <p class="sub" style="font-size:24px;margin-top:22px">nyx-browser-mcarze.netlify.app · link in bio</p>
+    <div class="cta">
+      <div><img src="img/1f516.png">Save</div>
+      <div><img src="img/1f4e4.png">Share</div>
+      <div class="on"><img src="img/2795.png">Follow</div>
+    </div>
+  </div>
+  <div class="foot"><span class="h">riyad__31mh</span> · RNA Group</div>
+</section>
+
+</div>
+<script>
+  document.querySelectorAll('.s').forEach(s => {
+    const i = +(s.dataset.i || 1), d = document.createElement('div');
+    d.className = 'dots';
+    d.innerHTML = Array.from({length: 8}, (_, j) => `<i class="${j + 1 === i ? 'on' : ''}"></i>`).join('');
+    s.appendChild(d);
+  });
+</script>
+</body>
+</html>
